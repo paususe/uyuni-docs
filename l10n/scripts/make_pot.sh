@@ -10,17 +10,19 @@
 # INITILIZE VARIABLES
 ####################################
 
+SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
+
 # root of the documentation repository
-SRCDIR_MODULE="./modules"
+SRCDIR_MODULE="$SCRIPT_DIR/../../modules"
 
 # place where to create the pot files
 if [ -z "$POTDIR" ] ; then
-    POTDIR="./l10n/pot/"
+    POTDIR="$SCRIPT_DIR/../pot/"
 fi
 
 # place where the po files are
 if [ -z "$PO_DIR" ] ; then
-	PO_DIR="./l10n/po/"
+	PO_DIR="$SCRIPT_DIR/../po/"
 fi
 
 ####################################
@@ -82,12 +84,12 @@ echo "#REMOVE TEMPORARY FILES"
 
 for lang in $(ls "$PO_DIR" ); do
     for module in $(ls modules); do
-        if [ -e modules/$module/assets/images ]; then
+        if [ -e $SRCDIR_MODULE/$module/assets/images ]; then
             mkdir -p $PO_DIR/$lang/$module/assets/images
-            rsync -u --inplace -a --delete modules/$module/assets/* $PO_DIR/$lang/$module/assets/
+            rsync -u --inplace -a --delete $SRCDIR_MODULE/$module/assets/* $PO_DIR/$lang/$module/assets/
         fi
     done
     
-	rm -f "l10n/po/$lang/contact/"*.po~
-	rm -f "l10n/po/$lang/articles/"*.po~
+	rm -f "$PO_DIR/$lang/contact/"*.po~
+	rm -f "$PO_DIR/$lang/articles/"*.po~
 done

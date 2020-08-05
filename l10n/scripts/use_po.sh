@@ -11,16 +11,18 @@
 # INITILIZE VARIABLES
 ####################################
 
-SRCDIR_MODULE="./modules"
+SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
+
+SRCDIR_MODULE="$SCRIPT_DIR/../../modules"
 
 # place where the po files are
 if [ -z "$PO_DIR" ] ; then
-	PO_DIR="./l10n/po"
+	PO_DIR="$SCRIPT_DIR/../po"
 fi
 
 # place where the localized files will be
 if [ -z "$PUB_DIR" ] ; then
-	PUB_DIR="./translations/"
+	PUB_DIR="$SCRIPT_DIR/../../translations/"
 fi
 
 
