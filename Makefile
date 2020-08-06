@@ -274,11 +274,11 @@ help: ## Prints a basic help menu about available targets
 
 .PHONY: pot
 pot:
-	$(shell $(current_dir)/make_pot.sh)
+	$(shell $(current_dir)/l10n/scripts/make_pot.sh)
 
 .PHONY: translations
 translations:
-	$(shell $(current_dir)/use_po.sh)
+	$(shell $(current_dir)/l10n/scripts/use_po.sh)
 
 .PHONY: clean
 clean: clean-en clean-es
