@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2020-07-26 02:33+0200\n"
+"POT-Creation-Date: 2020-08-17 01:15+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,6 +19,6 @@ msgstr ""
 #. * xref:index-webui-branding-2019.adoc[What is SUSE Manager?]
 #. * xref:release-notes-version-4.0.adoc[Doc Release Notes]
 #. type: Plain text
-#: modules/ROOT/nav.adoc:3
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/ROOT/nav.adoc:3
 msgid "xref:common_gfdl1.2_i.adoc[License]"
 msgstr ""

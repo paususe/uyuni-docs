@@ -7,50 +7,50 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2020-07-26 02:34+0200\n"
+"POT-Creation-Date: 2020-08-17 01:22+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: Title =
-#: ./modules/reference/pages/spacecmd/spacecmd-help.adoc:2
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/spacecmd/spacecmd-help.adoc:2
 #, no-wrap
 msgid "help"
 msgstr ""
 
 #. type: Plain text
-#: ./modules/reference/pages/spacecmd/spacecmd-help.adoc:5
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/spacecmd/spacecmd-help.adoc:5
 msgid "List all available spacecmd commands with the help function."
 msgstr ""
 
 #. type: Plain text
-#: ./modules/reference/pages/spacecmd/spacecmd-help.adoc:7
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/spacecmd/spacecmd-help.adoc:7
 msgid "Check for additional help on a specific function by calling for example:"
 msgstr ""
 
 #. type: Plain text
-#: ./modules/reference/pages/spacecmd/spacecmd-help.adoc:11
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/spacecmd/spacecmd-help.adoc:11
 msgid "user_create --help"
 msgstr ""
 
 #. type: Block title
-#: ./modules/reference/pages/spacecmd/spacecmd-help.adoc:13
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/spacecmd/spacecmd-help.adoc:13
 #, no-wrap
 msgid "Full List of Available Help Commands"
 msgstr ""
 
 #. type: Title =
-#: ./modules/reference/pages/spacecmd/spacecmd-help.adoc:17
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/spacecmd/spacecmd-help.adoc:17
 #, no-wrap
 msgid "Documented commands (type help <topic>):"
 msgstr ""
 
 #. type: Plain text
-#: ./modules/reference/pages/spacecmd/spacecmd-help.adoc:180
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/spacecmd/spacecmd-help.adoc:180
 #, no-wrap
 msgid ""
 "activationkey_addchildchannels         org_trustdetails\n"
@@ -219,12 +219,12 @@ msgid ""
 msgstr ""
 
 #. type: Title =
-#: ./modules/reference/pages/spacecmd/spacecmd-help.adoc:183
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/spacecmd/spacecmd-help.adoc:183
 #, no-wrap
 msgid "Miscellaneous help topics:"
 msgstr ""
 
 #. type: Plain text
-#: ./modules/reference/pages/spacecmd/spacecmd-help.adoc:185
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/spacecmd/spacecmd-help.adoc:185
 msgid "time systems ssm"
 msgstr ""

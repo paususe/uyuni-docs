@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2020-07-26 02:34+0200\n"
+"POT-Creation-Date: 2020-08-17 01:22+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,13 +17,13 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: Title =
-#: ./modules/salt/pages/large-scale.adoc:2
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/salt/pages/large-scale.adoc:2
 #, no-wrap
 msgid "Large Scale Deployments"
 msgstr ""
 
 #. type: Plain text
-#: ./modules/salt/pages/large-scale.adoc:6
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/salt/pages/large-scale.adoc:6
 msgid ""
 "{productname} is designed by default to work on small and medium scale "
 "installations.  For installations with more than 1000 clients per "
@@ -32,8 +32,8 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./modules/salt/pages/large-scale.adoc:8
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/salt/pages/large-scale.adoc:8
 msgid ""
 "For more information on managing large scale deployments, see "
-"xref:large-deployments:large-deployments-intro.adoc[]."
+"xref:large-deployments:large-deployments-overview.adoc[]."
 msgstr ""

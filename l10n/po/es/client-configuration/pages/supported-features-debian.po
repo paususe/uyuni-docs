@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2020-07-26 02:33+0200\n"
+"POT-Creation-Date: 2020-08-17 01:16+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,26 +17,26 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: Title =
-#: modules/client-configuration/pages/supported-features-debian.adoc:2
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/supported-features-debian.adoc:2
 #, no-wrap
 msgid "Supported {debian} Features"
 msgstr ""
 
 #. type: Plain text
-#: modules/client-configuration/pages/supported-features-debian.adoc:6
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/supported-features-debian.adoc:6
 msgid ""
 "This table lists the availability of various features on {debian} clients."
 msgstr ""
 
 #. type: delimited block =
-#: modules/client-configuration/pages/supported-features-debian.adoc:11
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/supported-features-debian.adoc:11
 msgid ""
 "{debian} is not an officially supported operating system in this version of "
 "{susemgr}."
 msgstr ""
 
 #. type: delimited block =
-#: modules/client-configuration/pages/supported-features-debian.adoc:18
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/supported-features-debian.adoc:18
 msgid ""
 "The operating system you run on a client is supported by the organization "
 "that supplies the operating system.  {debian} is supported by the {debian} "
@@ -44,48 +44,47 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/client-configuration/pages/supported-features-debian.adoc:21
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/supported-features-debian.adoc:21
 msgid "The icons in this table indicate:"
 msgstr ""
 
 #. type: Plain text
-#: modules/client-configuration/pages/supported-features-debian.adoc:23
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/supported-features-debian.adoc:23
 msgid "{check} the feature is available on both Salt and traditional clients"
 msgstr ""
 
 #. type: Plain text
-#: modules/client-configuration/pages/supported-features-debian.adoc:24
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/supported-features-debian.adoc:24
 msgid "{cross} the feature is not available"
 msgstr ""
 
 #. type: Plain text
-#: modules/client-configuration/pages/supported-features-debian.adoc:25
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/supported-features-debian.adoc:25
 msgid ""
 "{question} the feature is under consideration, and may or may not be made "
 "available at a later date"
 msgstr ""
 
 #. type: Plain text
-#: modules/client-configuration/pages/supported-features-debian.adoc:26
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/supported-features-debian.adoc:26
 msgid "{trad} the feature is supported only on traditional clients"
 msgstr ""
 
 #. type: Plain text
-#: modules/client-configuration/pages/supported-features-debian.adoc:27
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/supported-features-debian.adoc:27
 msgid "{salt} the feature is supported only on Salt clients."
 msgstr ""
 
 #. type: Block title
-#: modules/client-configuration/pages/supported-features-debian.adoc:30
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/supported-features-debian.adoc:30
 #, no-wrap
 msgid "Supported Features on {debian} Operating Systems"
 msgstr ""
 
 #. type: Table
-#: modules/client-configuration/pages/supported-features-debian.adoc:189
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/supported-features-debian.adoc:205
 #, no-wrap
 msgid ""
-"\n"
 "| Feature\n"
 "| {debian}{nbsp}9\n"
 "| {debian}{nbsp}10\n"
@@ -206,6 +205,10 @@ msgid ""
 "| {cross}\n"
 "| {cross}\n"
 "\n"
+"| Maintenance Windows\n"
+"| {check}\n"
+"| {check}\n"
+"\n"
 "| System snapshot\n"
 "| {cross}\n"
 "| {cross}\n"
@@ -242,21 +245,33 @@ msgid ""
 "| {cross}\n"
 "| {cross}\n"
 "\n"
+"| Recurring Actions\n"
+"| {salt}\n"
+"| {salt}\n"
+"\n"
+"| AppStreams\n"
+"| N/A\n"
+"| N/A\n"
+"\n"
+"| Yomi\n"
+"| N/A\n"
+"| N/A\n"
+"\n"
 msgstr ""
 
 #. type: Plain text
-#: modules/client-configuration/pages/supported-features-debian.adoc:192
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/supported-features-debian.adoc:208
 msgid "{star} Virtual Guest Management:"
 msgstr ""
 
 #. type: Plain text
-#: modules/client-configuration/pages/supported-features-debian.adoc:194
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/supported-features-debian.adoc:210
 msgid ""
 "In this table, virtual guest management is split into basic and advanced."
 msgstr ""
 
 #. type: Plain text
-#: modules/client-configuration/pages/supported-features-debian.adoc:196
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/supported-features-debian.adoc:212
 msgid ""
 "Basic virtual guest management includes listing VMs, slow refresh, VM "
 "lifecycle actions (start, stop, resume, pause), and modifying VM vCPU and "
@@ -264,7 +279,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/client-configuration/pages/supported-features-debian.adoc:197
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/supported-features-debian.adoc:213
 msgid ""
 "Advanced virtual guest management includes fast refresh, VM lifecycle "
 "actions (delete, reset, power off), modifying VM disk, network, graphical "

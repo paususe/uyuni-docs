@@ -7,17 +7,17 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2020-07-26 02:33+0200\n"
+"POT-Creation-Date: 2020-08-17 01:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: Title =
-#: ./modules/administration/pages/tshoot-corruptrepo.adoc:2
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/tshoot-corruptrepo.adoc:2
 #, no-wrap
 msgid "Troubleshooting Corrupt Repositories"
 msgstr ""
@@ -38,7 +38,7 @@ msgstr ""
 #. . Another step
 #. . Last step
 #. type: Plain text
-#: ./modules/administration/pages/tshoot-corruptrepo.adoc:26
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/tshoot-corruptrepo.adoc:26
 msgid ""
 "The information in the repository metadata files can become corrupt or out "
 "of date.  This can create problems with updating clients.  You can fix this "
@@ -47,13 +47,13 @@ msgid ""
 msgstr ""
 
 #. type: Block title
-#: ./modules/administration/pages/tshoot-corruptrepo.adoc:27
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/tshoot-corruptrepo.adoc:27
 #, no-wrap
 msgid "Procedure: Resolving Corrupt Repository Data"
 msgstr ""
 
 #. type: Plain text
-#: ./modules/administration/pages/tshoot-corruptrepo.adoc:30
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/tshoot-corruptrepo.adoc:30
 msgid ""
 "Remove all files from "
 "[path]``/var/cache/rhn/repodata/<channel-label>-updates-x86_64``.  If you do "
@@ -62,12 +62,12 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./modules/administration/pages/tshoot-corruptrepo.adoc:31
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/tshoot-corruptrepo.adoc:31
 msgid "Regenerate the file from the command line:"
 msgstr ""
 
 #. type: delimited block -
-#: ./modules/administration/pages/tshoot-corruptrepo.adoc:34
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/tshoot-corruptrepo.adoc:34
 #, no-wrap
 msgid "spacecmd softwarechannel_regenerateyumcache <channel-label>-updates-x86_64\n"
 msgstr ""

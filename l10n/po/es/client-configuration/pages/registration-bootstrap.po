@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2020-07-26 02:34+0200\n"
+"POT-Creation-Date: 2020-08-17 01:16+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,13 +17,13 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: Title =
-#: modules/client-configuration/pages/registration-bootstrap.adoc:2
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/registration-bootstrap.adoc:2
 #, no-wrap
 msgid "Register Clients with a Bootstrap Script"
 msgstr ""
 
 #. type: Plain text
-#: modules/client-configuration/pages/registration-bootstrap.adoc:7
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/registration-bootstrap.adoc:7
 msgid ""
 "Registering clients with a bootstrap script gives you control over "
 "parameters, and can help if you have to register a large number of clients "
@@ -31,7 +31,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/client-configuration/pages/registration-bootstrap.adoc:11
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/registration-bootstrap.adoc:11
 msgid ""
 "To register clients using a bootstrap script, we recommend you create a "
 "template bootstrap script to begin, which can then be copied and modified.  "
@@ -43,7 +43,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/client-configuration/pages/registration-bootstrap.adoc:14
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/registration-bootstrap.adoc:14
 msgid ""
 "It is important that you check the repository information carefully, to "
 "ensure it matches the base channel repository.  If the repository "
@@ -52,7 +52,7 @@ msgid ""
 msgstr ""
 
 #. type: delimited block =
-#: modules/client-configuration/pages/registration-bootstrap.adoc:20
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/registration-bootstrap.adoc:20
 msgid ""
 "A bootstrap repository is needed for non-SLE clients in general and for SLE "
 "clients before version 15.  A bootstrap offers packages for installing Salt "
@@ -62,7 +62,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/client-configuration/pages/registration-bootstrap.adoc:24
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/registration-bootstrap.adoc:24
 msgid ""
 "If you are bootstrapping Salt clients using the {webui}, you will need to "
 "ensure that the client system has Python installed before you begin.  For "
@@ -71,13 +71,13 @@ msgid ""
 msgstr ""
 
 #. type: Block title
-#: modules/client-configuration/pages/registration-bootstrap.adoc:27
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/registration-bootstrap.adoc:27
 #, no-wrap
 msgid "GPG Keys and Uyuni Client Tools"
 msgstr ""
 
 #. type: delimited block =
-#: modules/client-configuration/pages/registration-bootstrap.adoc:31
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/registration-bootstrap.adoc:31
 msgid ""
 "The GPG key used by Uyuni Client Tools is not trusted by default.  When you "
 "create your bootstrap script, add a path to the file containing the public "
@@ -85,13 +85,13 @@ msgid ""
 msgstr ""
 
 #. type: Block title
-#: modules/client-configuration/pages/registration-bootstrap.adoc:35
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/registration-bootstrap.adoc:35
 #, no-wrap
 msgid "openSUSE Leap 15 and SLES 15 and Python 3"
 msgstr ""
 
 #. type: delimited block =
-#: modules/client-configuration/pages/registration-bootstrap.adoc:40
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/registration-bootstrap.adoc:40
 msgid ""
 "openSUSE Leap 15 and SLE 15 use Python 3 by default.  Bootstrap scripts "
 "based on Python 2 must be re-created for openSUSE Leap 15 and SLE 15 "
@@ -100,32 +100,32 @@ msgid ""
 msgstr ""
 
 #. type: Title ==
-#: modules/client-configuration/pages/registration-bootstrap.adoc:44
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/registration-bootstrap.adoc:44
 #, no-wrap
 msgid "Create a Bootstrap Script"
 msgstr ""
 
 #. type: Plain text
-#: modules/client-configuration/pages/registration-bootstrap.adoc:47
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/registration-bootstrap.adoc:47
 msgid ""
 "You can use the {productname} {webui} to create an editable bootstrap script."
 msgstr ""
 
 #. type: Block title
-#: modules/client-configuration/pages/registration-bootstrap.adoc:48
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/registration-bootstrap.adoc:48
 #, no-wrap
 msgid "Procedure: Creating a Bootstrap Script"
 msgstr ""
 
 #. type: Plain text
-#: modules/client-configuration/pages/registration-bootstrap.adoc:50
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/registration-bootstrap.adoc:50
 msgid ""
 "In the {productname} {webui}, navigate to menu:Admin[Manager Configuration > "
 "Bootstrap Script]."
 msgstr ""
 
 #. type: Plain text
-#: modules/client-configuration/pages/registration-bootstrap.adoc:52
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/registration-bootstrap.adoc:52
 msgid ""
 "In the [guimenu]``SUSE Manager Configuration - Bootstrap`` dialog, uncheck "
 "the [guimenu]``Bootstrap using Salt`` checkbox if you are installing a "
@@ -133,7 +133,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/client-configuration/pages/registration-bootstrap.adoc:54
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/registration-bootstrap.adoc:54
 msgid ""
 "The required fields are pre-populated with values derived from previous "
 "installation steps.  For details on each setting, see xref:reference:admin/"
@@ -141,12 +141,12 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/client-configuration/pages/registration-bootstrap.adoc:55
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/registration-bootstrap.adoc:55
 msgid "Click btn:[Update] create the script."
 msgstr ""
 
 #. type: Plain text
-#: modules/client-configuration/pages/registration-bootstrap.adoc:58
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/registration-bootstrap.adoc:58
 msgid ""
 "The bootstrap script is generated and stored on the server in the [path]``/"
 "srv/www/htdocs/pub/bootstrap`` directory.  Alternatively, you can access the "
@@ -155,13 +155,13 @@ msgid ""
 msgstr ""
 
 #. type: delimited block -
-#: modules/client-configuration/pages/registration-bootstrap.adoc:60
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/registration-bootstrap.adoc:60
 #, no-wrap
 msgid "https://<example.com>/pub/bootstrap/bootstrap.sh\n"
 msgstr ""
 
 #. type: delimited block =
-#: modules/client-configuration/pages/registration-bootstrap.adoc:69
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/registration-bootstrap.adoc:69
 msgid ""
 "Do not disable SSL in your bootstrap script.  Ensure that [guimenu]``Enable "
 "SSL`` is checked in the {webui}, or that the setting `USING_SSL=1` exists in "
@@ -171,7 +171,7 @@ msgid ""
 msgstr ""
 
 #. type: delimited block =
-#: modules/client-configuration/pages/registration-bootstrap.adoc:76
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/registration-bootstrap.adoc:76
 msgid ""
 "To register and use {centos}{nbsp}6, {oracle}{nbsp}6, {rhel}{nbsp}6, or "
 "{sleses}{nbsp}6 clients, you need to configure the {productname} Server to "
@@ -181,13 +181,13 @@ msgid ""
 msgstr ""
 
 #. type: Title ==
-#: modules/client-configuration/pages/registration-bootstrap.adoc:81
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/registration-bootstrap.adoc:81
 #, no-wrap
 msgid "Editing a Bootstrap Script"
 msgstr ""
 
 #. type: Plain text
-#: modules/client-configuration/pages/registration-bootstrap.adoc:86
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/registration-bootstrap.adoc:86
 msgid ""
 "You can copy and modify the template bootstrap script you created to "
 "customize it.  A minimal requirement when modifying a bootstrap script for "
@@ -197,7 +197,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/client-configuration/pages/registration-bootstrap.adoc:92
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/registration-bootstrap.adoc:92
 msgid ""
 "In this procedure, you will need to know the exact name of your activation "
 "keys.  Navigate to menu:Home[Overview] and, in the [guimenu]``Tasks`` box, "
@@ -209,34 +209,34 @@ msgid ""
 msgstr ""
 
 #. type: Block title
-#: modules/client-configuration/pages/registration-bootstrap.adoc:95
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/registration-bootstrap.adoc:95
 #, no-wrap
 msgid "Procedure: Modifying a Bootstrap Script"
 msgstr ""
 
 #. type: Plain text
-#: modules/client-configuration/pages/registration-bootstrap.adoc:97
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/registration-bootstrap.adoc:97
 msgid ""
 "On your {productname} server, as root at the command line change to the "
 "bootstrap directory with:"
 msgstr ""
 
 #. type: delimited block -
-#: modules/client-configuration/pages/registration-bootstrap.adoc:100
-#: modules/client-configuration/pages/registration-bootstrap.adoc:140
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/registration-bootstrap.adoc:100
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/registration-bootstrap.adoc:140
 #, no-wrap
 msgid "cd /srv/www/htdocs/pub/bootstrap/\n"
 msgstr ""
 
 #. type: Plain text
-#: modules/client-configuration/pages/registration-bootstrap.adoc:102
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/registration-bootstrap.adoc:102
 msgid ""
 "Create and rename two copies of the template bootstrap script for use with "
 "each of your clients."
 msgstr ""
 
 #. type: delimited block -
-#: modules/client-configuration/pages/registration-bootstrap.adoc:106
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/registration-bootstrap.adoc:106
 #, no-wrap
 msgid ""
 "cp bootstrap.sh bootstrap-sles12.sh\n"
@@ -244,7 +244,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/client-configuration/pages/registration-bootstrap.adoc:112
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/registration-bootstrap.adoc:112
 msgid ""
 "Open [path]``bootstrap-sles12.sh`` for modification.  Scroll down until you "
 "can see the text shown below.  If ``exit 1`` exists in the file, comment it "
@@ -254,7 +254,7 @@ msgid ""
 msgstr ""
 
 #. type: delimited block -
-#: modules/client-configuration/pages/registration-bootstrap.adoc:118
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/registration-bootstrap.adoc:118
 #, no-wrap
 msgid ""
 "echo \"Enable this script: comment (with #'s) this block (or, at least just\"\n"
@@ -264,7 +264,7 @@ msgid ""
 msgstr ""
 
 #. type: delimited block -
-#: modules/client-configuration/pages/registration-bootstrap.adoc:123
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/registration-bootstrap.adoc:123
 #, no-wrap
 msgid ""
 "# can be edited, but probably correct (unless created during initial install):\n"
@@ -274,60 +274,60 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/client-configuration/pages/registration-bootstrap.adoc:126
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/registration-bootstrap.adoc:126
 msgid ""
 "When you have finished, save the file, and repeat this procedure for the "
 "second bootstrap script."
 msgstr ""
 
 #. type: Title ==
-#: modules/client-configuration/pages/registration-bootstrap.adoc:129
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/registration-bootstrap.adoc:129
 #, no-wrap
 msgid "Connect Clients"
 msgstr ""
 
 #. type: Plain text
-#: modules/client-configuration/pages/registration-bootstrap.adoc:132
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/registration-bootstrap.adoc:132
 msgid ""
 "When you have finished creating your script, you can use it to register "
 "clients."
 msgstr ""
 
 #. type: Block title
-#: modules/client-configuration/pages/registration-bootstrap.adoc:134
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/registration-bootstrap.adoc:134
 #, no-wrap
 msgid "Procedure: Running the Bootstrap Script"
 msgstr ""
 
 #. type: Plain text
-#: modules/client-configuration/pages/registration-bootstrap.adoc:137
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/registration-bootstrap.adoc:137
 msgid ""
 "On the {productname} Server, log in as root.  At the command prompt, and "
 "change to the bootstrap directory:"
 msgstr ""
 
 #. type: Plain text
-#: modules/client-configuration/pages/registration-bootstrap.adoc:142
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/registration-bootstrap.adoc:142
 msgid ""
 "Run this command to execute the bootstrap script on the client; replace "
 "[systemitem]`` EXAMPLE.COM`` with the host name of your client:"
 msgstr ""
 
 #. type: delimited block -
-#: modules/client-configuration/pages/registration-bootstrap.adoc:145
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/registration-bootstrap.adoc:145
 #, no-wrap
 msgid "cat bootstrap-sles12.sh | ssh root@EXAMPLE.COM /bin/bash\n"
 msgstr ""
 
 #. type: Plain text
-#: modules/client-configuration/pages/registration-bootstrap.adoc:147
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/registration-bootstrap.adoc:147
 msgid ""
 "The script will execute and proceed to download the required dependencies "
 "located in the repositories directory you created earlier."
 msgstr ""
 
 #. type: Plain text
-#: modules/client-configuration/pages/registration-bootstrap.adoc:148
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/registration-bootstrap.adoc:148
 msgid ""
 "When the script has finished running, you can check that your client is "
 "registered correctly by opening the {productname} {webui} and navigating to "
@@ -335,7 +335,7 @@ msgid ""
 msgstr ""
 
 #. type: delimited block =
-#: modules/client-configuration/pages/registration-bootstrap.adoc:153
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/registration-bootstrap.adoc:153
 msgid ""
 "When new packages or updates are installed on the client using "
 "{productname}, any end user license agreements (EULAs) are automatically "

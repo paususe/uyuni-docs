@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2020-07-26 02:33+0200\n"
+"POT-Creation-Date: 2020-08-17 01:16+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,60 +17,60 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: Title =
-#: modules/client-configuration/pages/clients-sleses.adoc:2
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/clients-sleses.adoc:2
 #, no-wrap
 msgid "Registering {sleses} Clients"
 msgstr ""
 
 #. type: Plain text
-#: modules/client-configuration/pages/clients-sleses.adoc:5
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/clients-sleses.adoc:5
 msgid ""
 "This section contains information about registering traditional and Salt "
 "clients running {sleses} ({es}) operating systems."
 msgstr ""
 
 #. type: Plain text
-#: modules/client-configuration/pages/clients-sleses.adoc:7
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/clients-sleses.adoc:7
 msgid "{es} clients are based on {rhel} or {centos}."
 msgstr ""
 
 #. type: Plain text
-#: modules/client-configuration/pages/clients-sleses.adoc:9
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/clients-sleses.adoc:9
 msgid "They are sometimes also called SLESES, RES or {redhat} {es}."
 msgstr ""
 
 #. type: delimited block =
-#: modules/client-configuration/pages/clients-sleses.adoc:14
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/clients-sleses.adoc:14
 msgid ""
 "You are responsible for arranging access to {redhat} or {centos} base media "
 "repositories and installation media."
 msgstr ""
 
 #. type: delimited block =
-#: modules/client-configuration/pages/clients-sleses.adoc:20
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/clients-sleses.adoc:20
 msgid "You must obtain support from {suse} for all your {es} systems."
 msgstr ""
 
 #. type: delimited block =
-#: modules/client-configuration/pages/clients-sleses.adoc:28
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/clients-sleses.adoc:28
 msgid "{suse} does not provide support for {es} systems on {uyuni}."
 msgstr ""
 
 #. type: delimited block =
-#: modules/client-configuration/pages/clients-sleses.adoc:36
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/clients-sleses.adoc:36
 msgid ""
 "Traditional clients are not available on {es}{nbsp}8.  {es}{nbsp}8 clients "
 "are only supported as Salt clients."
 msgstr ""
 
 #. type: Title ==
-#: modules/client-configuration/pages/clients-sleses.adoc:40
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/clients-sleses.adoc:40
 #, no-wrap
 msgid "Add Software Channels"
 msgstr ""
 
 #. type: Plain text
-#: modules/client-configuration/pages/clients-sleses.adoc:45
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/clients-sleses.adoc:45
 msgid ""
 "For {es} clients, some required packages are contained on the {rhel} or "
 "{centos} installation media.  You must have these packages installed before "
@@ -78,14 +78,14 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/client-configuration/pages/clients-sleses.adoc:48
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/clients-sleses.adoc:48
 msgid ""
 "The {es} product is provided by {scc}.  This also includes the client tools "
 "package."
 msgstr ""
 
 #. type: Plain text
-#: modules/client-configuration/pages/clients-sleses.adoc:50
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/clients-sleses.adoc:50
 msgid ""
 "Before you register {es} clients to your {productname} Server, check that "
 "you have the corresponding {es} product enabled, and the required channels "
@@ -93,14 +93,14 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/client-configuration/pages/clients-sleses.adoc:52
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/clients-sleses.adoc:52
 msgid ""
 "You need to select two different sets of channels, one for {es} and the "
 "other for the Client Tools."
 msgstr ""
 
 #. type: Plain text
-#: modules/client-configuration/pages/clients-sleses.adoc:55
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/clients-sleses.adoc:55
 msgid ""
 "You will need an activation key associated with the correct {es} channels.  "
 "For more information about activation keys, see xref:client-configuration:"
@@ -108,19 +108,19 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/client-configuration/pages/clients-sleses.adoc:59
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/clients-sleses.adoc:59
 msgid "The products you need for this procedure are:"
 msgstr ""
 
 #. type: Block title
-#: modules/client-configuration/pages/clients-sleses.adoc:62
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/clients-sleses.adoc:62
 #, no-wrap
 msgid "ES Products - WebUI"
 msgstr ""
 
 #. type: Table
-#: modules/client-configuration/pages/clients-sleses.adoc:68
-#: modules/client-configuration/pages/clients-sleses.adoc:149
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/clients-sleses.adoc:68
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/clients-sleses.adoc:149
 #, no-wrap
 msgid ""
 "| OS Version | Base Channel                     | Tools Channel\n"
@@ -130,22 +130,21 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/client-configuration/pages/clients-sleses.adoc:77
-#: modules/client-configuration/pages/clients-sleses.adoc:140
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/clients-sleses.adoc:77
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/clients-sleses.adoc:140
 msgid "The channels you need for this procedure are:"
 msgstr ""
 
 #. type: Block title
-#: modules/client-configuration/pages/clients-sleses.adoc:80
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/clients-sleses.adoc:80
 #, no-wrap
 msgid "ES Channels - CLI"
 msgstr ""
 
 #. type: Table
-#: modules/client-configuration/pages/clients-sleses.adoc:103
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/clients-sleses.adoc:103
 #, no-wrap
 msgid ""
-"\n"
 "| OS Version\n"
 "| Base Channel\n"
 "| Client Channel\n"
@@ -169,13 +168,13 @@ msgid ""
 msgstr ""
 
 #. type: Title ===
-#: modules/client-configuration/pages/clients-sleses.adoc:111
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/clients-sleses.adoc:111
 #, no-wrap
 msgid "Add Base Media"
 msgstr ""
 
 #. type: Plain text
-#: modules/client-configuration/pages/clients-sleses.adoc:116
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/clients-sleses.adoc:116
 msgid ""
 "The base {es} channel does not contain any packages, because {suse} does not "
 "provide {rhel} or {centos} base media.  You will need to obtain base media "
@@ -185,25 +184,25 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/client-configuration/pages/clients-sleses.adoc:119
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/clients-sleses.adoc:119
 msgid ""
 "You can use {productname} custom channels to set up the {rhel} or {centos} "
 "media.  All packages on the base media are mirrored into a child channel."
 msgstr ""
 
 #. type: Plain text
-#: modules/client-configuration/pages/clients-sleses.adoc:122
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/clients-sleses.adoc:122
 msgid "The details you need for this procedure are:"
 msgstr ""
 
 #. type: Block title
-#: modules/client-configuration/pages/clients-sleses.adoc:125
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/clients-sleses.adoc:125
 #, no-wrap
 msgid "ES Custom Repository Settings"
 msgstr ""
 
 #. type: Table
-#: modules/client-configuration/pages/clients-sleses.adoc:133
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/clients-sleses.adoc:133
 #, no-wrap
 msgid ""
 "| Option                 | Parameter\n"
@@ -215,13 +214,13 @@ msgid ""
 msgstr ""
 
 #. type: Block title
-#: modules/client-configuration/pages/clients-sleses.adoc:143
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/clients-sleses.adoc:143
 #, no-wrap
 msgid "ES Custom Channels"
 msgstr ""
 
 #. type: delimited block =
-#: modules/client-configuration/pages/clients-sleses.adoc:159
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/clients-sleses.adoc:159
 msgid ""
 "For {redhat} 8 clients, add both the Base and Appstream channels.  You will "
 "require packages from both channels.  If you do not add both channels, you "
@@ -229,44 +228,44 @@ msgid ""
 msgstr ""
 
 #. type: Block title
-#: modules/client-configuration/pages/clients-sleses.adoc:165
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/clients-sleses.adoc:165
 #, no-wrap
 msgid "Procedure: Adding Base Media to Custom Channels"
 msgstr ""
 
 #. type: Plain text
-#: modules/client-configuration/pages/clients-sleses.adoc:168
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/clients-sleses.adoc:168
 msgid ""
 "On the {productname} Server, at the command prompt, as root, copy the base "
 "media image to the [path]``/tmp/`` directory."
 msgstr ""
 
 #. type: Plain text
-#: modules/client-configuration/pages/clients-sleses.adoc:170
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/clients-sleses.adoc:170
 msgid ""
 "Create a directory to contain the media content.  Replace "
 "[command]``<os_name>`` with either ``sleses6``, ``sleses7`` or ``sleses8``:"
 msgstr ""
 
 #. type: delimited block -
-#: modules/client-configuration/pages/clients-sleses.adoc:173
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/clients-sleses.adoc:173
 #, no-wrap
 msgid "mkdir -p /srv/www/htdocs/pub/<os_name>\n"
 msgstr ""
 
 #. type: Plain text
-#: modules/client-configuration/pages/clients-sleses.adoc:175
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/clients-sleses.adoc:175
 msgid "Mount the image:"
 msgstr ""
 
 #. type: delimited block -
-#: modules/client-configuration/pages/clients-sleses.adoc:178
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/clients-sleses.adoc:178
 #, no-wrap
 msgid "mount -o loop /tmp/<iso_filename> /srv/www/htdocs/pub/<os_name>\n"
 msgstr ""
 
 #. type: Plain text
-#: modules/client-configuration/pages/clients-sleses.adoc:185
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/clients-sleses.adoc:185
 msgid ""
 "When the image is mounted, you can synchronize the base media.  To manually "
 "synchronize the channels, navigate to menu:Software[Manage > Channels].  "
@@ -276,20 +275,20 @@ msgid ""
 msgstr ""
 
 #. type: Title ==
-#: modules/client-configuration/pages/clients-sleses.adoc:188
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/clients-sleses.adoc:188
 #, no-wrap
 msgid "Check Synchronization Status"
 msgstr ""
 
 #. type: delimited block =
-#: modules/client-configuration/pages/clients-sleses.adoc:208
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/clients-sleses.adoc:208
 msgid ""
 "The {es} channels can be very large.  The initial channel synchronization "
 "can sometimes take up to several hours."
 msgstr ""
 
 #. type: delimited block =
-#: modules/client-configuration/pages/clients-sleses.adoc:211
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/clients-sleses.adoc:211
 msgid ""
 "When the initial synchronization is complete, we recommended you clone the "
 "channel before you work with it.  This gives you a backup of the original "
@@ -297,25 +296,25 @@ msgid ""
 msgstr ""
 
 #. type: Title ==
-#: modules/client-configuration/pages/clients-sleses.adoc:215
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/clients-sleses.adoc:215
 #, no-wrap
 msgid "Register {es} Clients"
 msgstr ""
 
 #. type: Plain text
-#: modules/client-configuration/pages/clients-sleses.adoc:218
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/clients-sleses.adoc:218
 msgid "Your {es} clients are now ready to be registered."
 msgstr ""
 
 #. type: Plain text
-#: modules/client-configuration/pages/clients-sleses.adoc:220
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/clients-sleses.adoc:220
 msgid ""
 "For more information on registering your clients, see xref:client-"
 "configuration:registration-overview.adoc[]."
 msgstr ""
 
 #. type: delimited block =
-#: modules/client-configuration/pages/clients-sleses.adoc:226
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/clients-sleses.adoc:226
 msgid ""
 "To register and use {sleses}{nbsp}6 clients, you need to configure the "
 "{productname} Server to support older types of SSL encryption.  For more "

@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2020-06-14 00:55+0200\n"
+"POT-Creation-Date: 2020-08-17 01:19+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,13 +17,13 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: Title ==
-#: ./modules/retail/pages/retail-terminal-ratelimiting.adoc:2
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/retail/pages/retail-terminal-ratelimiting.adoc:2
 #, no-wrap
 msgid "Rate Limiting Terminals"
 msgstr ""
 
 #. type: Plain text
-#: ./modules/retail/pages/retail-terminal-ratelimiting.adoc:7
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/retail/pages/retail-terminal-ratelimiting.adoc:7
 msgid ""
 "Salt is able to run commands in parallel on a large number of terminals.  "
 "This can potentially create heavy load on your infrastructure.  You can use "
@@ -31,20 +31,21 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./modules/retail/pages/retail-terminal-ratelimiting.adoc:9 ./modules/retail/pages/retail-terminal-ratelimiting.adoc:18
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/retail/pages/retail-terminal-ratelimiting.adoc:9
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/retail/pages/retail-terminal-ratelimiting.adoc:18
 msgid ""
-"For more information about rate limiting on terminals, see "
-"xref:salt:salt-rate-limiting.adoc[]."
+"For more information about rate limiting on terminals, see xref:salt:salt-"
+"rate-limiting.adoc[]."
 msgstr ""
 
 #. type: Title ===
-#: ./modules/retail/pages/retail-terminal-ratelimiting.adoc:12
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/retail/pages/retail-terminal-ratelimiting.adoc:12
 #, no-wrap
 msgid "Troubleshooting"
 msgstr ""
 
 #. type: Plain text
-#: ./modules/retail/pages/retail-terminal-ratelimiting.adoc:17
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/retail/pages/retail-terminal-ratelimiting.adoc:17
 msgid ""
 "Sometimes when attempting to reboot a terminal after attempting to apply the "
 "Saltboot formula, the terminal will hang at the boot screen.  This can be "

@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2020-07-26 02:33+0200\n"
+"POT-Creation-Date: 2020-08-17 01:21+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,49 +17,49 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: Title =
-#: ./modules/architecture/pages/spacewalk-repo-sync.adoc:2
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/architecture/pages/spacewalk-repo-sync.adoc:2
 #, no-wrap
 msgid "spacewalk-repo-sync"
 msgstr ""
 
 #. type: Title ==
-#: ./modules/architecture/pages/spacewalk-repo-sync.adoc:9
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/architecture/pages/spacewalk-repo-sync.adoc:9
 #, no-wrap
 msgid "Functions"
 msgstr ""
 
 #. type: Plain text
-#: ./modules/architecture/pages/spacewalk-repo-sync.adoc:12
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/architecture/pages/spacewalk-repo-sync.adoc:12
 msgid ""
 "spacewalk-repo-sync is a command line tool for {productname}. It performs "
 "the following functions."
 msgstr ""
 
 #. type: Plain text
-#: ./modules/architecture/pages/spacewalk-repo-sync.adoc:14
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/architecture/pages/spacewalk-repo-sync.adoc:14
 #, no-wrap
 msgid "**Copies a repo’s metadata to the database**\n"
 msgstr ""
 
 #. type: Plain text
-#: ./modules/architecture/pages/spacewalk-repo-sync.adoc:15
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/architecture/pages/spacewalk-repo-sync.adoc:15
 #, no-wrap
 msgid "**Copies a repo’s RPM files to the file system**\n"
 msgstr ""
 
 #. type: Title ==
-#: ./modules/architecture/pages/spacewalk-repo-sync.adoc:18
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/architecture/pages/spacewalk-repo-sync.adoc:18
 #, no-wrap
 msgid "spacewalk-repo-sync --help"
 msgstr ""
 
 #. type: Plain text
-#: ./modules/architecture/pages/spacewalk-repo-sync.adoc:21
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/architecture/pages/spacewalk-repo-sync.adoc:21
 msgid "__The following options are available for the *spacewalk-repo-sync* tool:__"
 msgstr ""
 
 #. type: delimited block -
-#: ./modules/architecture/pages/spacewalk-repo-sync.adoc:25
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/architecture/pages/spacewalk-repo-sync.adoc:25
 #, no-wrap
 msgid ""
 "spacewalk-repo-sync --help\n"
@@ -67,7 +67,7 @@ msgid ""
 msgstr ""
 
 #. type: delimited block -
-#: ./modules/architecture/pages/spacewalk-repo-sync.adoc:67
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/architecture/pages/spacewalk-repo-sync.adoc:67
 #, no-wrap
 msgid ""
 "Options:\n"
@@ -122,18 +122,18 @@ msgid ""
 msgstr ""
 
 #. type: Title ==
-#: ./modules/architecture/pages/spacewalk-repo-sync.adoc:69
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/architecture/pages/spacewalk-repo-sync.adoc:69
 #, no-wrap
 msgid "Log Files"
 msgstr ""
 
 #. type: Plain text
-#: ./modules/architecture/pages/spacewalk-repo-sync.adoc:72
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/architecture/pages/spacewalk-repo-sync.adoc:72
 msgid "_Logs for the **spacewalk-repo-sync** tool are located in:_"
 msgstr ""
 
 #. type: delimited block -
-#: ./modules/architecture/pages/spacewalk-repo-sync.adoc:75
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/architecture/pages/spacewalk-repo-sync.adoc:75
 #, no-wrap
 msgid "/var/log/rhn/reposync/*\n"
 msgstr ""

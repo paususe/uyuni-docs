@@ -7,17 +7,17 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2020-07-26 02:33+0200\n"
+"POT-Creation-Date: 2020-08-17 01:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: Title =
-#: ./modules/administration/pages/tshoot-saltboot.adoc:2
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/tshoot-saltboot.adoc:2
 #, no-wrap
 msgid "Troubleshooting the Saltboot Formula"
 msgstr ""
@@ -38,7 +38,7 @@ msgstr ""
 #. . Another step
 #. . Last step
 #. type: Plain text
-#: ./modules/administration/pages/tshoot-saltboot.adoc:23
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/tshoot-saltboot.adoc:23
 msgid ""
 "Because of a problem in the computed partition size value, the saltboot "
 "formula can sometimes fail when it is created on SLE{nbsp}11 SP3 clients, "
@@ -46,7 +46,7 @@ msgid ""
 msgstr ""
 
 #. type: delimited block -
-#: ./modules/administration/pages/tshoot-saltboot.adoc:39
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/tshoot-saltboot.adoc:39
 #, no-wrap
 msgid ""
 "          ID: disk1_partitioned\n"
@@ -72,7 +72,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./modules/administration/pages/tshoot-saltboot.adoc:43
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/tshoot-saltboot.adoc:43
 msgid ""
 "This problem can be resolved by manually configuring the size of the "
 "partition containing the operating system.  When the size is set correctly, "
@@ -80,13 +80,13 @@ msgid ""
 msgstr ""
 
 #. type: Block title
-#: ./modules/administration/pages/tshoot-saltboot.adoc:45
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/tshoot-saltboot.adoc:45
 #, no-wrap
 msgid "Procedure: Manually Configuring the Partition Size in the Saltboot Formula"
 msgstr ""
 
 #. type: Plain text
-#: ./modules/administration/pages/tshoot-saltboot.adoc:49
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/tshoot-saltboot.adoc:49
 msgid ""
 "In the {productname} {webui}, navigate to menu:Systems[System Groups] and "
 "select the ``Hardware Type Group`` that contains the SLE{nbsp}11 SP3 client "
@@ -95,13 +95,13 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./modules/administration/pages/tshoot-saltboot.adoc:50
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/tshoot-saltboot.adoc:50
 msgid ""
 "Locate the partition that contains the operating system, and in the "
 "[guimenu]``Partition Size`` field, type the appropriate size (in MiB)."
 msgstr ""
 
 #. type: Plain text
-#: ./modules/administration/pages/tshoot-saltboot.adoc:50
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/tshoot-saltboot.adoc:50
 msgid "Click btn:[Save Formula], and apply the highstate to save your changes."
 msgstr ""

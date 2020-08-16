@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2020-06-17 03:13+0200\n"
+"POT-Creation-Date: 2020-08-17 01:19+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,15 +17,14 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: Title =
-#: ./modules/retail/pages/retail-deploy-section.adoc:2
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/retail/pages/retail-deploy-section.adoc:2
 #, no-wrap
 msgid "Deploying Terminals"
 msgstr ""
 
 #. type: Plain text
-#: ./modules/retail/pages/retail-deploy-section.adoc:4
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/retail/pages/retail-deploy-section.adoc:4
 msgid ""
 "This section covers how to prepare your {smr} installation for image "
-"deployment, and how to deploy terminals using network boot and other "
-"methods."
+"deployment, and how to deploy terminals using network boot and other methods."
 msgstr ""

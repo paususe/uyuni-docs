@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2020-07-26 02:33+0200\n"
+"POT-Creation-Date: 2020-08-17 01:21+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,20 +17,20 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: Title =
-#: ./modules/client-configuration/pages/clients-debian.adoc:2
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/clients-debian.adoc:2
 #, no-wrap
 msgid "Registering {debian} Clients"
 msgstr ""
 
 #. type: Plain text
-#: ./modules/client-configuration/pages/clients-debian.adoc:5
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/clients-debian.adoc:5
 msgid ""
 "This section contains information about registering Salt clients running "
 "{debian} operating systems."
 msgstr ""
 
 #. type: delimited block =
-#: ./modules/client-configuration/pages/clients-debian.adoc:13
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/clients-debian.adoc:13
 msgid ""
 "{suse} does not provide support for {debian} operating systems.  "
 "{productname} allows you to manage {debian} clients, but support is not "
@@ -41,27 +41,27 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./modules/client-configuration/pages/clients-debian.adoc:16
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/clients-debian.adoc:16
 msgid ""
 "Bootstrapping can be used with {debian} clients for performing initial state "
 "runs, and for profile updates."
 msgstr ""
 
 #. type: Title ==
-#: ./modules/client-configuration/pages/clients-debian.adoc:19
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/clients-debian.adoc:19
 #, no-wrap
 msgid "Prepare to Register"
 msgstr ""
 
 #. type: Plain text
-#: ./modules/client-configuration/pages/clients-debian.adoc:22
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/clients-debian.adoc:22
 msgid ""
 "Some preparation is required before you can register {debian} clients to the "
 "{productname} Server:"
 msgstr ""
 
 #. type: Plain text
-#: ./modules/client-configuration/pages/clients-debian.adoc:25
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/clients-debian.adoc:25
 msgid ""
 "If you are using Debian{nbsp}9, install the ``apt-transport-https`` package "
 "on the client before you attempt to register.  On the client, at the command "
@@ -69,13 +69,13 @@ msgid ""
 msgstr ""
 
 #. type: delimited block -
-#: ./modules/client-configuration/pages/clients-debian.adoc:28
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/clients-debian.adoc:28
 #, no-wrap
 msgid "apt install apt-transport-https\n"
 msgstr ""
 
 #. type: Plain text
-#: ./modules/client-configuration/pages/clients-debian.adoc:32
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/clients-debian.adoc:32
 msgid ""
 "Ensure DNS is correctly configured and provides an entry for the client.  "
 "Alternatively, you can configure the ``/etc/hosts`` files on both the "
@@ -83,34 +83,33 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./modules/client-configuration/pages/clients-debian.adoc:33
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/clients-debian.adoc:33
 msgid ""
 "The client must have the date and time synchronized correctly with the "
 "{productname} Server before registration."
 msgstr ""
 
 #. type: Title ==
-#: ./modules/client-configuration/pages/clients-debian.adoc:36
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/clients-debian.adoc:36
 #, no-wrap
 msgid "Add Software Channels"
 msgstr ""
 
 #. type: Plain text
-#: ./modules/client-configuration/pages/clients-debian.adoc:39
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/clients-debian.adoc:39
 msgid "The channels you need for this procedure are:"
 msgstr ""
 
 #. type: Block title
-#: ./modules/client-configuration/pages/clients-debian.adoc:42
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/clients-debian.adoc:42
 #, no-wrap
 msgid "Debian Channels - CLI"
 msgstr ""
 
 #. type: Table
-#: ./modules/client-configuration/pages/clients-debian.adoc:63
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/clients-debian.adoc:63
 #, no-wrap
 msgid ""
-"\n"
 "| OS Version\n"
 "| Base Channel\n"
 "| Client Channel\n"
@@ -132,32 +131,32 @@ msgid ""
 msgstr ""
 
 #. type: Title ==
-#: ./modules/client-configuration/pages/clients-debian.adoc:69
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/clients-debian.adoc:69
 #, no-wrap
 msgid "Check Synchronization Status"
 msgstr ""
 
 #. type: delimited block =
-#: ./modules/client-configuration/pages/clients-debian.adoc:89
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/clients-debian.adoc:89
 msgid ""
 "{debian} channels can be very large.  Synchronization can sometimes take "
 "several hours."
 msgstr ""
 
 #. type: Title ==
-#: ./modules/client-configuration/pages/clients-debian.adoc:95
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/clients-debian.adoc:95
 #, no-wrap
 msgid "Trust GPG Keys on Clients"
 msgstr ""
 
 #. type: Title ==
-#: ./modules/client-configuration/pages/clients-debian.adoc:103
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/clients-debian.adoc:103
 #, no-wrap
 msgid "Register Clients"
 msgstr ""
 
 #. type: Plain text
-#: ./modules/client-configuration/pages/clients-debian.adoc:108
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/clients-debian.adoc:108
 msgid ""
 "To register your {debian} clients, you need a bootstrap repository.  By "
 "default, bootstrap repositories are regenerated daily.  You can manually "
@@ -165,18 +164,18 @@ msgid ""
 msgstr ""
 
 #. type: delimited block -
-#: ./modules/client-configuration/pages/clients-debian.adoc:111
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/clients-debian.adoc:111
 #, no-wrap
 msgid "mgr-create-bootstrap-repo --with-custom-channels\n"
 msgstr ""
 
 #. type: Plain text
-#: ./modules/client-configuration/pages/clients-debian.adoc:114
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/clients-debian.adoc:114
 msgid "For {debian}{nbsp}10, select ``debian10-amd64-uyuni`` when prompted."
 msgstr ""
 
 #. type: Plain text
-#: ./modules/client-configuration/pages/clients-debian.adoc:116
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/clients-debian.adoc:116
 msgid ""
 "For more information on registering your clients, see "
 "xref:client-configuration:registration-overview.adoc[]."

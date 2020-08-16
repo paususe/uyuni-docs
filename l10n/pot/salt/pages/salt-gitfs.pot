@@ -7,23 +7,23 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2020-07-26 02:34+0200\n"
+"POT-Creation-Date: 2020-08-17 01:22+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: Title =
-#: ./modules/salt/pages/salt-gitfs.adoc:2
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/salt/pages/salt-gitfs.adoc:2
 #, no-wrap
 msgid "The ``gitfs`` Fileserver Backend"
 msgstr ""
 
 #. type: Plain text
-#: ./modules/salt/pages/salt-gitfs.adoc:6
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/salt/pages/salt-gitfs.adoc:6
 msgid ""
 "In {productname}, [package]``pygit2`` is the supported Python interface to "
 "git.  When [package]``pygit2`` is installed the ``gitfs`` fileserver backend "
@@ -31,7 +31,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./modules/salt/pages/salt-gitfs.adoc:10
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/salt/pages/salt-gitfs.adoc:10
 msgid ""
 "Configuration options are set in the [path]``/etc/salt/master`` file, or in "
 "a separate configuration file in the [path]``/etc/salt/master.d/`` "
@@ -39,20 +39,20 @@ msgid ""
 msgstr ""
 
 #. type: Labeled list
-#: ./modules/salt/pages/salt-gitfs.adoc:12
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/salt/pages/salt-gitfs.adoc:12
 #, no-wrap
 msgid "fileserver_backend"
 msgstr ""
 
 #. type: Plain text
-#: ./modules/salt/pages/salt-gitfs.adoc:14
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/salt/pages/salt-gitfs.adoc:14
 msgid ""
 "List of fileserver backends that the Salt master checks for files in the "
 "order they are defined.  Options:"
 msgstr ""
 
 #. type: Plain text
-#: ./modules/salt/pages/salt-gitfs.adoc:20
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/salt/pages/salt-gitfs.adoc:20
 msgid ""
 "[literal]``roots``: Files local on the Salt master ({productname} Server).  "
 "[literal]``roots`` is required to keep the product running.  You can only "
@@ -62,19 +62,21 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./modules/salt/pages/salt-gitfs.adoc:22
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/salt/pages/salt-gitfs.adoc:22
 msgid ""
 "[literal]``gitfs``: Files stored in one or more git repositories.  The "
 "repositories are defined with [literal]``gitfs_remotes``."
 msgstr ""
 
 #. type: Plain text
-#: ./modules/salt/pages/salt-gitfs.adoc:24 ./modules/salt/pages/salt-gitfs.adoc:39 ./modules/salt/pages/salt-gitfs.adoc:56
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/salt/pages/salt-gitfs.adoc:24
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/salt/pages/salt-gitfs.adoc:39
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/salt/pages/salt-gitfs.adoc:56
 msgid "Example:"
 msgstr ""
 
 #. type: delimited block -
-#: ./modules/salt/pages/salt-gitfs.adoc:29
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/salt/pages/salt-gitfs.adoc:29
 #, no-wrap
 msgid ""
 "fileserver_backend:\n"
@@ -83,13 +85,13 @@ msgid ""
 msgstr ""
 
 #. type: Labeled list
-#: ./modules/salt/pages/salt-gitfs.adoc:31
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/salt/pages/salt-gitfs.adoc:31
 #, no-wrap
 msgid "gitfs_remotes"
 msgstr ""
 
 #. type: Plain text
-#: ./modules/salt/pages/salt-gitfs.adoc:37
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/salt/pages/salt-gitfs.adoc:37
 msgid ""
 "List of git repositories.  ``git://``, ``https://``, ``file://``, or "
 "``ssh://`` URLs can be configured.  For SSH remotes, a [command]``scp``-like "
@@ -101,7 +103,7 @@ msgid ""
 msgstr ""
 
 #. type: delimited block -
-#: ./modules/salt/pages/salt-gitfs.adoc:48
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/salt/pages/salt-gitfs.adoc:48
 #, no-wrap
 msgid ""
 "gitfs_remotes:\n"
@@ -114,13 +116,13 @@ msgid ""
 msgstr ""
 
 #. type: Labeled list
-#: ./modules/salt/pages/salt-gitfs.adoc:50
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/salt/pages/salt-gitfs.adoc:50
 #, no-wrap
 msgid "ext_pillar"
 msgstr ""
 
 #. type: Plain text
-#: ./modules/salt/pages/salt-gitfs.adoc:54
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/salt/pages/salt-gitfs.adoc:54
 msgid ""
 "List of external pillar interfaces.  Salt can also serve pillar data from "
 "one or more git repositories.  For syntax and options, also see the "
@@ -128,7 +130,7 @@ msgid ""
 msgstr ""
 
 #. type: delimited block -
-#: ./modules/salt/pages/salt-gitfs.adoc:64
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/salt/pages/salt-gitfs.adoc:64
 #, no-wrap
 msgid ""
 "ext_pillar:\n"
@@ -140,16 +142,16 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./modules/salt/pages/salt-gitfs.adoc:67
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/salt/pages/salt-gitfs.adoc:67
 msgid "For more information, see:"
 msgstr ""
 
 #. type: Plain text
-#: ./modules/salt/pages/salt-gitfs.adoc:68
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/salt/pages/salt-gitfs.adoc:68
 msgid "https://docs.saltstack.com/en/latest/topics/tutorials/gitfs.html"
 msgstr ""
 
 #. type: Plain text
-#: ./modules/salt/pages/salt-gitfs.adoc:68
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/salt/pages/salt-gitfs.adoc:68
 msgid "https://docs.saltstack.com/en/latest/ref/configuration/master.html"
 msgstr ""

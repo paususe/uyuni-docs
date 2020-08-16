@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2020-07-26 02:34+0200\n"
+"POT-Creation-Date: 2020-08-17 01:22+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,74 +17,74 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: Title =
-#: ./modules/salt/pages/formula-saltboot.adoc:2
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/salt/pages/formula-saltboot.adoc:2
 #, no-wrap
 msgid "Saltboot Formula"
 msgstr ""
 
 #. type: Plain text
-#: ./modules/salt/pages/formula-saltboot.adoc:5
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/salt/pages/formula-saltboot.adoc:5
 msgid ""
 "The Saltboot formula is used to configure disk images and partitioning for "
 "the selected hardware type."
 msgstr ""
 
 #. type: delimited block =
-#: ./modules/salt/pages/formula-saltboot.adoc:10
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/salt/pages/formula-saltboot.adoc:10
 msgid ""
 "The Saltboot formula is meant to be used as a group formula.  Enable and "
 "configure Saltboot formula for hardware type groups."
 msgstr ""
 
 #. type: delimited block =
-#: ./modules/salt/pages/formula-saltboot.adoc:15
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/salt/pages/formula-saltboot.adoc:15
 msgid ""
 "To apply changes to a terminal, terminal needs to be restarted. Applying "
 "highstate does not have any effect on running terminals."
 msgstr ""
 
 #. type: Block title
-#: ./modules/salt/pages/formula-saltboot.adoc:17
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/salt/pages/formula-saltboot.adoc:17
 #, no-wrap
 msgid "Procedure: Configuring the Hardware Type Group with Saltboot"
 msgstr ""
 
 #. type: Plain text
-#: ./modules/salt/pages/formula-saltboot.adoc:20
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/salt/pages/formula-saltboot.adoc:20
 msgid ""
 "Open the details page for your new hardware type group, and navigate to the "
 "[guimenu]``Formulas`` tab."
 msgstr ""
 
 #. type: Plain text
-#: ./modules/salt/pages/formula-saltboot.adoc:21
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/salt/pages/formula-saltboot.adoc:21
 msgid "Select the Saltboot formula and click btn:[Save]."
 msgstr ""
 
 #. type: Plain text
-#: ./modules/salt/pages/formula-saltboot.adoc:22
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/salt/pages/formula-saltboot.adoc:22
 msgid "Navigate to the menu:Formulas[Saltboot] tab."
 msgstr ""
 
 #. type: Plain text
-#: ./modules/salt/pages/formula-saltboot.adoc:23
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/salt/pages/formula-saltboot.adoc:23
 msgid "In the [guimenu]``Disk 1`` section, set these parameters:"
 msgstr ""
 
 #. type: Plain text
-#: ./modules/salt/pages/formula-saltboot.adoc:24
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/salt/pages/formula-saltboot.adoc:24
 msgid ""
 "In the [guimenu]``Disk symbolic ID`` field, enter a custom name for the disk "
 "(for example, [systemitem]``disk1``)."
 msgstr ""
 
 #. type: Plain text
-#: ./modules/salt/pages/formula-saltboot.adoc:25
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/salt/pages/formula-saltboot.adoc:25
 msgid "In the [guimenu]``Device type`` field, select [systemitem]``DISK``."
 msgstr ""
 
 #. type: Plain text
-#: ./modules/salt/pages/formula-saltboot.adoc:26
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/salt/pages/formula-saltboot.adoc:26
 msgid ""
 "In the [guimenu]``Disk device`` field, select the device that corresponds to "
 "the device name on the target machine or asterisk [systemitem]``*``, see "
@@ -92,211 +92,217 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./modules/salt/pages/formula-saltboot.adoc:27
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/salt/pages/formula-saltboot.adoc:27
 msgid "In the [guimenu]``RAID level`` field, leave it empty."
 msgstr ""
 
 #. type: Plain text
-#: ./modules/salt/pages/formula-saltboot.adoc:28
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/salt/pages/formula-saltboot.adoc:28
 msgid "In the [guimenu]``Disk Label`` field, select [systemitem]``gpt``."
 msgstr ""
 
 #. type: Plain text
-#: ./modules/salt/pages/formula-saltboot.adoc:29
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/salt/pages/formula-saltboot.adoc:29
 msgid ""
 "In the [guimenu]``Partition`` section, set these parameters for "
 "[guimenu]``Partition 1``:"
 msgstr ""
 
 #. type: Plain text
-#: ./modules/salt/pages/formula-saltboot.adoc:30
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/salt/pages/formula-saltboot.adoc:30
 msgid ""
 "In the [guimenu]``Partition symbolic ID`` field, enter a custom name for the "
 "partition (for example, [systemitem]``p1``)."
 msgstr ""
 
 #. type: Plain text
-#: ./modules/salt/pages/formula-saltboot.adoc:31
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/salt/pages/formula-saltboot.adoc:31
 msgid "In the [guimenu]``Partition size`` use value 500."
 msgstr ""
 
 #. type: Plain text
-#: ./modules/salt/pages/formula-saltboot.adoc:32
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/salt/pages/formula-saltboot.adoc:32
 msgid "In the [guimenu]``Device mount point`` use [path]``/boot/efi``."
 msgstr ""
 
 #. type: Plain text
-#: ./modules/salt/pages/formula-saltboot.adoc:33
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/salt/pages/formula-saltboot.adoc:33
 msgid "In the [guimenu]``Filesystem format`` use [systemitem]``vfat``."
 msgstr ""
 
 #. type: Plain text
-#: ./modules/salt/pages/formula-saltboot.adoc:34 ./modules/salt/pages/formula-saltboot.adoc:42 ./modules/salt/pages/formula-saltboot.adoc:50
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/salt/pages/formula-saltboot.adoc:34
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/salt/pages/formula-saltboot.adoc:42
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/salt/pages/formula-saltboot.adoc:50
 msgid "In the [guimenu]``OS Image to deploy`` field, leave it empty."
 msgstr ""
 
 #. type: Plain text
-#: ./modules/salt/pages/formula-saltboot.adoc:35
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/salt/pages/formula-saltboot.adoc:35
 msgid "In the [guimenu]``Partition encryption password`` field, leave it empty."
 msgstr ""
 
 #. type: Plain text
-#: ./modules/salt/pages/formula-saltboot.adoc:36
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/salt/pages/formula-saltboot.adoc:36
 msgid "In the [guimenu]``Partition flags`` use [systemitem]``boot``."
 msgstr ""
 
 #. type: Plain text
-#: ./modules/salt/pages/formula-saltboot.adoc:37
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/salt/pages/formula-saltboot.adoc:37
 msgid ""
 "In the [guimenu]``Partition`` section, set these parameters for "
 "[guimenu]``Partition 2``:"
 msgstr ""
 
 #. type: Plain text
-#: ./modules/salt/pages/formula-saltboot.adoc:38
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/salt/pages/formula-saltboot.adoc:38
 msgid ""
 "In the [guimenu]``Partition symbolic ID`` field, enter a custom name for the "
 "partition (for example, [systemitem]``p2``)."
 msgstr ""
 
 #. type: Plain text
-#: ./modules/salt/pages/formula-saltboot.adoc:39 ./modules/salt/pages/formula-saltboot.adoc:47
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/salt/pages/formula-saltboot.adoc:39
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/salt/pages/formula-saltboot.adoc:47
 msgid ""
 "In the [guimenu]``Partition size`` field, specify a size for the partition "
 "in Mebibytes (MiB)."
 msgstr ""
 
 #. type: Plain text
-#: ./modules/salt/pages/formula-saltboot.adoc:40
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/salt/pages/formula-saltboot.adoc:40
 msgid ""
 "In the [guimenu]``Device mount point`` field, select a location to mount the "
 "partition (for example, [path]``/data``)."
 msgstr ""
 
 #. type: Plain text
-#: ./modules/salt/pages/formula-saltboot.adoc:41
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/salt/pages/formula-saltboot.adoc:41
 msgid ""
 "In the [guimenu]``Filesystem format`` field, select your preferred format "
 "(for example, [systemitem]``xfs``)."
 msgstr ""
 
 #. type: Plain text
-#: ./modules/salt/pages/formula-saltboot.adoc:43 ./modules/salt/pages/formula-saltboot.adoc:51 ./modules/salt/pages/formula-saltboot.adoc:62
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/salt/pages/formula-saltboot.adoc:43
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/salt/pages/formula-saltboot.adoc:51
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/salt/pages/formula-saltboot.adoc:62
 msgid ""
 "In the [guimenu]``Partition encryption password`` field, enter a password if "
 "you want to encrypt the partition."
 msgstr ""
 
 #. type: Plain text
-#: ./modules/salt/pages/formula-saltboot.adoc:44 ./modules/salt/pages/formula-saltboot.adoc:63
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/salt/pages/formula-saltboot.adoc:44
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/salt/pages/formula-saltboot.adoc:63
 msgid "In the [guimenu]``Partition flags`` field, leave it empty."
 msgstr ""
 
 #. type: Plain text
-#: ./modules/salt/pages/formula-saltboot.adoc:45
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/salt/pages/formula-saltboot.adoc:45
 msgid ""
 "In the [guimenu]``Partition`` section, set these parameters for "
 "[guimenu]``Partition 3``:"
 msgstr ""
 
 #. type: Plain text
-#: ./modules/salt/pages/formula-saltboot.adoc:46
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/salt/pages/formula-saltboot.adoc:46
 msgid ""
 "In the [guimenu]``Partition symbolic ID`` field, enter a custom name for the "
 "partition (for example, [systemitem]``p3``)."
 msgstr ""
 
 #. type: Plain text
-#: ./modules/salt/pages/formula-saltboot.adoc:48
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/salt/pages/formula-saltboot.adoc:48
 msgid "In the [guimenu]``Device mount point`` field, leave it empty."
 msgstr ""
 
 #. type: Plain text
-#: ./modules/salt/pages/formula-saltboot.adoc:49
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/salt/pages/formula-saltboot.adoc:49
 msgid "In the [guimenu]``Filesystem format`` field, select [systemitem]``swap``."
 msgstr ""
 
 #. type: Plain text
-#: ./modules/salt/pages/formula-saltboot.adoc:52
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/salt/pages/formula-saltboot.adoc:52
 msgid "In the [guimenu]``Partition flags`` field, select [systemitem]``swap``."
 msgstr ""
 
 #. type: Plain text
-#: ./modules/salt/pages/formula-saltboot.adoc:53
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/salt/pages/formula-saltboot.adoc:53
 msgid ""
 "In the [guimenu]``Partition`` section, set these parameters for "
 "[guimenu]``Partition 4``:"
 msgstr ""
 
 #. type: Plain text
-#: ./modules/salt/pages/formula-saltboot.adoc:54
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/salt/pages/formula-saltboot.adoc:54
 msgid ""
 "In the [guimenu]``Partition symbolic ID`` field, enter a custom name for the "
 "partition (for example, [systemitem]``p4``)."
 msgstr ""
 
 #. type: Plain text
-#: ./modules/salt/pages/formula-saltboot.adoc:56
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/salt/pages/formula-saltboot.adoc:56
 msgid ""
 "In the [guimenu]``Partition size`` field, leave it empty.  This will ensure "
 "the partition uses up all remaining space."
 msgstr ""
 
 #. type: Plain text
-#: ./modules/salt/pages/formula-saltboot.adoc:57
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/salt/pages/formula-saltboot.adoc:57
 msgid "In the [guimenu]``Device mount point`` field, select [systemitem]``/``."
 msgstr ""
 
 #. type: Plain text
-#: ./modules/salt/pages/formula-saltboot.adoc:58
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/salt/pages/formula-saltboot.adoc:58
 msgid "In the [guimenu]``Filesystem format`` field, leave it empty."
 msgstr ""
 
 #. type: Plain text
-#: ./modules/salt/pages/formula-saltboot.adoc:59
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/salt/pages/formula-saltboot.adoc:59
 msgid ""
 "In the [guimenu]``OS Image to deploy`` field, enter the name of the image to "
 "deploy."
 msgstr ""
 
 #. type: Plain text
-#: ./modules/salt/pages/formula-saltboot.adoc:61
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/salt/pages/formula-saltboot.adoc:61
 msgid ""
 "In the [guimenu]``Image version`` field, leave it empty.  This will ensure "
 "you use the latest available version."
 msgstr ""
 
 #. type: Plain text
-#: ./modules/salt/pages/formula-saltboot.adoc:64
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/salt/pages/formula-saltboot.adoc:64
 msgid "Click btn:[Save Formula] to save your configuration."
 msgstr ""
 
 #. type: Title ==
-#: ./modules/salt/pages/formula-saltboot.adoc:68
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/salt/pages/formula-saltboot.adoc:68
 #, no-wrap
 msgid "Special Partition Types"
 msgstr ""
 
 #. type: Plain text
-#: ./modules/salt/pages/formula-saltboot.adoc:71
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/salt/pages/formula-saltboot.adoc:71
 msgid "The Saltboot formula helps you with setting up special partition types."
 msgstr ""
 
 #. type: delimited block =
-#: ./modules/salt/pages/formula-saltboot.adoc:75
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/salt/pages/formula-saltboot.adoc:75
 msgid ""
 "For terminal to be able to boot locally, either [systemitem]``BIOS grub`` or "
 "[systemitem]``EFI`` partition must be configured."
 msgstr ""
 
 #. type: Title ===
-#: ./modules/salt/pages/formula-saltboot.adoc:77
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/salt/pages/formula-saltboot.adoc:77
 #, no-wrap
 msgid "BIOS grub Partition"
 msgstr ""
 
 #. type: Plain text
-#: ./modules/salt/pages/formula-saltboot.adoc:81
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/salt/pages/formula-saltboot.adoc:81
 msgid ""
 "A BIOS grub partition is needed for local booting from a `GPT` disk on "
 "non-EFI machines.  For more information, see "
@@ -304,12 +310,13 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./modules/salt/pages/formula-saltboot.adoc:83 ./modules/salt/pages/formula-saltboot.adoc:100
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/salt/pages/formula-saltboot.adoc:83
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/salt/pages/formula-saltboot.adoc:100
 msgid "In the formula, enter the following options:"
 msgstr ""
 
 #. type: delimited block -
-#: ./modules/salt/pages/formula-saltboot.adoc:88
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/salt/pages/formula-saltboot.adoc:88
 #, no-wrap
 msgid ""
 "Partition Symbolic ID: p1\n"
@@ -318,18 +325,19 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./modules/salt/pages/formula-saltboot.adoc:91 ./modules/salt/pages/formula-saltboot.adoc:109
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/salt/pages/formula-saltboot.adoc:91
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/salt/pages/formula-saltboot.adoc:109
 msgid "Leave the other fields empty."
 msgstr ""
 
 #. type: Title ===
-#: ./modules/salt/pages/formula-saltboot.adoc:94
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/salt/pages/formula-saltboot.adoc:94
 #, no-wrap
 msgid "EFI Partition"
 msgstr ""
 
 #. type: Plain text
-#: ./modules/salt/pages/formula-saltboot.adoc:98
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/salt/pages/formula-saltboot.adoc:98
 msgid ""
 "An EFI partition is needed for local booting on EFI machines, "
 "[guimenu]``Partition Table Type`` must be `GPT`.  For more information, see "
@@ -337,7 +345,7 @@ msgid ""
 msgstr ""
 
 #. type: delimited block -
-#: ./modules/salt/pages/formula-saltboot.adoc:106
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/salt/pages/formula-saltboot.adoc:106
 #, no-wrap
 msgid ""
 "Partition Symbolic ID: p1\n"
@@ -348,13 +356,13 @@ msgid ""
 msgstr ""
 
 #. type: Title ==
-#: ./modules/salt/pages/formula-saltboot.adoc:111
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/salt/pages/formula-saltboot.adoc:111
 #, no-wrap
 msgid "Disk Selection in Saltboot Formula"
 msgstr ""
 
 #. type: Plain text
-#: ./modules/salt/pages/formula-saltboot.adoc:114
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/salt/pages/formula-saltboot.adoc:114
 msgid ""
 "When there is only one disk present on target hardware (including USB "
 "drives), use an asterisk [systemitem]``*`` to automatically select the disk "
@@ -362,14 +370,14 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./modules/salt/pages/formula-saltboot.adoc:117
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/salt/pages/formula-saltboot.adoc:117
 msgid ""
 "When there are multiple disks, use an asterisk [systemitem]``*`` in the "
 "device path.  In this example, SATA disks are differentiated from USB disks:"
 msgstr ""
 
 #. type: delimited block -
-#: ./modules/salt/pages/formula-saltboot.adoc:121
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/salt/pages/formula-saltboot.adoc:121
 #, no-wrap
 msgid ""
 "/dev/disk/by-path/*-ata-1\n"
@@ -377,7 +385,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./modules/salt/pages/formula-saltboot.adoc:125
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/salt/pages/formula-saltboot.adoc:125
 msgid ""
 "If the entered value does not contain \"[systemitem]``/``\", the entered "
 "value is automatically prepended by \"[path]``/dev/disk/by-path/``\".  For "
@@ -386,48 +394,48 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./modules/salt/pages/formula-saltboot.adoc:127
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/salt/pages/formula-saltboot.adoc:127
 msgid ""
 "If you prefer to select specific devices, you can this format in the disk "
 "device field:"
 msgstr ""
 
 #. type: Plain text
-#: ./modules/salt/pages/formula-saltboot.adoc:129
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/salt/pages/formula-saltboot.adoc:129
 msgid "symbolic names (e.g. [path]``/dev/sda``)"
 msgstr ""
 
 #. type: Plain text
-#: ./modules/salt/pages/formula-saltboot.adoc:130
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/salt/pages/formula-saltboot.adoc:130
 msgid "by-path (e.g. [path]``/dev/disk/by-path/..``)"
 msgstr ""
 
 #. type: Plain text
-#: ./modules/salt/pages/formula-saltboot.adoc:131
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/salt/pages/formula-saltboot.adoc:131
 msgid "by-id (e.g. [path]``/dev/disk/by-id/...``)"
 msgstr ""
 
 #. type: Plain text
-#: ./modules/salt/pages/formula-saltboot.adoc:133
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/salt/pages/formula-saltboot.adoc:133
 msgid ""
 "To see a list of available devices from the command prompt, press kbd:[Esc] "
 "while waiting for key approval."
 msgstr ""
 
 #. type: Title ==
-#: ./modules/salt/pages/formula-saltboot.adoc:136
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/salt/pages/formula-saltboot.adoc:136
 #, no-wrap
 msgid "Troubleshooting the Saltboot Formula"
 msgstr ""
 
 #. type: Labeled list
-#: ./modules/salt/pages/formula-saltboot.adoc:138
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/salt/pages/formula-saltboot.adoc:138
 #, no-wrap
 msgid "``msdos`` Disklabel Limitations"
 msgstr ""
 
 #. type: Plain text
-#: ./modules/salt/pages/formula-saltboot.adoc:143
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/salt/pages/formula-saltboot.adoc:143
 msgid ""
 "On the ``msdos`` disk label, you can create a maximum of four primary "
 "partitions.  Extended partitions are not supported.  If you need more than "
@@ -435,7 +443,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./modules/salt/pages/formula-saltboot.adoc:144
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/salt/pages/formula-saltboot.adoc:144
 msgid ""
 "For more information on troubleshooting problems with the Saltboot formula, "
 "see xref:administration:tshoot-saltboot.adoc[]."

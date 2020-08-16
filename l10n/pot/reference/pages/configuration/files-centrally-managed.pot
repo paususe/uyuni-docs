@@ -7,23 +7,23 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2020-07-26 02:34+0200\n"
+"POT-Creation-Date: 2020-08-17 01:22+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: Title =
-#: ./modules/reference/pages/configuration/files-centrally-managed.adoc:2
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/configuration/files-centrally-managed.adoc:2
 #, no-wrap
 msgid "Centrally Managed Configuration Files"
 msgstr ""
 
 #. type: Plain text
-#: ./modules/reference/pages/configuration/files-centrally-managed.adoc:9
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/configuration/files-centrally-managed.adoc:9
 msgid ""
 "Centrally-managed files are available to multiple systems.  Changing a file "
 "within a centrally-managed channel may result in changes to several "
@@ -34,20 +34,20 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./modules/reference/pages/configuration/files-centrally-managed.adoc:11
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/configuration/files-centrally-managed.adoc:11
 msgid ""
 "This page lists all files currently stored in your central configuration "
 "channel."
 msgstr ""
 
 #. type: Block title
-#: ./modules/reference/pages/configuration/files-centrally-managed.adoc:17
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/configuration/files-centrally-managed.adoc:17
 #, no-wrap
 msgid "Centrally Managed Files Columns"
 msgstr ""
 
 #. type: Table
-#: ./modules/reference/pages/configuration/files-centrally-managed.adoc:24
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/configuration/files-centrally-managed.adoc:24
 #, no-wrap
 msgid ""
 "| Column                | Description\n"
@@ -58,7 +58,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./modules/reference/pages/configuration/files-centrally-managed.adoc:29
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/configuration/files-centrally-managed.adoc:29
 #, no-wrap
 msgid ""
 "Click the [guimenu]``Path`` of a file to see [guimenu]``Details`` tab of the "

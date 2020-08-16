@@ -7,30 +7,30 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2020-07-26 02:34+0200\n"
+"POT-Creation-Date: 2020-08-17 01:22+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: Title =
-#: ./modules/reference/pages/patches/patch-list-all.adoc:2
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/patches/patch-list-all.adoc:2
 #, no-wrap
 msgid "All Patches"
 msgstr ""
 
 #. type: Plain text
-#: ./modules/reference/pages/patches/patch-list-all.adoc:6
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/patches/patch-list-all.adoc:6
 msgid ""
 "The menu:Patches[Patch List > All] section displays a list of all patches "
 "released by {suse}.  Not all of the patches will apply to your clients."
 msgstr ""
 
 #. type: Plain text
-#: ./modules/reference/pages/patches/patch-list-all.adoc:9
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/patches/patch-list-all.adoc:9
 msgid ""
 "Each patch in the list shows a patch type, an advisory number, a short "
 "description, the number of clients in your network affected, and the date "
@@ -39,13 +39,13 @@ msgid ""
 msgstr ""
 
 #. type: Block title
-#: ./modules/reference/pages/patches/patch-list-all.adoc:13
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/patches/patch-list-all.adoc:13
 #, no-wrap
 msgid "Patch Status Icons"
 msgstr ""
 
 #. type: Table
-#: ./modules/reference/pages/patches/patch-list-all.adoc:20
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/patches/patch-list-all.adoc:20
 #, no-wrap
 msgid ""
 "| Icon | Description | Action Required\n"
@@ -58,7 +58,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./modules/reference/pages/patches/patch-list-all.adoc:22
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/patches/patch-list-all.adoc:22
 msgid ""
 "For more information about patching, see "
 "xref:client-configuration:patch-management.adoc[]."

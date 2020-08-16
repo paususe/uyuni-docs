@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2020-07-26 02:33+0200\n"
+"POT-Creation-Date: 2020-08-17 01:16+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,13 +17,13 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: Title =
-#: modules/client-configuration/pages/bootstrap-repository.adoc:2
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/bootstrap-repository.adoc:2
 #, no-wrap
 msgid "Bootstrap Repository"
 msgstr ""
 
 #. type: Plain text
-#: modules/client-configuration/pages/bootstrap-repository.adoc:6
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/bootstrap-repository.adoc:6
 msgid ""
 "A bootstrap repository contains packages for installing Salt on clients, as "
 "well as the required packages for registering Salt or traditional clients "
@@ -32,39 +32,39 @@ msgid ""
 msgstr ""
 
 #. type: Title ==
-#: modules/client-configuration/pages/bootstrap-repository.adoc:9
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/bootstrap-repository.adoc:9
 #, no-wrap
 msgid "Prepare to Create a Bootstrap Repository"
 msgstr ""
 
 #. type: Plain text
-#: modules/client-configuration/pages/bootstrap-repository.adoc:12
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/bootstrap-repository.adoc:12
 msgid ""
 "When you select a product for synchronization, the bootstrap repository is "
 "automatically created as soon as all mandatory channels are fully mirrored."
 msgstr ""
 
 #. type: Title ==
-#: modules/client-configuration/pages/bootstrap-repository.adoc:31
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/bootstrap-repository.adoc:31
 #, no-wrap
 msgid "Options for Automatic Mode"
 msgstr ""
 
 #. type: Plain text
-#: modules/client-configuration/pages/bootstrap-repository.adoc:35
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/bootstrap-repository.adoc:35
 msgid ""
 "You can change how the automated bootstrap repository creation works.  This "
 "section details the various settings."
 msgstr ""
 
 #. type: Block title
-#: modules/client-configuration/pages/bootstrap-repository.adoc:38
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/bootstrap-repository.adoc:38
 #, no-wrap
 msgid "Flush Mode"
 msgstr ""
 
 #. type: Plain text
-#: modules/client-configuration/pages/bootstrap-repository.adoc:42
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/bootstrap-repository.adoc:42
 msgid ""
 "By default, every regeneration starts with an empty repository and copies "
 "only the latest packages into it.  To disable this behavior, add or edit "
@@ -72,26 +72,26 @@ msgid ""
 msgstr ""
 
 #. type: delimited block -
-#: modules/client-configuration/pages/bootstrap-repository.adoc:45
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/bootstrap-repository.adoc:45
 #, no-wrap
 msgid "server.susemanager.bootstrap_repo_flush = 0\n"
 msgstr ""
 
 #. type: Plain text
-#: modules/client-configuration/pages/bootstrap-repository.adoc:48
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/bootstrap-repository.adoc:48
 msgid ""
 "Alternatively, you can use the ``--no-flush`` option when you create the "
 "bootstrap repository from the command prompt."
 msgstr ""
 
 #. type: Block title
-#: modules/client-configuration/pages/bootstrap-repository.adoc:51
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/bootstrap-repository.adoc:51
 #, no-wrap
 msgid "Automatic Mode"
 msgstr ""
 
 #. type: Plain text
-#: modules/client-configuration/pages/bootstrap-repository.adoc:55
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/bootstrap-repository.adoc:55
 msgid ""
 "By default, automated regeneration of the bootstrap repositories is "
 "enabled.  To disable it, add or edit this value in [path]``/etc/rhn/rhn."
@@ -99,19 +99,19 @@ msgid ""
 msgstr ""
 
 #. type: delimited block -
-#: modules/client-configuration/pages/bootstrap-repository.adoc:58
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/bootstrap-repository.adoc:58
 #, no-wrap
 msgid "server.susemanager.auto_generate_bootstrap_repo = 0\n"
 msgstr ""
 
 #. type: Title ===
-#: modules/client-configuration/pages/bootstrap-repository.adoc:62
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/bootstrap-repository.adoc:62
 #, no-wrap
 msgid "Configure Bootstrap Data File"
 msgstr ""
 
 #. type: Plain text
-#: modules/client-configuration/pages/bootstrap-repository.adoc:69
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/bootstrap-repository.adoc:69
 msgid ""
 "The tool uses a data file with information about which packages are required "
 "for each distribution.  The data file is stored at [path]``/usr/share/"
@@ -121,7 +121,7 @@ msgid ""
 msgstr ""
 
 #. type: delimited block -
-#: modules/client-configuration/pages/bootstrap-repository.adoc:73
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/bootstrap-repository.adoc:73
 #, no-wrap
 msgid ""
 "cd /usr/share/susemanager/\n"
@@ -129,20 +129,20 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/client-configuration/pages/bootstrap-repository.adoc:77
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/bootstrap-repository.adoc:77
 msgid ""
 "When you have made your changes, configure {productname} to use the new "
 "file.  Add or edit this value in [path]``/etc/rhn/rhn.conf``:"
 msgstr ""
 
 #. type: delimited block -
-#: modules/client-configuration/pages/bootstrap-repository.adoc:80
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/bootstrap-repository.adoc:80
 #, no-wrap
 msgid "server.susemanager.bootstrap_repo_datamodule = my_data\n"
 msgstr ""
 
 #. type: delimited block =
-#: modules/client-configuration/pages/bootstrap-repository.adoc:86
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/bootstrap-repository.adoc:86
 msgid ""
 "On the next update, the new data from {suse} will overwrite the original "
 "data file, not the new one.  You will need to keep the new file up to date "
@@ -150,65 +150,65 @@ msgid ""
 msgstr ""
 
 #. type: Title ==
-#: modules/client-configuration/pages/bootstrap-repository.adoc:90
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/bootstrap-repository.adoc:90
 #, no-wrap
 msgid "Manually Generate a Bootstrap Repository"
 msgstr ""
 
 #. type: Plain text
-#: modules/client-configuration/pages/bootstrap-repository.adoc:94
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/bootstrap-repository.adoc:94
 msgid ""
 "By default, bootstrap repositories are regenerated daily.  You can manually "
 "create the bootstrap repository from the command prompt:"
 msgstr ""
 
 #. type: Block title
-#: modules/client-configuration/pages/bootstrap-repository.adoc:97
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/bootstrap-repository.adoc:97
 #, no-wrap
 msgid "Procedure: Generating the Bootstrap Repository for {sle}"
 msgstr ""
 
 #. type: Plain text
-#: modules/client-configuration/pages/bootstrap-repository.adoc:99
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/bootstrap-repository.adoc:99
 msgid ""
 "At the command prompt on the {productname} Server, as root, list the "
 "available bootstrap repositories:"
 msgstr ""
 
 #. type: delimited block -
-#: modules/client-configuration/pages/bootstrap-repository.adoc:102
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/bootstrap-repository.adoc:102
 #, no-wrap
 msgid "mgr-create-bootstrap-repo -l\n"
 msgstr ""
 
 #. type: Plain text
-#: modules/client-configuration/pages/bootstrap-repository.adoc:104
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/bootstrap-repository.adoc:104
 msgid ""
 "Create the bootstrap repository, using the appropriate repository name as "
 "the product label:"
 msgstr ""
 
 #. type: delimited block -
-#: modules/client-configuration/pages/bootstrap-repository.adoc:107
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/bootstrap-repository.adoc:107
 #, no-wrap
 msgid "mgr-create-bootstrap-repo -c SLE-version-x86_64\n"
 msgstr ""
 
 #. type: Plain text
-#: modules/client-configuration/pages/bootstrap-repository.adoc:110
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/bootstrap-repository.adoc:110
 msgid ""
 "The client repository is located in [path]``/srv/www/htdocs/pub/repositories/"
 "``."
 msgstr ""
 
 #. type: Block title
-#: modules/client-configuration/pages/bootstrap-repository.adoc:113
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/bootstrap-repository.adoc:113
 #, no-wrap
 msgid "Procedure: Specifying a Parent Channel for a Bootstrap Repository"
 msgstr ""
 
 #. type: Plain text
-#: modules/client-configuration/pages/bootstrap-repository.adoc:116
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/bootstrap-repository.adoc:116
 msgid ""
 "If you have mirrored more than one product (for example, SLES and SLES for "
 "SAP), or if you use custom channels, you need to specify the parent channel "
@@ -216,12 +216,12 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/client-configuration/pages/bootstrap-repository.adoc:118
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/bootstrap-repository.adoc:118
 msgid "Check which parent channels you have available:"
 msgstr ""
 
 #. type: delimited block -
-#: modules/client-configuration/pages/bootstrap-repository.adoc:126
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/bootstrap-repository.adoc:126
 #, no-wrap
 msgid ""
 "mgr-create-bootstrap-repo -c SLE-15-x86_64\n"
@@ -233,24 +233,24 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/client-configuration/pages/bootstrap-repository.adoc:128
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/bootstrap-repository.adoc:128
 msgid "Specify the appropriate parent channel:"
 msgstr ""
 
 #. type: delimited block -
-#: modules/client-configuration/pages/bootstrap-repository.adoc:131
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/bootstrap-repository.adoc:131
 #, no-wrap
 msgid "mgr-create-bootstrap-repo -c SLE-15-x86_64 --with-parent-channel sle-product-sled15-pool-x86_64\n"
 msgstr ""
 
 #. type: Title ===
-#: modules/client-configuration/pages/bootstrap-repository.adoc:135
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/bootstrap-repository.adoc:135
 #, no-wrap
 msgid "Repositories with Multiple Architectures"
 msgstr ""
 
 #. type: Plain text
-#: modules/client-configuration/pages/bootstrap-repository.adoc:140
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/bootstrap-repository.adoc:140
 msgid ""
 "If you are creating bootstrap repositories that include multiple different "
 "architectures, you need to be careful that all architectures are updated "
@@ -260,7 +260,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/client-configuration/pages/bootstrap-repository.adoc:144
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/bootstrap-repository.adoc:144
 msgid ""
 "Because the ``flush`` option is enabled by default, when you attempt to "
 "generate the bootstrap repository for multiple architectures, only one "
@@ -270,7 +270,7 @@ msgid ""
 msgstr ""
 
 #. type: delimited block -
-#: modules/client-configuration/pages/bootstrap-repository.adoc:148
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/bootstrap-repository.adoc:148
 #, no-wrap
 msgid ""
 "mgr-create-bootstrap-repo -c SLE-15-SP1-x86_64\n"
@@ -278,13 +278,13 @@ msgid ""
 msgstr ""
 
 #. type: Title ==
-#: modules/client-configuration/pages/bootstrap-repository.adoc:152
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/bootstrap-repository.adoc:152
 #, no-wrap
 msgid "Bootstrap and Custom Channels"
 msgstr ""
 
 #. type: Plain text
-#: modules/client-configuration/pages/bootstrap-repository.adoc:156
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/bootstrap-repository.adoc:156
 msgid ""
 "If you are using custom channels, you can use the [option]``--with-custom-"
 "channels`` option with the [command]``mgr-create-bootstrap-repo`` command.  "
@@ -292,7 +292,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/client-configuration/pages/bootstrap-repository.adoc:159
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/bootstrap-repository.adoc:159
 msgid ""
 "Automatic creation of a bootstrap repository might fail if you are using "
 "custom channels.  In this case, you will need to create the repository "
@@ -300,7 +300,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/client-configuration/pages/bootstrap-repository.adoc:160
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/bootstrap-repository.adoc:160
 msgid ""
 "For more information about custom channels, see xref:administration:custom-"
 "channels.adoc[]."

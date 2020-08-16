@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2020-07-26 02:33+0200\n"
+"POT-Creation-Date: 2020-08-17 01:16+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,20 +17,20 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: Title =
-#: modules/administration/pages/ssl-certs.adoc:2
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/ssl-certs.adoc:2
 #, no-wrap
 msgid "SSL Certificates"
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/ssl-certs.adoc:5
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/ssl-certs.adoc:5
 msgid ""
 "{productname} uses SSL certificates to ensure that clients are registered to "
 "the correct server."
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/ssl-certs.adoc:8
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/ssl-certs.adoc:8
 msgid ""
 "Every client that uses SSL to register to the {productname} Server checks "
 "that it is connecting to the right server by validating against a server "
@@ -38,7 +38,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/ssl-certs.adoc:11
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/ssl-certs.adoc:11
 msgid ""
 "During the SSL handshake, the client will check that the hostname in the "
 "server certificate matches what it expects.  The client also needs to check "
@@ -46,7 +46,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/ssl-certs.adoc:14
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/ssl-certs.adoc:14
 msgid ""
 "Every {productname} Server that uses SSL requires an SSL server "
 "certificate.  Provide the path to the server certificate using the "
@@ -55,7 +55,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/ssl-certs.adoc:17
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/ssl-certs.adoc:17
 msgid ""
 "Certificate authorities (CAs) are certificates that are used to sign other "
 "certificates.  All certificates must be signed by a certificate authority "
@@ -64,7 +64,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/ssl-certs.adoc:23
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/ssl-certs.adoc:23
 msgid ""
 "When an organization signs its own certificate, the certificate is "
 "considered self-signed.  A self-signed certificate is straight-forward to "
@@ -77,14 +77,14 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/ssl-certs.adoc:26
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/ssl-certs.adoc:26
 msgid ""
 "In order for SSL authentication to work correctly, the client must trust the "
 "root CA.  This means that the root CA must be installed on every client."
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/ssl-certs.adoc:29
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/ssl-certs.adoc:29
 msgid ""
 "The default method of SSL authentication is for {productname} to use self-"
 "signed certificates.  In this case, {productname} has generated all the "
@@ -92,7 +92,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/ssl-certs.adoc:34
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/ssl-certs.adoc:34
 msgid ""
 "An alternative method is to use an intermediate CA.  In this case, the root "
 "CA signs the intermediate CA.  The intermediate CA can then sign any number "
@@ -101,7 +101,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/ssl-certs.adoc:37
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/ssl-certs.adoc:37
 msgid ""
 "If you are using intermediate CAs in a chained certificate, the root CA is "
 "installed on the client, and the server certificate is installed on the "
@@ -112,7 +112,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/ssl-certs.adoc:42
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/ssl-certs.adoc:42
 msgid ""
 "There are two main ways of achieving this.  In {productname}, by default, "
 "all the intermediate CAs are installed on the client.  However, you could "
@@ -122,7 +122,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/ssl-certs.adoc:46
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/ssl-certs.adoc:46
 msgid ""
 "Whichever method you choose, you must ensure that the ``CA_CERT`` "
 "environment variable points to the root CA, and all intermediate CAs.  It "
@@ -131,7 +131,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/ssl-certs.adoc:53
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/ssl-certs.adoc:53
 msgid ""
 "By default, {productname} uses a self-signed certificate.  For additional "
 "security, you can arrange a third party CA to sign your certificates.  Third "
@@ -144,14 +144,14 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/ssl-certs.adoc:55
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/ssl-certs.adoc:55
 msgid ""
 "For more on self-signed certificates, see xref:administration:ssl-certs-"
 "selfsigned.adoc[]."
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/ssl-certs.adoc:55
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/ssl-certs.adoc:55
 msgid ""
 "For more on imported certificates, see xref:administration:ssl-certs-"
 "imported.adoc[]."

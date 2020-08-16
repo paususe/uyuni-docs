@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2020-07-26 02:34+0200\n"
+"POT-Creation-Date: 2020-08-17 01:22+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,26 +17,26 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: Title =
-#: ./modules/reference/pages/home/my-organization-configuration.adoc:2
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/home/my-organization-configuration.adoc:2
 #, no-wrap
 msgid "Organization Configuration"
 msgstr ""
 
 #. type: Plain text
-#: ./modules/reference/pages/home/my-organization-configuration.adoc:5
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/home/my-organization-configuration.adoc:5
 msgid ""
 "The menu:Home[My Organization > Configuration] section allows you to "
 "configure your current organization."
 msgstr ""
 
 #. type: Block title
-#: ./modules/reference/pages/home/my-organization-configuration.adoc:7
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/home/my-organization-configuration.adoc:7
 #, no-wrap
 msgid "Organization Configuration Options"
 msgstr ""
 
 #. type: Table
-#: ./modules/reference/pages/home/my-organization-configuration.adoc:20
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/home/my-organization-configuration.adoc:20
 #, no-wrap
 msgid ""
 "| Option                            | Description   | Default\n"
@@ -61,21 +61,21 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./modules/reference/pages/home/my-organization-configuration.adoc:25
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/home/my-organization-configuration.adoc:25
 msgid ""
 "For more information about content staging, see "
 "xref:administration:content-staging.adoc[]."
 msgstr ""
 
 #. type: Plain text
-#: ./modules/reference/pages/home/my-organization-configuration.adoc:26
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/home/my-organization-configuration.adoc:26
 msgid ""
 "For more information about OpenSCAP, see "
 "xref:administration:openscap.adoc[]."
 msgstr ""
 
 #. type: Plain text
-#: ./modules/reference/pages/home/my-organization-configuration.adoc:26
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/home/my-organization-configuration.adoc:26
 msgid ""
 "For more information about organizations, see "
 "xref:administration:organizations.adoc[]."

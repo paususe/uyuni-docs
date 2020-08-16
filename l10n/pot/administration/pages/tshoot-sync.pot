@@ -7,17 +7,17 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2020-07-26 02:33+0200\n"
+"POT-Creation-Date: 2020-08-17 01:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: Title =
-#: ./modules/administration/pages/tshoot-sync.adoc:2
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/tshoot-sync.adoc:2
 #, no-wrap
 msgid "Troubleshooting Package Synchronization"
 msgstr ""
@@ -38,7 +38,7 @@ msgstr ""
 #. . Another step
 #. . Last step
 #. type: Plain text
-#: ./modules/administration/pages/tshoot-sync.adoc:25
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/tshoot-sync.adoc:25
 msgid ""
 "{productname} does not automatically trust third party GPG keys.  If package "
 "synchronization fails, it could be because of an untrusted GPG key.  You can "
@@ -47,7 +47,7 @@ msgid ""
 msgstr ""
 
 #. type: delimited block -
-#: ./modules/administration/pages/tshoot-sync.adoc:31
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/tshoot-sync.adoc:31
 #, no-wrap
 msgid ""
 "['/usr/bin/spacewalk-repo-sync', '--channel', 'sle-12-sp1-ga-desktop-\n"
@@ -58,7 +58,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./modules/administration/pages/tshoot-sync.adoc:34
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/tshoot-sync.adoc:34
 msgid ""
 "To resolve the problem, you need to import the GPG key to {productname}.  "
 "For more on importing GPG keys, see "

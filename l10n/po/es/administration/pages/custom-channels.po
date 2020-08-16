@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2020-07-26 02:33+0200\n"
+"POT-Creation-Date: 2020-08-17 01:16+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,13 +17,13 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: Title =
-#: modules/administration/pages/custom-channels.adoc:2
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/custom-channels.adoc:2
 #, no-wrap
 msgid "Custom Channels"
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/custom-channels.adoc:6
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/custom-channels.adoc:6
 msgid ""
 "Custom channels give you the ability to create your own software packages "
 "and repositories, which you can use to update your clients.  They also allow "
@@ -31,34 +31,34 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/custom-channels.adoc:8
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/custom-channels.adoc:8
 msgid ""
 "You must have administrator privileges to be able to create and manage "
 "custom channels."
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/custom-channels.adoc:10
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/custom-channels.adoc:10
 msgid ""
 "Before you create a custom channel, determine which base channel you want to "
 "associate it with, and which repositories you want to use for content."
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/custom-channels.adoc:12
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/custom-channels.adoc:12
 msgid ""
 "This section gives more detail on how to create, administer, and delete "
 "custom channels."
 msgstr ""
 
 #. type: Title ==
-#: modules/administration/pages/custom-channels.adoc:15
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/custom-channels.adoc:15
 #, no-wrap
 msgid "Creating Custom Channels and Repositories"
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/custom-channels.adoc:19
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/custom-channels.adoc:19
 msgid ""
 "If you have custom software packages that you need to install on your "
 "{productname} systems, you can create a custom child channel to manage "
@@ -68,7 +68,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/custom-channels.adoc:22
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/custom-channels.adoc:22
 msgid ""
 "You can select a vendor channel as the base channel if you want to use "
 "packages provided by a vendor.  Alternatively, select ``none`` to make your "
@@ -77,7 +77,7 @@ msgstr ""
 
 #.  We need to create a section on importing GPG keys and change this to point there: https://github.com/SUSE/spacewalk/issues/9474 LKB 2019-09-18
 #. type: Plain text
-#: modules/administration/pages/custom-channels.adoc:29
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/custom-channels.adoc:29
 msgid ""
 "Custom channels will sometimes require additional security settings.  Many "
 "third party vendors secure packages with GPG.  If you want to use GPG-"
@@ -89,27 +89,27 @@ msgid ""
 msgstr ""
 
 #. type: delimited block =
-#: modules/administration/pages/custom-channels.adoc:35
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/custom-channels.adoc:35
 msgid ""
 "Do not create child channels containing packages that are not compatible "
 "with the client system."
 msgstr ""
 
 #. type: Block title
-#: modules/administration/pages/custom-channels.adoc:39
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/custom-channels.adoc:39
 #, no-wrap
 msgid "Procedure: Creating a Custom Channel"
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/custom-channels.adoc:41
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/custom-channels.adoc:41
 msgid ""
 "In the {productname} {webui}, navigate to menu:Software[Manage > Channels], "
 "and click btn:[Create Channel]."
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/custom-channels.adoc:43
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/custom-channels.adoc:43
 msgid ""
 "On the [guimenu]``Create Software Channel`` page, give your channel a name "
 "(for example, [systemitem]``My Tools SLES 15 SP1 x86_64``) and a label (for "
@@ -118,7 +118,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/custom-channels.adoc:45
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/custom-channels.adoc:45
 msgid ""
 "In the [guimenu]``Parent Channel`` drop down, choose the relevant base "
 "channel (for example, [systemitem]``SLE-Product-SLES15-SP1-Pool for "
@@ -127,26 +127,26 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/custom-channels.adoc:46
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/custom-channels.adoc:46
 msgid ""
 "In the [guimenu]``Architecture`` drop down, choose the appropriate hardware "
 "architecture (for example, [systemitem]``x86_64``)."
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/custom-channels.adoc:47
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/custom-channels.adoc:47
 msgid ""
 "Provide any additional information in the contact details, channel access "
 "control, and GPG fields, as required for your environment."
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/custom-channels.adoc:48
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/custom-channels.adoc:48
 msgid "Click btn:[Create Channel]."
 msgstr ""
 
 #. type: delimited block =
-#: modules/administration/pages/custom-channels.adoc:55
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/custom-channels.adoc:55
 msgid ""
 "By default, the ``Enable GPG Check`` field is checked when you create a new "
 "channel.  If you would like to add custom packages and applications to your "
@@ -156,27 +156,27 @@ msgid ""
 msgstr ""
 
 #. type: Block title
-#: modules/administration/pages/custom-channels.adoc:59
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/custom-channels.adoc:59
 #, no-wrap
 msgid "Procedure: Creating a Software Repository"
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/custom-channels.adoc:61
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/custom-channels.adoc:61
 msgid ""
 "In the {productname} {webui}, navigate to menu:Software[Manage > "
 "Repositories], and click btn:[Create Repository]."
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/custom-channels.adoc:62
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/custom-channels.adoc:62
 msgid ""
 "On the [guimenu]``Create Repository`` page, give your repository a label "
 "(for example, [systemitem]``my-tools-sles15sp1-x86_64-repo``)."
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/custom-channels.adoc:64
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/custom-channels.adoc:64
 msgid ""
 "In the [guimenu]``Repository URL`` field, provide the path to the directory "
 "that contains the [path]``repodata`` file (for example, "
@@ -185,30 +185,30 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/custom-channels.adoc:65
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/custom-channels.adoc:65
 msgid "Uncheck the [guimenu]``Has Signed Metadata?`` check box."
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/custom-channels.adoc:66
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/custom-channels.adoc:66
 msgid ""
 "OPTIONAL: Complete the SSL fields if your repository requires client "
 "certificate authentication."
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/custom-channels.adoc:67
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/custom-channels.adoc:67
 msgid "Click btn:[Create Repository]."
 msgstr ""
 
 #. type: Block title
-#: modules/administration/pages/custom-channels.adoc:70
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/custom-channels.adoc:70
 #, no-wrap
 msgid "Procedure: Assigning the Repository to a Channel"
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/custom-channels.adoc:72
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/custom-channels.adoc:72
 msgid ""
 "Assign your new repository to your custom channel by navigating to menu:"
 "Software[Manage > Channels], clicking the name of your newly created custom "
@@ -216,14 +216,14 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/custom-channels.adoc:73
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/custom-channels.adoc:73
 msgid ""
 "Ensure the repository you want to assign to the channel is checked, and "
 "click btn:[Update Repositories]."
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/custom-channels.adoc:75
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/custom-channels.adoc:75
 msgid ""
 "Navigate to the [guimenu]``Sync`` tab and click btn:[Sync Now] to "
 "synchronize immediately.  You can also set an automated synchronization "
@@ -231,13 +231,13 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/custom-channels.adoc:78
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/custom-channels.adoc:78
 msgid ""
 "There are several ways to check if a channel has finished synchronizing:"
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/custom-channels.adoc:81
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/custom-channels.adoc:81
 msgid ""
 "In the {productname} {webui}, navigate to menu:Admin[Setup Wizard] and "
 "select the [guimenu]``Products`` tab.  This dialog displays a completion bar "
@@ -245,7 +245,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/custom-channels.adoc:84
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/custom-channels.adoc:84
 msgid ""
 "In the {productname} {webui}, navigate to menu:Software[Manage > Channels], "
 "then click the channel associated to the repository.  Navigate to the menu:"
@@ -254,18 +254,18 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/custom-channels.adoc:85
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/custom-channels.adoc:85
 msgid "Check the synchronization log file at the command prompt:"
 msgstr ""
 
 #. type: delimited block -
-#: modules/administration/pages/custom-channels.adoc:88
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/custom-channels.adoc:88
 #, no-wrap
 msgid "tail -f /var/log/rhn/reposync/<channel-label>.log\n"
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/custom-channels.adoc:92
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/custom-channels.adoc:92
 msgid ""
 "Each child channel will generate its own log during the synchronization "
 "progress.  You will need to check all the base and child channel log files "
@@ -273,20 +273,20 @@ msgid ""
 msgstr ""
 
 #. type: Block title
-#: modules/administration/pages/custom-channels.adoc:95
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/custom-channels.adoc:95
 #, no-wrap
 msgid "Procedure: Adding Custom Channels to an Activation Key"
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/custom-channels.adoc:97
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/custom-channels.adoc:97
 msgid ""
 "In the {productname} {webui}, navigate to menu:Systems[Activation Keys], and "
 "select the key you want to add the custom channel to."
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/custom-channels.adoc:99
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/custom-channels.adoc:99
 msgid ""
 "On the [guiemnu]``Details`` tab, in the [guimenu]``Child Channels`` listing, "
 "select the channel to associate.  You can select multiple channels, if you "
@@ -294,18 +294,18 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/custom-channels.adoc:100
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/custom-channels.adoc:100
 msgid "Click btn:[Update Activation Key]."
 msgstr ""
 
 #. type: Title ==
-#: modules/administration/pages/custom-channels.adoc:103
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/custom-channels.adoc:103
 #, no-wrap
 msgid "Add Packages and Patches to Custom Channels"
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/custom-channels.adoc:107
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/custom-channels.adoc:107
 msgid ""
 "When you create a new custom channel without cloning it from an existing "
 "channel, it will not contain any packages or patches.  You can add the "
@@ -313,7 +313,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/custom-channels.adoc:110
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/custom-channels.adoc:110
 msgid ""
 "Custom channels can only include packages or patches that are cloned or "
 "custom, and they must match the base architecture of the channel.  Patches "
@@ -321,54 +321,54 @@ msgid ""
 msgstr ""
 
 #. type: Block title
-#: modules/administration/pages/custom-channels.adoc:112
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/custom-channels.adoc:112
 #, no-wrap
 msgid "Procedure: Adding Packages to Custom Channels"
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/custom-channels.adoc:114
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/custom-channels.adoc:114
 msgid ""
 "In the {productname} {webui}, navigate to menu:Software[Manage > Channels], "
 "and go to the [guimenu]``Packages`` tab."
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/custom-channels.adoc:115
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/custom-channels.adoc:115
 msgid ""
 "OPTIONAL: See all packages currently in the channel by navigating to the "
 "[guimenu]``List/Remove`` tab."
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/custom-channels.adoc:116
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/custom-channels.adoc:116
 msgid ""
 "Add new packages to the channel by navigating to the [guimenu]``Add`` tab."
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/custom-channels.adoc:117
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/custom-channels.adoc:117
 msgid ""
 "Select the parent channel to provide packages, and click btn:[View Packages] "
 "to populate the list."
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/custom-channels.adoc:118
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/custom-channels.adoc:118
 msgid ""
 "Check the packages to add to the custom channel, and click btn:[Add "
 "Packages]."
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/custom-channels.adoc:119
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/custom-channels.adoc:119
 msgid ""
 "When you are satisfied with the selection, click btn:[Confirm Addition] to "
 "add the packages to the channel."
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/custom-channels.adoc:121
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/custom-channels.adoc:121
 msgid ""
 "OPTIONAL: You can compare the packages in the current channel with those in "
 "a different channel by navigating to menu:Software[Manage > Channels], and "
@@ -377,67 +377,67 @@ msgid ""
 msgstr ""
 
 #. type: Block title
-#: modules/administration/pages/custom-channels.adoc:124
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/custom-channels.adoc:124
 #, no-wrap
 msgid "Procedure: Adding Patches to a Custom Channel"
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/custom-channels.adoc:126
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/custom-channels.adoc:126
 msgid ""
 "In the {productname} {webui}, navigate to menu:Software[Manage > Channels], "
 "and go to the [guimenu]``Patches`` tab."
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/custom-channels.adoc:127
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/custom-channels.adoc:127
 msgid ""
 "OPTIONAL: See all patches currently in the channel by navigating to the "
 "[guimenu]``List/Remove`` tab."
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/custom-channels.adoc:128
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/custom-channels.adoc:128
 msgid ""
 "Add new patches to the channel by navigating to the [guimenu]``Add`` tab, "
 "and selecting what kind of patches you want to add."
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/custom-channels.adoc:129
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/custom-channels.adoc:129
 msgid ""
 "Select the parent channel to provide patches, and click btn:[View Associated "
 "Patches] to populate the list."
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/custom-channels.adoc:130
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/custom-channels.adoc:130
 msgid ""
 "Check the patches to add to the custom channel, and click btn:[Confirm]."
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/custom-channels.adoc:131
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/custom-channels.adoc:131
 msgid ""
 "When you are satisfied with the selection, click btn:[Confirm] to add the "
 "patches to the channel."
 msgstr ""
 
 #. type: Title ==
-#: modules/administration/pages/custom-channels.adoc:134
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/custom-channels.adoc:134
 #, no-wrap
 msgid "Manage Custom Channels"
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/custom-channels.adoc:137
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/custom-channels.adoc:137
 msgid ""
 "{productname} administrators and channel administrators can alter or delete "
 "any channel."
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/custom-channels.adoc:141
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/custom-channels.adoc:141
 msgid ""
 "To grant other users rights to alter or delete a channel, navigate to menu:"
 "Software[Manage > Channels] and select the channel you want to edit.  "
@@ -446,7 +446,7 @@ msgid ""
 msgstr ""
 
 #. type: delimited block =
-#: modules/administration/pages/custom-channels.adoc:147
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/custom-channels.adoc:147
 msgid ""
 "If you delete a channel that has been assigned to a set of clients, it will "
 "trigger an immediate update of the channel state for any clients associated "
@@ -455,32 +455,32 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/custom-channels.adoc:153
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/custom-channels.adoc:153
 msgid ""
 "You cannot delete {productname} channels with the {webui}.  Only custom "
 "channels can be deleted."
 msgstr ""
 
 #. type: Block title
-#: modules/administration/pages/custom-channels.adoc:156
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/custom-channels.adoc:156
 #, no-wrap
 msgid "Procedure: Deleting Custom Channels"
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/custom-channels.adoc:158
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/custom-channels.adoc:158
 msgid ""
 "In the {productname} {webui}, navigate to menu:Software[Manage > Channels], "
 "and select the channel you want to delete."
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/custom-channels.adoc:159
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/custom-channels.adoc:159
 msgid "Click btn:[Delete software channel]."
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/custom-channels.adoc:160
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/custom-channels.adoc:160
 msgid ""
 "On the [guimenu]``Delete Channel`` page, check the details of the channel "
 "you are deleting, and check the [guimenu]``Unsubscribe Systems`` checkbox to "
@@ -488,12 +488,12 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/custom-channels.adoc:161
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/custom-channels.adoc:161
 msgid "Click btn:[Delete Channel]."
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/custom-channels.adoc:164
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/custom-channels.adoc:164
 msgid ""
 "When channels are deleted, the packages that are part of the deleted channel "
 "are not automatically removed.  You will not be able to update packages that "
@@ -501,7 +501,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/custom-channels.adoc:166
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/custom-channels.adoc:166
 msgid ""
 "You can delete packages that are not associated with a channel in the "
 "{productname} {webui}.  Navigate to menu:Software[Manage > Packages], check "

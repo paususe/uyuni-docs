@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2020-07-26 02:34+0200\n"
+"POT-Creation-Date: 2020-08-17 01:18+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,20 +17,20 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: Title =
-#: modules/reference/pages/clm/clm-menu.adoc:1
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/clm/clm-menu.adoc:1
 #, no-wrap
 msgid "Content Lifecycle Management"
 msgstr ""
 
 #. type: Plain text
-#: modules/reference/pages/clm/clm-menu.adoc:4
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/clm/clm-menu.adoc:4
 msgid ""
 "In the [guimenu]``Content Lifecycle`` section, you can customize and test "
 "packages before updating production clients."
 msgstr ""
 
 #. type: Plain text
-#: modules/reference/pages/clm/clm-menu.adoc:6
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/clm/clm-menu.adoc:6
 msgid ""
 "Content lifecycle management allows you to select software channels as "
 "sources, adjust them as required for your environment, and thoroughly test "
@@ -38,7 +38,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/reference/pages/clm/clm-menu.adoc:7
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/clm/clm-menu.adoc:7
 msgid ""
 "For more information about content lifecycle management, see xref:"
 "administration:content-lifecycle.adoc[]."

@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2020-07-26 02:33+0200\n"
+"POT-Creation-Date: 2020-08-17 01:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,13 +17,13 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: Title =
-#: ./modules/administration/pages/users.adoc:2
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/users.adoc:2
 #, no-wrap
 msgid "Users"
 msgstr ""
 
 #. type: Plain text
-#: ./modules/administration/pages/users.adoc:6
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/users.adoc:6
 msgid ""
 "{productname} Administrators can add new users, grant permissions, and "
 "deactivate or delete users.  If you are managing a large number of users, "
@@ -32,14 +32,14 @@ msgid ""
 msgstr ""
 
 #. type: delimited block =
-#: ./modules/administration/pages/users.adoc:11
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/users.adoc:11
 msgid ""
 "The [guimenu]``Users`` menu is only available if you are logged in with a "
 "{productname} administrator account."
 msgstr ""
 
 #. type: Plain text
-#: ./modules/administration/pages/users.adoc:18
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/users.adoc:18
 msgid ""
 "To manage {productname} users, navigate to menu:Users[User List > All] to "
 "see all users in your {productname} Server.  Each user in the list shows the "
@@ -50,14 +50,14 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./modules/administration/pages/users.adoc:20
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/users.adoc:20
 msgid ""
 "To add new users to your organization, click btn:[Create User], complete the "
 "details for the new user, and click btn:[Create Login]."
 msgstr ""
 
 #. type: Plain text
-#: ./modules/administration/pages/users.adoc:24
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/users.adoc:24
 msgid ""
 "You can deactivate or delete user accounts if they are no longer required.  "
 "Deactivated user accounts can be reactivated at any time.  Deleted user "
@@ -65,7 +65,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./modules/administration/pages/users.adoc:27
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/users.adoc:27
 msgid ""
 "Users can deactivate their own accounts.  However, if users have an "
 "administrator role, the role must be removed before the account can be "
@@ -73,7 +73,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./modules/administration/pages/users.adoc:31
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/users.adoc:31
 msgid ""
 "Deactivated users cannot log in to the {productname} {webui} or schedule any "
 "actions.  Actions scheduled by a user prior to their deactivation remain in "
@@ -82,7 +82,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./modules/administration/pages/users.adoc:34
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/users.adoc:34
 msgid ""
 "Users can hold multiple administrator roles, and there can be more than one "
 "user holding any administrator role at any time.  There must always be at "
@@ -90,13 +90,13 @@ msgid ""
 msgstr ""
 
 #. type: Block title
-#: ./modules/administration/pages/users.adoc:37
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/users.adoc:37
 #, no-wrap
 msgid "User Administrator Role Permissions"
 msgstr ""
 
 #. type: Table
-#: ./modules/administration/pages/users.adoc:48
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/users.adoc:48
 #, no-wrap
 msgid ""
 "| Role Name | Description\n"
@@ -116,20 +116,20 @@ msgid ""
 msgstr ""
 
 #. type: Title ==
-#: ./modules/administration/pages/users.adoc:52
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/users.adoc:52
 #, no-wrap
 msgid "User Permissions and Systems"
 msgstr ""
 
 #. type: Plain text
-#: ./modules/administration/pages/users.adoc:55
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/users.adoc:55
 msgid ""
 "If you have created system groups to manage your clients, you can assign "
 "groups to users for them to manage."
 msgstr ""
 
 #. type: Plain text
-#: ./modules/administration/pages/users.adoc:58
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/users.adoc:58
 msgid ""
 "To assign a user to a system group, navigate to menu:Users[User List], click "
 "the username to edit, and go to the [guimenu]``System Groups`` tab.  Check "
@@ -137,7 +137,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./modules/administration/pages/users.adoc:62
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/users.adoc:62
 msgid ""
 "You can also select one or more default system groups for a user.  When the "
 "user registers a new client, it is assigned to the chosen system group by "
@@ -147,7 +147,7 @@ msgstr ""
 
 #.  I really don't understand what this is. Need a sentence or two to explain it.  --LKB 2020-04-29
 #. type: Plain text
-#: ./modules/administration/pages/users.adoc:67
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/users.adoc:67
 msgid ""
 "To manage external groups, navigate to menu:Users[System Group "
 "Configuration], and go to the [guimenu]``External Authentication`` tab.  "
@@ -156,14 +156,14 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./modules/administration/pages/users.adoc:69
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/users.adoc:69
 msgid ""
 "For more information about system groups, see "
 "xref:reference:systems/system-groups.adoc[]."
 msgstr ""
 
 #. type: Plain text
-#: ./modules/administration/pages/users.adoc:73
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/users.adoc:73
 msgid ""
 "To see the individual clients a user can administer, navigate to "
 "menu:Users[User List], click the username to edit, and go to the "
@@ -172,20 +172,20 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./modules/administration/pages/users.adoc:75
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/users.adoc:75
 msgid ""
 "For more information about the system set manager, see "
 "xref:client-configuration:using-ssm.adoc[]."
 msgstr ""
 
 #. type: Title ==
-#: ./modules/administration/pages/users.adoc:78
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/users.adoc:78
 #, no-wrap
 msgid "Users and Channel Permissions"
 msgstr ""
 
 #. type: Plain text
-#: ./modules/administration/pages/users.adoc:81
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/users.adoc:81
 msgid ""
 "You can assign users to software channels within your organization either as "
 "a subscriber that consumes content from channels, or as an administrator, "
@@ -193,7 +193,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./modules/administration/pages/users.adoc:84
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/users.adoc:84
 msgid ""
 "To subscribe a user to a channel, navigate to menu:Users[User List], click "
 "the username to edit, and go to the menu:Channel Permissions[Subscription] "
@@ -201,7 +201,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./modules/administration/pages/users.adoc:87
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/users.adoc:87
 msgid ""
 "To grant a user channel management permissions, navigate to menu:Users[User "
 "List], click the username to edit, and go to the menu:Channel "
@@ -210,7 +210,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./modules/administration/pages/users.adoc:89
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/users.adoc:89
 msgid ""
 "Some channels in the list might not be subscribable.  This is usually "
 "because of the users administrator status, or the channels global settings."

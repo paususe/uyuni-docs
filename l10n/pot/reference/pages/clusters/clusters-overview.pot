@@ -7,23 +7,23 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2020-07-26 02:34+0200\n"
+"POT-Creation-Date: 2020-08-17 01:22+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: Title =
-#: ./modules/reference/pages/clusters/clusters-overview.adoc:1
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/clusters/clusters-overview.adoc:1
 #, no-wrap
 msgid "Clusters Overview"
 msgstr ""
 
 #. type: Plain text
-#: ./modules/reference/pages/clusters/clusters-overview.adoc:6
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/clusters/clusters-overview.adoc:6
 msgid ""
 "The menu:Clusters[Overview] section displays a list of all current clusters "
 "in your organization.  Each cluster in the list shows the name and type of "
@@ -32,8 +32,8 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./modules/reference/pages/clusters/clusters-overview.adoc:7
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/clusters/clusters-overview.adoc:7
 msgid ""
 "For more information about clusters, see "
-"xref:client-configuration:clusters.adoc[]."
+"xref:client-configuration:virt-clusters.adoc[]."
 msgstr ""

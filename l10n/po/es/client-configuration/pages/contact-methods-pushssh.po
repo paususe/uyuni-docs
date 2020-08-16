@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2020-07-26 02:34+0200\n"
+"POT-Creation-Date: 2020-08-17 01:16+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,13 +17,13 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: Title =
-#: modules/client-configuration/pages/contact-methods-pushssh.adoc:2
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/contact-methods-pushssh.adoc:2
 #, no-wrap
 msgid "Push via SSH"
 msgstr ""
 
 #. type: Plain text
-#: modules/client-configuration/pages/contact-methods-pushssh.adoc:8
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/contact-methods-pushssh.adoc:8
 msgid ""
 "Push via SSH is used in environments where traditional clients cannot reach "
 "the {productname} Server directly.  In this environment, clients are located "
@@ -33,7 +33,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/client-configuration/pages/contact-methods-pushssh.adoc:11
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/contact-methods-pushssh.adoc:11
 msgid ""
 "The Push via SSH method creates an encrypted tunnel from the {productname} "
 "Server on the internal network to the clients located on the DMZ.  After all "
@@ -41,28 +41,28 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/client-configuration/pages/contact-methods-pushssh.adoc:13
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/contact-methods-pushssh.adoc:13
 msgid ""
 "The server uses SSH to contact the clients at regular intervals, checking in "
 "and performing scheduled actions and events."
 msgstr ""
 
 #. type: Plain text
-#: modules/client-configuration/pages/contact-methods-pushssh.adoc:16
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/contact-methods-pushssh.adoc:16
 msgid ""
 "This contact method works for traditional clients only.  For Salt clients, "
 "use Push via Salt SSH."
 msgstr ""
 
 #. type: delimited block =
-#: modules/client-configuration/pages/contact-methods-pushssh.adoc:21
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/contact-methods-pushssh.adoc:21
 msgid ""
 "Re-installing systems using the provisioning model is not currently "
 "supported on clients managed with push via SSH."
 msgstr ""
 
 #. type: Plain text
-#: modules/client-configuration/pages/contact-methods-pushssh.adoc:26
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/contact-methods-pushssh.adoc:26
 msgid ""
 "This image demonstrates the push via SSH process path.  All items left of "
 "the [systemitem]``Taskomatic`` block represent processes running on a "
@@ -70,13 +70,13 @@ msgid ""
 msgstr ""
 
 #. type: Target for macro image
-#: modules/client-configuration/pages/contact-methods-pushssh.adoc:27
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/contact-methods-pushssh.adoc:27
 #, no-wrap
 msgid "sshpush-taigon.png"
 msgstr ""
 
 #. type: Plain text
-#: modules/client-configuration/pages/contact-methods-pushssh.adoc:33
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/contact-methods-pushssh.adoc:33
 msgid ""
 "For tunneling connections via SSH, two available port numbers are required, "
 "one for tunneling HTTP and the second for tunneling via HTTPS (HTTP is only "
@@ -86,7 +86,7 @@ msgid ""
 msgstr ""
 
 #. type: delimited block -
-#: modules/client-configuration/pages/contact-methods-pushssh.adoc:37
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/contact-methods-pushssh.adoc:37
 #, no-wrap
 msgid ""
 "ssh_push_port_http = high_port_1\n"
@@ -94,20 +94,20 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/client-configuration/pages/contact-methods-pushssh.adoc:41
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/contact-methods-pushssh.adoc:41
 msgid ""
 "If you would like your clients to be contacted using their hostnames instead "
 "of an IP address, set this option:"
 msgstr ""
 
 #. type: delimited block -
-#: modules/client-configuration/pages/contact-methods-pushssh.adoc:44
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/contact-methods-pushssh.adoc:44
 #, no-wrap
 msgid "ssh_push_use_hostname = true\n"
 msgstr ""
 
 #. type: Plain text
-#: modules/client-configuration/pages/contact-methods-pushssh.adoc:50
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/contact-methods-pushssh.adoc:50
 msgid ""
 "It is also possible to adjust the number of threads to use for opening "
 "client connections in parallel.  By default two parallel threads are used.  "
@@ -116,26 +116,26 @@ msgid ""
 msgstr ""
 
 #. type: delimited block -
-#: modules/client-configuration/pages/contact-methods-pushssh.adoc:53
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/contact-methods-pushssh.adoc:53
 #, no-wrap
 msgid "taskomatic.ssh_push_workers = number\n"
 msgstr ""
 
 #. type: Plain text
-#: modules/client-configuration/pages/contact-methods-pushssh.adoc:57
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/contact-methods-pushssh.adoc:57
 msgid ""
 "For security reasons, you might want to use sudo with SSH, to access the "
 "system as an unprivileged user instead of as root."
 msgstr ""
 
 #. type: Block title
-#: modules/client-configuration/pages/contact-methods-pushssh.adoc:59
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/contact-methods-pushssh.adoc:59
 #, no-wrap
 msgid "Procedure: Configuring Unprivileged SSH Access"
 msgstr ""
 
 #. type: Plain text
-#: modules/client-configuration/pages/contact-methods-pushssh.adoc:61
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/contact-methods-pushssh.adoc:61
 msgid ""
 "Ensure you have the latest [path]``spacewalk-taskomatic`` and "
 "[path]``spacewalk-certs-tools`` packages installed on the {productname} "
@@ -143,19 +143,19 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/client-configuration/pages/contact-methods-pushssh.adoc:62
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/contact-methods-pushssh.adoc:62
 msgid "On each client system, create an appropriate unprivileged user."
 msgstr ""
 
 #. type: Plain text
-#: modules/client-configuration/pages/contact-methods-pushssh.adoc:63
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/contact-methods-pushssh.adoc:63
 msgid ""
 "On each client system, open the [path]``/etc/sudoers`` file and comment out "
 "these lines:"
 msgstr ""
 
 #. type: delimited block -
-#: modules/client-configuration/pages/contact-methods-pushssh.adoc:67
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/contact-methods-pushssh.adoc:67
 #, no-wrap
 msgid ""
 "#Defaults targetpw   # ask for the password of the target user i.e. root\n"
@@ -163,14 +163,14 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/client-configuration/pages/contact-methods-pushssh.adoc:69
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/contact-methods-pushssh.adoc:69
 msgid ""
 "On each client system, in the `User privilege specification` section, add "
 "these lines:"
 msgstr ""
 
 #. type: delimited block -
-#: modules/client-configuration/pages/contact-methods-pushssh.adoc:74
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/contact-methods-pushssh.adoc:74
 #, no-wrap
 msgid ""
 "<user> ALL=(ALL) NOPASSWD:/usr/sbin/mgr_check\n"
@@ -179,14 +179,14 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/client-configuration/pages/contact-methods-pushssh.adoc:76
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/contact-methods-pushssh.adoc:76
 msgid ""
 "On each client system, in the [path]``/home/user/.bashrc`` file, add these "
 "lines:"
 msgstr ""
 
 #. type: delimited block -
-#: modules/client-configuration/pages/contact-methods-pushssh.adoc:80
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/contact-methods-pushssh.adoc:80
 #, no-wrap
 msgid ""
 "PATH=$PATH:/usr/sbin\n"
@@ -194,7 +194,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/client-configuration/pages/contact-methods-pushssh.adoc:82
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/contact-methods-pushssh.adoc:82
 msgid ""
 "On the {productname} Server, in the [path]``/etc/rhn/rhn.conf`` "
 "configuration file, add or amend this line to include the unprivileged "
@@ -202,13 +202,13 @@ msgid ""
 msgstr ""
 
 #. type: delimited block -
-#: modules/client-configuration/pages/contact-methods-pushssh.adoc:85
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/contact-methods-pushssh.adoc:85
 #, no-wrap
 msgid "ssh_push_sudo_user = <user>\n"
 msgstr ""
 
 #. type: Plain text
-#: modules/client-configuration/pages/contact-methods-pushssh.adoc:89
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/contact-methods-pushssh.adoc:89
 msgid ""
 "Because clients are in the DMZ and cannot reach the server, you need to use "
 "the [command]``mgr-ssh-push-init`` tool to register them with the "
@@ -216,7 +216,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/client-configuration/pages/contact-methods-pushssh.adoc:92
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/contact-methods-pushssh.adoc:92
 msgid ""
 "To use the tool, you will need the client hostname or IP address, and the "
 "path to a valid bootstrap script on the {productname} Server.  For more "
@@ -225,7 +225,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/client-configuration/pages/contact-methods-pushssh.adoc:95
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/contact-methods-pushssh.adoc:95
 msgid ""
 "The bootstrap script will need to have an activation key associated with it "
 "that is configured for Push via SSH.  For more information on activation "
@@ -233,7 +233,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/client-configuration/pages/contact-methods-pushssh.adoc:98
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/contact-methods-pushssh.adoc:98
 msgid ""
 "Before you begin, you need to ensure that you have specified which ports to "
 "use for SSH tunneling.  If you have registered clients before changing the "
@@ -241,7 +241,7 @@ msgid ""
 msgstr ""
 
 #. type: delimited block =
-#: modules/client-configuration/pages/contact-methods-pushssh.adoc:103
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/contact-methods-pushssh.adoc:103
 msgid ""
 "Clients that are managed with Push via SSH cannot reach the server "
 "directly.  When you use the [command]``mgr-ssh-push-init`` tool, the "
@@ -249,20 +249,20 @@ msgid ""
 msgstr ""
 
 #. type: Block title
-#: modules/client-configuration/pages/contact-methods-pushssh.adoc:106
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/contact-methods-pushssh.adoc:106
 #, no-wrap
 msgid "Procedure: Registering Clients with Push via SSH"
 msgstr ""
 
 #. type: Plain text
-#: modules/client-configuration/pages/contact-methods-pushssh.adoc:108
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/contact-methods-pushssh.adoc:108
 msgid ""
 "At the command prompt on the {productname} Server, as root, execute this "
 "command:"
 msgstr ""
 
 #. type: delimited block -
-#: modules/client-configuration/pages/contact-methods-pushssh.adoc:112
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/contact-methods-pushssh.adoc:112
 #, no-wrap
 msgid ""
 "# mgr-ssh-push-init --client <client> --register \\\n"
@@ -270,19 +270,19 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/client-configuration/pages/contact-methods-pushssh.adoc:115
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/contact-methods-pushssh.adoc:115
 msgid ""
 "OPTIONAL: You can remove the [command]``--tunnel`` option, if you do not "
 "want to use tunneling."
 msgstr ""
 
 #. type: Plain text
-#: modules/client-configuration/pages/contact-methods-pushssh.adoc:116
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/contact-methods-pushssh.adoc:116
 msgid "Verify that the SSH connection is active:"
 msgstr ""
 
 #. type: delimited block -
-#: modules/client-configuration/pages/contact-methods-pushssh.adoc:120
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/contact-methods-pushssh.adoc:120
 #, no-wrap
 msgid ""
 "# ssh -i /root/.ssh/id_susemanager -R <high_port>:<susemanager>:443 \\\n"
@@ -290,40 +290,40 @@ msgid ""
 msgstr ""
 
 #. type: Block title
-#: modules/client-configuration/pages/contact-methods-pushssh.adoc:124
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/contact-methods-pushssh.adoc:124
 #, no-wrap
 msgid "Example: API Access to Push via SSH"
 msgstr ""
 
 #. type: Plain text
-#: modules/client-configuration/pages/contact-methods-pushssh.adoc:128
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/contact-methods-pushssh.adoc:128
 msgid ""
 "You can use the API to manage which contact method to use.  This example "
 "Python code sets the contact method to ``ssh-push``."
 msgstr ""
 
 #. type: Plain text
-#: modules/client-configuration/pages/contact-methods-pushssh.adoc:130
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/contact-methods-pushssh.adoc:130
 msgid "Valid values are:"
 msgstr ""
 
 #. type: Plain text
-#: modules/client-configuration/pages/contact-methods-pushssh.adoc:132
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/contact-methods-pushssh.adoc:132
 msgid "`default` (pull)"
 msgstr ""
 
 #. type: Plain text
-#: modules/client-configuration/pages/contact-methods-pushssh.adoc:133
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/contact-methods-pushssh.adoc:133
 msgid "`ssh-push`"
 msgstr ""
 
 #. type: Plain text
-#: modules/client-configuration/pages/contact-methods-pushssh.adoc:134
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/contact-methods-pushssh.adoc:134
 msgid "`ssh-push-tunnel`"
 msgstr ""
 
 #. type: delimited block -
-#: modules/client-configuration/pages/contact-methods-pushssh.adoc:139
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/contact-methods-pushssh.adoc:139
 #, no-wrap
 msgid ""
 "client = xmlrpclib.Server(SUMA_HOST + \"/rpc/api\", verbose=0)\n"
@@ -332,7 +332,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/client-configuration/pages/contact-methods-pushssh.adoc:145
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/contact-methods-pushssh.adoc:145
 msgid ""
 "If you have a client that has already been registered, and you want to "
 "migrate it to use Push via SSH, some extra steps are required.  You can use "
@@ -340,21 +340,21 @@ msgid ""
 msgstr ""
 
 #. type: Block title
-#: modules/client-configuration/pages/contact-methods-pushssh.adoc:147
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/contact-methods-pushssh.adoc:147
 #, no-wrap
 msgid "Procedure: Migrating Registered Systems to Push via SSH"
 msgstr ""
 
 #. type: Plain text
-#: modules/client-configuration/pages/contact-methods-pushssh.adoc:149
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/contact-methods-pushssh.adoc:149
 msgid ""
 "At the command prompt on the {productname} Server, as root, set up the "
 "client:"
 msgstr ""
 
 #. type: delimited block -
-#: modules/client-configuration/pages/contact-methods-pushssh.adoc:153
-#: modules/client-configuration/pages/contact-methods-pushssh.adoc:172
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/contact-methods-pushssh.adoc:153
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/contact-methods-pushssh.adoc:172
 #, no-wrap
 msgid ""
 "# mgr-ssh-push-init --client <client> \\\n"
@@ -362,53 +362,53 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/client-configuration/pages/contact-methods-pushssh.adoc:155
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/contact-methods-pushssh.adoc:155
 msgid ""
 "Using the {productname} {webui}, change the client's contact method to `ssh-"
 "push` or `ssh-push-tunnel`."
 msgstr ""
 
 #. type: Plain text
-#: modules/client-configuration/pages/contact-methods-pushssh.adoc:156
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/contact-methods-pushssh.adoc:156
 msgid ""
 "OPTIONAL: If you need to edit an existing activation key, you can do so with "
 "this command:"
 msgstr ""
 
 #. type: delimited block -
-#: modules/client-configuration/pages/contact-methods-pushssh.adoc:159
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/contact-methods-pushssh.adoc:159
 #, no-wrap
 msgid "client.activationkey.setDetails(key, '1-mykey', {'contact_method' : 'ssh-push'})\n"
 msgstr ""
 
 #. type: Plain text
-#: modules/client-configuration/pages/contact-methods-pushssh.adoc:165
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/contact-methods-pushssh.adoc:165
 msgid ""
 "You can also use Push via SSH for clients that connect using a {productname} "
 "Proxy.  Ensure your proxy is updated before you begin."
 msgstr ""
 
 #. type: Block title
-#: modules/client-configuration/pages/contact-methods-pushssh.adoc:166
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/contact-methods-pushssh.adoc:166
 #, no-wrap
 msgid "Procedure: Registering Clients with Push via SSH to a Proxy"
 msgstr ""
 
 #. type: Plain text
-#: modules/client-configuration/pages/contact-methods-pushssh.adoc:168
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/contact-methods-pushssh.adoc:168
 msgid ""
 "At the command prompt on the {productname} Proxy, as root, set up the client:"
 msgstr ""
 
 #. type: Plain text
-#: modules/client-configuration/pages/contact-methods-pushssh.adoc:174
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/contact-methods-pushssh.adoc:174
 msgid ""
 "At the command prompt on the {productname} Server, copy the SSH key to the "
 "proxy:"
 msgstr ""
 
 #. type: delimited block -
-#: modules/client-configuration/pages/contact-methods-pushssh.adoc:177
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/contact-methods-pushssh.adoc:177
 #, no-wrap
 msgid "mgr-ssh-push-init --client <proxy>\n"
 msgstr ""

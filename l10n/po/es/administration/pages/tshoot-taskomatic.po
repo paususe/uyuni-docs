@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2020-07-26 02:33+0200\n"
+"POT-Creation-Date: 2020-08-17 01:16+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: Title =
-#: modules/administration/pages/tshoot-taskomatic.adoc:2
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/tshoot-taskomatic.adoc:2
 #, no-wrap
 msgid "Troubleshooting Taskomatic"
 msgstr ""
@@ -38,7 +38,7 @@ msgstr ""
 #. . Another step
 #. . Last step
 #. type: Plain text
-#: modules/administration/pages/tshoot-taskomatic.adoc:23
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/tshoot-taskomatic.adoc:23
 msgid ""
 "Repository metadata regeneration is a relatively intensive process, so "
 "Taskomatic can take several minutes to complete.  Additionally, if "
@@ -46,7 +46,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/tshoot-taskomatic.adoc:26
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/tshoot-taskomatic.adoc:26
 msgid ""
 "If Taskomatic is still running, or if the process has crashed, package "
 "updates can seem available in the {webui}, but will not appear on the "
@@ -55,13 +55,13 @@ msgid ""
 msgstr ""
 
 #. type: delimited block -
-#: modules/administration/pages/tshoot-taskomatic.adoc:29
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/tshoot-taskomatic.adoc:29
 #, no-wrap
 msgid "Valid metadata not found at specified URL\n"
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/tshoot-taskomatic.adoc:33
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/tshoot-taskomatic.adoc:33
 msgid ""
 "To correct this, determine if Taskomatic is still in the process of "
 "generating repository metadata, or if a crash could have occurred.  Wait for "
@@ -70,13 +70,13 @@ msgid ""
 msgstr ""
 
 #. type: Block title
-#: modules/administration/pages/tshoot-taskomatic.adoc:36
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/tshoot-taskomatic.adoc:36
 #, no-wrap
 msgid "Procedure: Resolving Taskomatic Problems"
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/tshoot-taskomatic.adoc:39
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/tshoot-taskomatic.adoc:39
 msgid ""
 "On the {productname} Server, check the [path]``/var/log/rhn/"
 "rhn_taskomatic_daemon.log`` file to determine if any metadata regeneration "
@@ -84,18 +84,18 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/tshoot-taskomatic.adoc:40
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/tshoot-taskomatic.adoc:40
 msgid "Restart taskomatic:"
 msgstr ""
 
 #. type: delimited block -
-#: modules/administration/pages/tshoot-taskomatic.adoc:43
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/tshoot-taskomatic.adoc:43
 #, no-wrap
 msgid "service taskomatic restart\n"
 msgstr ""
 
 #. type: Plain text
-#: modules/administration/pages/tshoot-taskomatic.adoc:47
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/tshoot-taskomatic.adoc:47
 msgid ""
 "In the Taskomatic log files, you can identify the section related to "
 "metadata regeneration by looking for opening and closing lines that look "
@@ -103,19 +103,19 @@ msgid ""
 msgstr ""
 
 #. type: delimited block -
-#: modules/administration/pages/tshoot-taskomatic.adoc:50
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/tshoot-taskomatic.adoc:50
 #, no-wrap
 msgid "<YYYY-DD-MM> <HH:MM:SS>,174 [Thread-584] INFO  com.redhat.rhn.taskomatic.task.repomd.RepositoryWriter - Generating new repository metadata for channel 'cloned-2018-q1-sles12-sp3-updates-x86_64'(sha256) 550 packages, 140 errata\n"
 msgstr ""
 
 #. type: delimited block -
-#: modules/administration/pages/tshoot-taskomatic.adoc:52
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/tshoot-taskomatic.adoc:52
 #, no-wrap
 msgid "...\n"
 msgstr ""
 
 #. type: delimited block -
-#: modules/administration/pages/tshoot-taskomatic.adoc:54
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/tshoot-taskomatic.adoc:54
 #, no-wrap
 msgid "<YYYY-DD-MM> <HH:MM:SS>,704 [Thread-584] INFO  com.redhat.rhn.taskomatic.task.repomd.RepositoryWriter - Repository metadata generation for 'cloned-2018-q1-sles12-sp3-updates-x86_64' finished in 4 seconds\n"
 msgstr ""

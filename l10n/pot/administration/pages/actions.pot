@@ -7,28 +7,28 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2020-07-26 02:33+0200\n"
+"POT-Creation-Date: 2020-08-17 01:21+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: Title =
-#: ./modules/administration/pages/actions.adoc:2
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/actions.adoc:2
 #, no-wrap
 msgid "Actions"
 msgstr ""
 
 #. type: Plain text
-#: ./modules/administration/pages/actions.adoc:5
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/actions.adoc:5
 msgid "You can manage actions on your clients in a number of different ways."
 msgstr ""
 
 #. type: Plain text
-#: ./modules/administration/pages/actions.adoc:8
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/actions.adoc:8
 msgid ""
 "For Salt clients, you can schedule automated recurring actions to apply the "
 "highstate to clients on a specified schedule.  You can apply recurring "
@@ -37,7 +37,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./modules/administration/pages/actions.adoc:11
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/actions.adoc:11
 msgid ""
 "On both Salt and traditional clients, you can set actions to be performed in "
 "a particular order by creating action chains.  Action chains can be created "
@@ -45,7 +45,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./modules/administration/pages/actions.adoc:14
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/actions.adoc:14
 msgid ""
 "You can also perform remote commands on one or more of your Salt clients.  "
 "Remote commands allows you to issue commands to individual Salt clients, or "
@@ -53,26 +53,26 @@ msgid ""
 msgstr ""
 
 #. type: Title ==
-#: ./modules/administration/pages/actions.adoc:17
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/actions.adoc:17
 #, no-wrap
 msgid "Recurring Actions"
 msgstr ""
 
 #. type: Plain text
-#: ./modules/administration/pages/actions.adoc:20
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/actions.adoc:20
 msgid ""
 "You can apply recurring actions on individual Salt clients, or to all "
 "clients in an organization."
 msgstr ""
 
 #. type: Block title
-#: ./modules/administration/pages/actions.adoc:23
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/actions.adoc:23
 #, no-wrap
 msgid "Procedure: Creating a New Recurring Action"
 msgstr ""
 
 #. type: Plain text
-#: ./modules/administration/pages/actions.adoc:25
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/actions.adoc:25
 msgid ""
 "To apply a recurring action to an individual client, navigate to "
 "[guimenu]``Systems``, click the client to configure schedules for, and "
@@ -80,7 +80,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./modules/administration/pages/actions.adoc:26
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/actions.adoc:26
 msgid ""
 "To apply a recurring action to a system group, navigate to "
 "menu:Systems[System Groups], select the group to configure schedules for, "
@@ -88,29 +88,29 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./modules/administration/pages/actions.adoc:27
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/actions.adoc:27
 msgid "Click btn:[Create]."
 msgstr ""
 
 #. type: Plain text
-#: ./modules/administration/pages/actions.adoc:28
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/actions.adoc:28
 msgid "Type a name for the new schedule."
 msgstr ""
 
 #. type: Plain text
-#: ./modules/administration/pages/actions.adoc:29
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/actions.adoc:29
 msgid "Choose the frequency of the recurring action:"
 msgstr ""
 
 #. type: Plain text
-#: ./modules/administration/pages/actions.adoc:32
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/actions.adoc:32
 msgid ""
 "[guimenu]``Hourly:`` Type the minute of each hour.  For example, "
 "[parameter]``15`` will run the action at fifteen minutes past every hour."
 msgstr ""
 
 #. type: Plain text
-#: ./modules/administration/pages/actions.adoc:34
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/actions.adoc:34
 msgid ""
 "[guimenu]``Daily:`` Select the time of each day.  For example, "
 "[parameter]``01:00`` will run the action at 0100 every day, in the timezone "
@@ -118,21 +118,21 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./modules/administration/pages/actions.adoc:35
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/actions.adoc:35
 msgid ""
 "[guimenu]``Weekly:`` Select the day of the week and the time of the day, to "
 "execute the action every week at the specified time."
 msgstr ""
 
 #. type: Plain text
-#: ./modules/administration/pages/actions.adoc:36
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/actions.adoc:36
 msgid ""
 "[guimenu]``Monthly:`` Select the day of the month and the time of the day, "
 "to execute the action every month at the specified time."
 msgstr ""
 
 #. type: Plain text
-#: ./modules/administration/pages/actions.adoc:38
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/actions.adoc:38
 msgid ""
 "[guimenu]``Custom Quartz format:`` For more detailed options, enter a custom "
 "quartz string.  For example, to run a recurring action at 0215 every "
@@ -140,27 +140,27 @@ msgid ""
 msgstr ""
 
 #. type: delimited block -
-#: ./modules/administration/pages/actions.adoc:41
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/actions.adoc:41
 #, no-wrap
 msgid "0 15 2 ? * 7\n"
 msgstr ""
 
 #. type: Plain text
-#: ./modules/administration/pages/actions.adoc:43
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/actions.adoc:43
 msgid ""
 "OPTIONAL: Toggle the [guimenu]``Test mode`` switch on to run the schedule in "
 "test mode."
 msgstr ""
 
 #. type: Plain text
-#: ./modules/administration/pages/actions.adoc:44
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/actions.adoc:44
 msgid ""
 "Click btn:[Create Schedule] to save, and see the complete list of existing "
 "schedules."
 msgstr ""
 
 #. type: Plain text
-#: ./modules/administration/pages/actions.adoc:48
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/actions.adoc:48
 msgid ""
 "Organization Administrators can set and edit recurring actions for all "
 "clients in the organization.  Navigate to menu:Home[My Organization > "
@@ -169,7 +169,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./modules/administration/pages/actions.adoc:51
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/actions.adoc:51
 msgid ""
 "{productname} Administrators can set and edit recurring actions for all "
 "clients in all organizations.  Navigate to menu:Admin[Organizations], select "
@@ -178,27 +178,27 @@ msgid ""
 msgstr ""
 
 #. type: delimited block =
-#: ./modules/administration/pages/actions.adoc:56
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/actions.adoc:56
 msgid ""
 "Recurring actions can only be used with Salt clients.  Traditional clients "
 "in your group or organization are ignored."
 msgstr ""
 
 #. type: Title ==
-#: ./modules/administration/pages/actions.adoc:60
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/actions.adoc:60
 #, no-wrap
 msgid "Action Chains"
 msgstr ""
 
 #. type: Plain text
-#: ./modules/administration/pages/actions.adoc:63
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/actions.adoc:63
 msgid ""
 "If you need to perform a number of sequential actions on your clients, you "
 "can create an action chain to ensure the order is respected."
 msgstr ""
 
 #. type: Plain text
-#: ./modules/administration/pages/actions.adoc:68
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/actions.adoc:68
 msgid ""
 "By default, most clients will execute an action as soon as the command is "
 "issued.  In some case, actions will take a long time, which could mean that "
@@ -209,70 +209,70 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./modules/administration/pages/actions.adoc:71
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/actions.adoc:71
 msgid ""
 "You can use action chains on both traditional and Salt clients.  Action "
 "chains can include any number of these actions, in any order:"
 msgstr ""
 
 #. type: Plain text
-#: ./modules/administration/pages/actions.adoc:73
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/actions.adoc:73
 msgid "menu:System Details[Remote Command]"
 msgstr ""
 
 #. type: Plain text
-#: ./modules/administration/pages/actions.adoc:74
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/actions.adoc:74
 msgid "menu:System Details[Schedule System Reboot]"
 msgstr ""
 
 #. type: Plain text
-#: ./modules/administration/pages/actions.adoc:75
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/actions.adoc:75
 msgid "menu:System Details[States > Highstate]"
 msgstr ""
 
 #. type: Plain text
-#: ./modules/administration/pages/actions.adoc:76
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/actions.adoc:76
 msgid "menu:System Details[Software > Packages > List/Remove]"
 msgstr ""
 
 #. type: Plain text
-#: ./modules/administration/pages/actions.adoc:77
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/actions.adoc:77
 msgid "menu:System Details[Software > Packages > Install]"
 msgstr ""
 
 #. type: Plain text
-#: ./modules/administration/pages/actions.adoc:78
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/actions.adoc:78
 msgid "menu:System Details[Software > Packages > Upgrade]"
 msgstr ""
 
 #. type: Plain text
-#: ./modules/administration/pages/actions.adoc:79
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/actions.adoc:79
 msgid "menu:System Details[Software > Patches]"
 msgstr ""
 
 #. type: Plain text
-#: ./modules/administration/pages/actions.adoc:80
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/actions.adoc:80
 msgid "menu:System Details[Software > Software Channels]"
 msgstr ""
 
 #. type: Plain text
-#: ./modules/administration/pages/actions.adoc:81
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/actions.adoc:81
 msgid "menu:System Details[Configuration]"
 msgstr ""
 
 #. type: Plain text
-#: ./modules/administration/pages/actions.adoc:82
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/actions.adoc:82
 msgid "menu:Images[Build]"
 msgstr ""
 
 #. type: Block title
-#: ./modules/administration/pages/actions.adoc:85
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/actions.adoc:85
 #, no-wrap
 msgid "Procedure: Creating a New Action Chain"
 msgstr ""
 
 #. type: Plain text
-#: ./modules/administration/pages/actions.adoc:88
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/actions.adoc:88
 msgid ""
 "In the {productname} {webui}, navigate to the first action you want to "
 "perform in the action chain.  For example, navigate to [guimenu]``System "
@@ -280,12 +280,12 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./modules/administration/pages/actions.adoc:89
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/actions.adoc:89
 msgid "Check the [guimenu]``Add to`` field and select ``new action chain``."
 msgstr ""
 
 #. type: Plain text
-#: ./modules/administration/pages/actions.adoc:91
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/actions.adoc:91
 msgid ""
 "Confirm the action.  This will not perform the action immediately, it will "
 "instead create the new action chain, and a blue bar confirming this appears "
@@ -293,21 +293,21 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./modules/administration/pages/actions.adoc:92
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/actions.adoc:92
 msgid ""
 "Continue adding actions to your action chain by checking the [guimenu]``Add "
 "to`` field and selecting the name of the action chain to add them to."
 msgstr ""
 
 #. type: Plain text
-#: ./modules/administration/pages/actions.adoc:93
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/actions.adoc:93
 msgid ""
 "When you have finished adding actions, navigate to menu:Schedule[Action "
 "Chains] and selecting the action chain from the list."
 msgstr ""
 
 #. type: Plain text
-#: ./modules/administration/pages/actions.adoc:96
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/actions.adoc:96
 msgid ""
 "Re-order actions by dragging them and dropping them into the correct "
 "position.  Click the blue plus sign to see the clients an action will be "
@@ -315,7 +315,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./modules/administration/pages/actions.adoc:98
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/actions.adoc:98
 msgid ""
 "Schedule a time for your action chain to run, and click btn:[Save and "
 "Schedule].  If you leave the page without clicking either btn:[Save] or "
@@ -323,27 +323,27 @@ msgid ""
 msgstr ""
 
 #. type: delimited block =
-#: ./modules/administration/pages/actions.adoc:102
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/actions.adoc:102
 msgid ""
 "If one action in an action chain fails, the action chain stops, and no "
 "further actions are executed."
 msgstr ""
 
 #. type: Plain text
-#: ./modules/administration/pages/actions.adoc:105
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/actions.adoc:105
 msgid ""
 "You can see scheduled actions from action chains by navigating to "
 "menu:Schedule[Pending Actions]."
 msgstr ""
 
 #. type: Title ==
-#: ./modules/administration/pages/actions.adoc:108
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/actions.adoc:108
 #, no-wrap
 msgid "Remote Commands"
 msgstr ""
 
 #. type: Plain text
-#: ./modules/administration/pages/actions.adoc:112
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/actions.adoc:112
 msgid ""
 "Salt runs remote commands from the [path]``/tmp/`` directory on the client.  "
 "To ensure that remote commands work accurately, do not mount ``/tmp`` with "
@@ -351,7 +351,7 @@ msgid ""
 msgstr ""
 
 #. type: delimited block =
-#: ./modules/administration/pages/actions.adoc:118
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/actions.adoc:118
 msgid ""
 "All commands run from the [guimenu]``Remote Commands`` page are executed as "
 "{rootuser} on clients.  Wildcards can be used to run commands across any "
@@ -360,25 +360,25 @@ msgid ""
 msgstr ""
 
 #. type: Block title
-#: ./modules/administration/pages/actions.adoc:122
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/actions.adoc:122
 #, no-wrap
 msgid "Procedure: Creating Remote Commands"
 msgstr ""
 
 #. type: Plain text
-#: ./modules/administration/pages/actions.adoc:124
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/actions.adoc:124
 msgid "Navigate to menu:Salt[Remote Commands]."
 msgstr ""
 
 #. type: Plain text
-#: ./modules/administration/pages/actions.adoc:125
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/actions.adoc:125
 msgid ""
 "In the first field, before the ``@`` symbol, type the command you want to "
 "issue."
 msgstr ""
 
 #. type: Plain text
-#: ./modules/administration/pages/actions.adoc:127
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/actions.adoc:127
 msgid ""
 "In the second field, after the ``@`` symbol, type the client you want to "
 "issue the command on.  You can type the ``minion-id`` of an individual "
@@ -386,13 +386,13 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./modules/administration/pages/actions.adoc:128
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/actions.adoc:128
 msgid ""
 "Click btn:[Find targets] to check which clients you have targeted, and "
 "confirm that you have used the correct details."
 msgstr ""
 
 #. type: Plain text
-#: ./modules/administration/pages/actions.adoc:128
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/actions.adoc:128
 msgid "Click btn:[Run command] to issue the command to the target clients."
 msgstr ""

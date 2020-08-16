@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2020-06-14 00:55+0200\n"
+"POT-Creation-Date: 2020-08-17 01:19+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,31 +17,30 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: Title =
-#: ./modules/reference/pages/users/all-users.adoc:2
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/users/all-users.adoc:2
 #, no-wrap
 msgid "All Users"
 msgstr ""
 
 #. type: Plain text
-#: ./modules/reference/pages/users/all-users.adoc:6
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/users/all-users.adoc:6
 msgid ""
 "The menu:Users[User List > All] section shows all activated and deactivated "
-"users in your {productname} Server.  Deleted users are not shown in the "
-"list."
+"users in your {productname} Server.  Deleted users are not shown in the list."
 msgstr ""
 
 #. type: Plain text
-#: ./modules/reference/pages/users/all-users.adoc:10
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/users/all-users.adoc:10
 msgid ""
 "Each user in the list shows the username, real name, assigned roles, the "
-"date the user last signed in, and the current status of the user.  Click "
-"btn:``Create User`` to create a new user account.  Click the username to go "
-"to the [guimenu]``User Details`` page."
+"date the user last signed in, and the current status of the user.  Click btn:"
+"``Create User`` to create a new user account.  Click the username to go to "
+"the [guimenu]``User Details`` page."
 msgstr ""
 
 #. type: Plain text
-#: ./modules/reference/pages/users/all-users.adoc:11
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/users/all-users.adoc:11
 msgid ""
-"For more information about managing users, see "
-"xref:administration:users.adoc[]."
+"For more information about managing users, see xref:administration:users."
+"adoc[]."
 msgstr ""

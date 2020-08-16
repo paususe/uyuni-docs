@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2020-07-26 02:33+0200\n"
+"POT-Creation-Date: 2020-08-17 01:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,13 +17,13 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: Title =
-#: ./modules/administration/pages/reports.adoc:2
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/reports.adoc:2
 #, no-wrap
 msgid "Generate Reports"
 msgstr ""
 
 #. type: Plain text
-#: ./modules/administration/pages/reports.adoc:7
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/reports.adoc:7
 msgid ""
 "The [command]``spacewalk-report`` command is used to produce a variety of "
 "reports.  These reports can be helpful for taking inventory of your "
@@ -33,31 +33,31 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./modules/administration/pages/reports.adoc:9
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/reports.adoc:9
 msgid ""
 "To generate reports, you must have the [package]``spacewalk-reports`` "
 "package installed."
 msgstr ""
 
 #. type: Plain text
-#: ./modules/administration/pages/reports.adoc:11
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/reports.adoc:11
 msgid ""
 "The [command]``spacewalk-report`` command allows you to organize and display "
 "reports about content, systems, and user resources across {productname}."
 msgstr ""
 
 #. type: Plain text
-#: ./modules/administration/pages/reports.adoc:13
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/reports.adoc:13
 msgid "You can generate reports on:"
 msgstr ""
 
 #. type: Plain text
-#: ./modules/administration/pages/reports.adoc:15
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/reports.adoc:15
 msgid "System Inventory: list all the systems registered to {productname}."
 msgstr ""
 
 #. type: Plain text
-#: ./modules/administration/pages/reports.adoc:17
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/reports.adoc:17
 msgid ""
 "Patches: list all the patches relevant to the registered systems.  You can "
 "sort patches by severity, as well as the systems that apply to a particular "
@@ -65,38 +65,38 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./modules/administration/pages/reports.adoc:18
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/reports.adoc:18
 msgid ""
 "Users: list all registered users and any systems associated with a "
 "particular user."
 msgstr ""
 
 #. type: Plain text
-#: ./modules/administration/pages/reports.adoc:20
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/reports.adoc:20
 msgid ""
 "To get the report in CSV format, run this command at the command prompt on "
 "the server:"
 msgstr ""
 
 #. type: delimited block -
-#: ./modules/administration/pages/reports.adoc:23
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/reports.adoc:23
 #, no-wrap
 msgid "spacewalk-report <report_name>\n"
 msgstr ""
 
 #. type: Plain text
-#: ./modules/administration/pages/reports.adoc:26
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/reports.adoc:26
 msgid "This table lists the available reports:"
 msgstr ""
 
 #. type: Block title
-#: ./modules/administration/pages/reports.adoc:29
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/reports.adoc:29
 #, no-wrap
 msgid "[command]``spacewalk-report`` Reports"
 msgstr ""
 
 #. type: Table
-#: ./modules/administration/pages/reports.adoc:84
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/reports.adoc:84
 #, no-wrap
 msgid ""
 "|Report | Invoked as | Description\n"
@@ -202,7 +202,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./modules/administration/pages/reports.adoc:88
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/reports.adoc:88
 msgid ""
 "For more information about an individual report, run "
 "[command]``spacewalk-report`` with the option [option]``--info`` or "
@@ -211,7 +211,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./modules/administration/pages/reports.adoc:89
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/administration/pages/reports.adoc:89
 msgid ""
 "For further information on program invocation and options, see the "
 "[literal]``spacewalk-report(8)`` man page as well as the "

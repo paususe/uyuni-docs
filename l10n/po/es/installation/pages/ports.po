@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2020-07-26 02:34+0200\n"
+"POT-Creation-Date: 2020-08-17 01:17+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,65 +17,65 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: Title =
-#: modules/installation/pages/ports.adoc:2
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/installation/pages/ports.adoc:2
 #, no-wrap
 msgid "Network Ports"
 msgstr ""
 
 #. type: Plain text
-#: modules/installation/pages/ports.adoc:5
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/installation/pages/ports.adoc:5
 msgid ""
 "This section contains a comprehensive list of ports that are used for "
 "various communications within {productname}."
 msgstr ""
 
 #. type: Plain text
-#: modules/installation/pages/ports.adoc:8
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/installation/pages/ports.adoc:8
 msgid ""
 "You will not need to open all of these ports.  Some ports only need to be "
 "opened if you are using the service that requires them."
 msgstr ""
 
 #. type: Plain text
-#: modules/installation/pages/ports.adoc:10
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/installation/pages/ports.adoc:10
 msgid "This image shows the main ports used in {productname}:"
 msgstr ""
 
 #. type: Target for macro image
-#: modules/installation/pages/ports.adoc:11
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/installation/pages/ports.adoc:11
 #, no-wrap
 msgid "ports_diagram.png"
 msgstr ""
 
 #. type: Title ==
-#: modules/installation/pages/ports.adoc:15
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/installation/pages/ports.adoc:15
 #, no-wrap
 msgid "External Inbound Server Ports"
 msgstr ""
 
 #. type: Plain text
-#: modules/installation/pages/ports.adoc:18
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/installation/pages/ports.adoc:18
 msgid ""
 "External inbound ports must be opened to configure a firewall on the "
 "{productname} Server to protect the server from unauthorized access."
 msgstr ""
 
 #. type: Plain text
-#: modules/installation/pages/ports.adoc:20
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/installation/pages/ports.adoc:20
 msgid ""
 "Opening these ports allows external network traffic to access the "
 "{productname} Server."
 msgstr ""
 
 #. type: Block title
-#: modules/installation/pages/ports.adoc:23
-#: modules/installation/pages/ports.adoc:49
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/installation/pages/ports.adoc:23
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/installation/pages/ports.adoc:49
 #, no-wrap
 msgid "External Port Requirements for {productname} Server"
 msgstr ""
 
 #. type: Table
-#: modules/installation/pages/ports.adoc:38
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/installation/pages/ports.adoc:38
 #, no-wrap
 msgid ""
 "| Port number | Protocol | Used By | Notes\n"
@@ -94,27 +94,27 @@ msgid ""
 msgstr ""
 
 #. type: Title ==
-#: modules/installation/pages/ports.adoc:42
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/installation/pages/ports.adoc:42
 #, no-wrap
 msgid "External Outbound Server Ports"
 msgstr ""
 
 #. type: Plain text
-#: modules/installation/pages/ports.adoc:45
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/installation/pages/ports.adoc:45
 msgid ""
 "External outbound ports must be opened to configure a firewall on the "
 "{productname} Server to restrict what the server can access."
 msgstr ""
 
 #. type: Plain text
-#: modules/installation/pages/ports.adoc:47
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/installation/pages/ports.adoc:47
 msgid ""
 "Opening these ports allows network traffic from the {productname} Server to "
 "communicate with external services."
 msgstr ""
 
 #. type: Table
-#: modules/installation/pages/ports.adoc:58
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/installation/pages/ports.adoc:58
 #, no-wrap
 msgid ""
 "| Port number | Protocol | Used By | Notes\n"
@@ -127,32 +127,32 @@ msgid ""
 msgstr ""
 
 #. type: Title ==
-#: modules/installation/pages/ports.adoc:62
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/installation/pages/ports.adoc:62
 #, no-wrap
 msgid "Internal Server Ports"
 msgstr ""
 
 #. type: Plain text
-#: modules/installation/pages/ports.adoc:66
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/installation/pages/ports.adoc:66
 msgid ""
 "Internal port are used internally by the {productname} Server.  Internal "
 "ports are only accessible from ``localhost``."
 msgstr ""
 
 #. type: Plain text
-#: modules/installation/pages/ports.adoc:68
-#: modules/installation/pages/ports.adoc:141
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/installation/pages/ports.adoc:68
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/installation/pages/ports.adoc:141
 msgid "In most cases, you will not need to adjust these ports."
 msgstr ""
 
 #. type: Block title
-#: modules/installation/pages/ports.adoc:70
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/installation/pages/ports.adoc:70
 #, no-wrap
 msgid "Internal Port Requirements for {productname} Server"
 msgstr ""
 
 #. type: Table
-#: modules/installation/pages/ports.adoc:80
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/installation/pages/ports.adoc:80
 #, no-wrap
 msgid ""
 "| Port number | Notes\n"
@@ -166,7 +166,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/installation/pages/ports.adoc:87
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/installation/pages/ports.adoc:87
 msgid ""
 "Port 32768 and higher are used as ephemeral ports.  These are most often "
 "used to receive TCP connections.  When a TCP connection request is received, "
@@ -176,40 +176,40 @@ msgid ""
 msgstr ""
 
 #. type: delimited block -
-#: modules/installation/pages/ports.adoc:90
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/installation/pages/ports.adoc:90
 #, no-wrap
 msgid "cat /proc/sys/net/ipv4/ip_local_port_range\n"
 msgstr ""
 
 #. type: Title ==
-#: modules/installation/pages/ports.adoc:94
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/installation/pages/ports.adoc:94
 #, no-wrap
 msgid "External Inbound Proxy Ports"
 msgstr ""
 
 #. type: Plain text
-#: modules/installation/pages/ports.adoc:97
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/installation/pages/ports.adoc:97
 msgid ""
 "External inbound ports must be opened to configure a firewall on the "
 "{productname} Proxy to protect the proxy from unauthorized access."
 msgstr ""
 
 #. type: Plain text
-#: modules/installation/pages/ports.adoc:99
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/installation/pages/ports.adoc:99
 msgid ""
 "Opening these ports allows external network traffic to access the "
 "{productname} proxy."
 msgstr ""
 
 #. type: Block title
-#: modules/installation/pages/ports.adoc:101
-#: modules/installation/pages/ports.adoc:126
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/installation/pages/ports.adoc:101
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/installation/pages/ports.adoc:126
 #, no-wrap
 msgid "External Port Requirements for {productname} Proxy"
 msgstr ""
 
 #. type: Table
-#: modules/installation/pages/ports.adoc:115
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/installation/pages/ports.adoc:115
 #, no-wrap
 msgid ""
 "| Port number | Protocol | Used By | Notes\n"
@@ -227,27 +227,27 @@ msgid ""
 msgstr ""
 
 #. type: Title ==
-#: modules/installation/pages/ports.adoc:119
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/installation/pages/ports.adoc:119
 #, no-wrap
 msgid "External Outbound Proxy Ports"
 msgstr ""
 
 #. type: Plain text
-#: modules/installation/pages/ports.adoc:122
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/installation/pages/ports.adoc:122
 msgid ""
 "External outbound ports must be opened to configure a firewall on the "
 "{productname} Proxy to restrict what the proxy can access."
 msgstr ""
 
 #. type: Plain text
-#: modules/installation/pages/ports.adoc:124
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/installation/pages/ports.adoc:124
 msgid ""
 "Opening these ports allows network traffic from the {productname} Proxy to "
 "communicate with external services."
 msgstr ""
 
 #. type: Table
-#: modules/installation/pages/ports.adoc:132
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/installation/pages/ports.adoc:132
 #, no-wrap
 msgid ""
 "| Port number | Protocol | Used By | Notes\n"
@@ -257,26 +257,26 @@ msgid ""
 msgstr ""
 
 #. type: Title ==
-#: modules/installation/pages/ports.adoc:136
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/installation/pages/ports.adoc:136
 #, no-wrap
 msgid "External Client Ports"
 msgstr ""
 
 #. type: Plain text
-#: modules/installation/pages/ports.adoc:139
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/installation/pages/ports.adoc:139
 msgid ""
 "External client ports must be opened to configure a firewall between the "
 "{productname} Server and its clients."
 msgstr ""
 
 #. type: Block title
-#: modules/installation/pages/ports.adoc:143
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/installation/pages/ports.adoc:143
 #, no-wrap
 msgid "External Port Requirements for {productname} Clients"
 msgstr ""
 
 #. type: Table
-#: modules/installation/pages/ports.adoc:154
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/installation/pages/ports.adoc:154
 #, no-wrap
 msgid ""
 "| Port number | Direction | Protocol | Notes\n"
@@ -291,13 +291,13 @@ msgid ""
 msgstr ""
 
 #. type: Title ==
-#: modules/installation/pages/ports.adoc:158
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/installation/pages/ports.adoc:158
 #, no-wrap
 msgid "Required URLs"
 msgstr ""
 
 #. type: Plain text
-#: modules/installation/pages/ports.adoc:162
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/installation/pages/ports.adoc:162
 msgid ""
 "There are some URLs that {productname} must be able to access in order to "
 "register clients and perform updates.  In most cases, allowing access to "
@@ -305,17 +305,17 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/installation/pages/ports.adoc:164
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/installation/pages/ports.adoc:164
 msgid "scc.suse.com"
 msgstr ""
 
 #. type: Plain text
-#: modules/installation/pages/ports.adoc:165
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/installation/pages/ports.adoc:165
 msgid "updates.suse.com"
 msgstr ""
 
 #. type: Plain text
-#: modules/installation/pages/ports.adoc:167
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/installation/pages/ports.adoc:167
 msgid ""
 "If you are using non-SUSE clients you might also need to allow access to "
 "other servers that provide specific packages for those operating systems.  "

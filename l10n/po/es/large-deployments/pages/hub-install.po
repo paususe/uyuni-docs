@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2020-06-14 00:55+0200\n"
+"POT-Creation-Date: 2020-08-17 01:19+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,26 +17,26 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: Title =
-#: ./modules/large-deployments/pages/hub-install.adoc:2
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/large-deployments/pages/hub-install.adoc:2
 #, no-wrap
 msgid "Hub Installation"
 msgstr ""
 
 #. type: Plain text
-#: ./modules/large-deployments/pages/hub-install.adoc:5
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/large-deployments/pages/hub-install.adoc:5
 msgid ""
 "Before you begin, you need to install the XMLRPC API package, and configure "
 "the Hub Server to use the API."
 msgstr ""
 
 #. type: Block title
-#: ./modules/large-deployments/pages/hub-install.adoc:8
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/large-deployments/pages/hub-install.adoc:8
 #, no-wrap
 msgid "Procedure: Installing and Configuring the XMLRPC API"
 msgstr ""
 
 #. type: Plain text
-#: ./modules/large-deployments/pages/hub-install.adoc:11
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/large-deployments/pages/hub-install.adoc:11
 msgid ""
 "On the Hub Server, or on a host that has access to all peripheral servers' "
 "XMLRPC APIs, install the ``hub-xmlrpc-api`` package.  The package is "
@@ -44,15 +44,15 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./modules/large-deployments/pages/hub-install.adoc:12
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/large-deployments/pages/hub-install.adoc:12
 msgid ""
-"Verify if the configuration file available at "
-"``/etc/hub/hub-xmlrpc-api-config.json`` is pointing to the correct Hub "
-"instance and modify it as required."
+"Verify if the configuration file available at ``/etc/hub/hub-xmlrpc-api-"
+"config.json`` is pointing to the correct Hub instance and modify it as "
+"required."
 msgstr ""
 
 #. type: Plain text
-#: ./modules/large-deployments/pages/hub-install.adoc:14
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/large-deployments/pages/hub-install.adoc:14
 msgid ""
 "OPTIONAL: In the configuration file, check the settings for the timeout "
 "parameters ``connect_timeout`` and ``read_write_timeout``.  The values for "
@@ -60,6 +60,6 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./modules/large-deployments/pages/hub-install.adoc:14
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/large-deployments/pages/hub-install.adoc:14
 msgid "Restart services to pick up the configuration changes."
 msgstr ""

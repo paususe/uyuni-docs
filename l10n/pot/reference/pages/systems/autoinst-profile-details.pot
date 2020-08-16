@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2020-07-26 02:34+0200\n"
+"POT-Creation-Date: 2020-08-17 01:22+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,35 +17,35 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: Title =
-#: ./modules/reference/pages/systems/autoinst-profile-details.adoc:2
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/systems/autoinst-profile-details.adoc:2
 #, no-wrap
 msgid "Profile Details"
 msgstr ""
 
 #. type: Plain text
-#: ./modules/reference/pages/systems/autoinst-profile-details.adoc:5
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/systems/autoinst-profile-details.adoc:5
 msgid ""
 "On the menu:Autoinstallation Details[Details] page, you have the following "
 "options:"
 msgstr ""
 
 #. type: Plain text
-#: ./modules/reference/pages/systems/autoinst-profile-details.adoc:7
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/systems/autoinst-profile-details.adoc:7
 msgid "Change the profile [guimenu]``Label``."
 msgstr ""
 
 #. type: Plain text
-#: ./modules/reference/pages/systems/autoinst-profile-details.adoc:8
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/systems/autoinst-profile-details.adoc:8
 msgid "Change the operating system by clicking [guimenu]``(Change)``."
 msgstr ""
 
 #. type: Plain text
-#: ./modules/reference/pages/systems/autoinst-profile-details.adoc:9
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/systems/autoinst-profile-details.adoc:9
 msgid "Change the [guimenu]``Virtualization Type``."
 msgstr ""
 
 #. type: Plain text
-#: ./modules/reference/pages/systems/autoinst-profile-details.adoc:12
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/systems/autoinst-profile-details.adoc:12
 msgid ""
 "Changing the [guimenu]``Virtualization Type`` may require changes to the "
 "Kickstart profile bootloader and partition options, potentially overwriting "
@@ -54,59 +54,59 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./modules/reference/pages/systems/autoinst-profile-details.adoc:15
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/systems/autoinst-profile-details.adoc:15
 msgid ""
 "Change the amount of [guimenu]``Virtual Memory`` (in Megabytes of RAM) "
 "allocated to virtual guests autoinstalled with this profile."
 msgstr ""
 
 #. type: Plain text
-#: ./modules/reference/pages/systems/autoinst-profile-details.adoc:16
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/systems/autoinst-profile-details.adoc:16
 msgid "Change the number of [guimenu]``Virtual CPUs`` for each virtual guest."
 msgstr ""
 
 #. type: Plain text
-#: ./modules/reference/pages/systems/autoinst-profile-details.adoc:17
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/systems/autoinst-profile-details.adoc:17
 msgid ""
 "Change the [guimenu]``Virtual Storage Path`` from the default in "
 "[path]``/var/lib/xen/`` ."
 msgstr ""
 
 #. type: Plain text
-#: ./modules/reference/pages/systems/autoinst-profile-details.adoc:18
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/systems/autoinst-profile-details.adoc:18
 msgid ""
 "Change the amount of [guimenu]``Virtual Disk Space`` (in GB) allotted to "
 "each virtual guest."
 msgstr ""
 
 #. type: Plain text
-#: ./modules/reference/pages/systems/autoinst-profile-details.adoc:19
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/systems/autoinst-profile-details.adoc:19
 msgid "Change the [guimenu]``Virtual Bridge`` for networking of the virtual guest."
 msgstr ""
 
 #. type: Plain text
-#: ./modules/reference/pages/systems/autoinst-profile-details.adoc:20
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/systems/autoinst-profile-details.adoc:20
 msgid ""
 "Deactivate the profile so that it cannot be used to schedule a {kickstart} "
 "by removing the [guimenu]``Active`` check mark."
 msgstr ""
 
 #. type: Plain text
-#: ./modules/reference/pages/systems/autoinst-profile-details.adoc:21
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/systems/autoinst-profile-details.adoc:21
 msgid ""
 "Check whether to enable logging for custom [option]``%post`` scripts to the "
 "[path]``/root/ks-post.log`` file."
 msgstr ""
 
 #. type: Plain text
-#: ./modules/reference/pages/systems/autoinst-profile-details.adoc:22
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/systems/autoinst-profile-details.adoc:22
 msgid ""
 "Decide whether to enable logging for custom [option]``%pre`` scripts to the "
 "[path]``/root/ks-pre.log`` file."
 msgstr ""
 
 #. type: Plain text
-#: ./modules/reference/pages/systems/autoinst-profile-details.adoc:23
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/systems/autoinst-profile-details.adoc:23
 msgid ""
 "Choose whether to preserve the [path]``ks.cfg`` file and all `%include` "
 "fragments to the [path]``/root/`` directory of all systems autoinstalled "
@@ -114,89 +114,89 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./modules/reference/pages/systems/autoinst-profile-details.adoc:24
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/systems/autoinst-profile-details.adoc:24
 msgid ""
 "Select whether this profile is the default for all of your organization's "
 "{kickstart}s by checking or unchecking the box."
 msgstr ""
 
 #. type: Plain text
-#: ./modules/reference/pages/systems/autoinst-profile-details.adoc:25
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/systems/autoinst-profile-details.adoc:25
 msgid "Add any [guimenu]``Kernel Options`` in the corresponding text box."
 msgstr ""
 
 #. type: Plain text
-#: ./modules/reference/pages/systems/autoinst-profile-details.adoc:26
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/systems/autoinst-profile-details.adoc:26
 msgid "Add any [guimenu]``Post Kernel Options`` in the corresponding text box."
 msgstr ""
 
 #. type: Plain text
-#: ./modules/reference/pages/systems/autoinst-profile-details.adoc:27
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/systems/autoinst-profile-details.adoc:27
 msgid ""
 "Enter comments that are useful to you in distinguishing this profile from "
 "others."
 msgstr ""
 
 #. type: Title ==
-#: ./modules/reference/pages/systems/autoinst-profile-details.adoc:31
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/systems/autoinst-profile-details.adoc:31
 #, no-wrap
 msgid "Operating System"
 msgstr ""
 
 #. type: Plain text
-#: ./modules/reference/pages/systems/autoinst-profile-details.adoc:34
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/systems/autoinst-profile-details.adoc:34
 msgid ""
 "On this page, you can make the following changes to the operating system "
 "that the Kickstart profile installs:"
 msgstr ""
 
 #. type: Labeled list
-#: ./modules/reference/pages/systems/autoinst-profile-details.adoc:35
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/systems/autoinst-profile-details.adoc:35
 #, no-wrap
 msgid "Change the base channel"
 msgstr ""
 
 #. type: Plain text
-#: ./modules/reference/pages/systems/autoinst-profile-details.adoc:37
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/systems/autoinst-profile-details.adoc:37
 msgid ""
 "Select from the available base channels. {productname} administrators see a "
 "list of all base channels that are currently synced to the {productname}."
 msgstr ""
 
 #. type: Labeled list
-#: ./modules/reference/pages/systems/autoinst-profile-details.adoc:38
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/systems/autoinst-profile-details.adoc:38
 #, no-wrap
 msgid "Child Channels"
 msgstr ""
 
 #. type: Plain text
-#: ./modules/reference/pages/systems/autoinst-profile-details.adoc:40
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/systems/autoinst-profile-details.adoc:40
 msgid ""
 "Subscribe to available child channels of the base channel, such as the Tools "
 "channel."
 msgstr ""
 
 #. type: Labeled list
-#: ./modules/reference/pages/systems/autoinst-profile-details.adoc:41
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/systems/autoinst-profile-details.adoc:41
 #, no-wrap
 msgid "Available Trees"
 msgstr ""
 
 #. type: Plain text
-#: ./modules/reference/pages/systems/autoinst-profile-details.adoc:43
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/systems/autoinst-profile-details.adoc:43
 msgid ""
 "Use the drop-down menu to choose from available trees associated with the "
 "base channel."
 msgstr ""
 
 #. type: Labeled list
-#: ./modules/reference/pages/systems/autoinst-profile-details.adoc:44
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/systems/autoinst-profile-details.adoc:44
 #, no-wrap
 msgid "Always use the newest Tree for this base channel."
 msgstr ""
 
 #. type: Plain text
-#: ./modules/reference/pages/systems/autoinst-profile-details.adoc:48
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/systems/autoinst-profile-details.adoc:48
 msgid ""
 "Instead of selecting a specific tree, you can also check the box menu:Always "
 "use the newest Tree for this base channel.[] This setting lets {productname} "
@@ -206,13 +206,13 @@ msgid ""
 msgstr ""
 
 #. type: Labeled list
-#: ./modules/reference/pages/systems/autoinst-profile-details.adoc:49
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/systems/autoinst-profile-details.adoc:49
 #, no-wrap
 msgid "Software URL (File Location)"
 msgstr ""
 
 #. type: Plain text
-#: ./modules/reference/pages/systems/autoinst-profile-details.adoc:53
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/systems/autoinst-profile-details.adoc:53
 msgid ""
 "The exact location from which the Kickstart tree is mounted.  This value is "
 "determined when the profile is created.  You can view it on this page but "
@@ -220,13 +220,13 @@ msgid ""
 msgstr ""
 
 #. type: Title ==
-#: ./modules/reference/pages/systems/autoinst-profile-details.adoc:57
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/systems/autoinst-profile-details.adoc:57
 #, no-wrap
 msgid "Variables"
 msgstr ""
 
 #. type: Plain text
-#: ./modules/reference/pages/systems/autoinst-profile-details.adoc:61
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/systems/autoinst-profile-details.adoc:61
 msgid ""
 "Autoinstallation variables can substitute values in Kickstart and {ay} "
 "profiles.  To define a variable, create a name-value pair "
@@ -234,7 +234,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./modules/reference/pages/systems/autoinst-profile-details.adoc:64
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/systems/autoinst-profile-details.adoc:64
 msgid ""
 "For example, if you want to autoinstall a system that joins the network of a "
 "specified organization (for example the Engineering department), you can "
@@ -244,7 +244,7 @@ msgid ""
 msgstr ""
 
 #. type: delimited block -
-#: ./modules/reference/pages/systems/autoinst-profile-details.adoc:68
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/systems/autoinst-profile-details.adoc:68
 #, no-wrap
 msgid ""
 "IPADDR=192.168.0.28\n"
@@ -252,7 +252,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./modules/reference/pages/systems/autoinst-profile-details.adoc:73
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/systems/autoinst-profile-details.adoc:73
 msgid ""
 "Now you can use the name of the variable in the profile instead of a "
 "specific value.  For example, the [option]``network`` part of a Kickstart "
@@ -260,7 +260,7 @@ msgid ""
 msgstr ""
 
 #. type: delimited block -
-#: ./modules/reference/pages/systems/autoinst-profile-details.adoc:77
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/systems/autoinst-profile-details.adoc:77
 #, no-wrap
 msgid ""
 "network --bootproto=static --device=eth0 --onboot=on --ip=$IPADDR \\\n"
@@ -268,14 +268,14 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./modules/reference/pages/systems/autoinst-profile-details.adoc:81
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/systems/autoinst-profile-details.adoc:81
 msgid ""
 "The [option]``$IPADDR`` will be resolved to ``192.168.0.28``, and the "
 "[option]``$GATEWAY`` to `192.168.0.1`"
 msgstr ""
 
 #. type: delimited block =
-#: ./modules/reference/pages/systems/autoinst-profile-details.adoc:87
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/systems/autoinst-profile-details.adoc:87
 msgid ""
 "There is a hierarchy when creating and using variables in Kickstart files.  "
 "System Kickstart variables take precedence over [guimenu]``Profile`` "
@@ -285,7 +285,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./modules/reference/pages/systems/autoinst-profile-details.adoc:92
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/systems/autoinst-profile-details.adoc:92
 msgid ""
 "Using variables are just one part of the larger Cobbler infrastructure for "
 "creating templates that can be shared between multiple profiles and "
@@ -294,13 +294,13 @@ msgid ""
 msgstr ""
 
 #. type: Title ==
-#: ./modules/reference/pages/systems/autoinst-profile-details.adoc:96
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/systems/autoinst-profile-details.adoc:96
 #, no-wrap
 msgid "Advanced Options"
 msgstr ""
 
 #. type: Plain text
-#: ./modules/reference/pages/systems/autoinst-profile-details.adoc:101
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/systems/autoinst-profile-details.adoc:101
 msgid ""
 "From this page, you can toggle several installation options on and off by "
 "checking and unchecking the boxes to the left of the option.  For most "
@@ -309,13 +309,13 @@ msgid ""
 msgstr ""
 
 #. type: Title ==
-#: ./modules/reference/pages/systems/autoinst-profile-details.adoc:105
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/systems/autoinst-profile-details.adoc:105
 #, no-wrap
 msgid "Assigning Default Profiles to an Organization"
 msgstr ""
 
 #. type: Plain text
-#: ./modules/reference/pages/systems/autoinst-profile-details.adoc:108
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/systems/autoinst-profile-details.adoc:108
 msgid ""
 "You can specify an Organization Default Profile by clicking "
 "menu:Autoinstallation[Profiles > profile name > Details], then checking the "
@@ -324,13 +324,13 @@ msgid ""
 msgstr ""
 
 #. type: Title ==
-#: ./modules/reference/pages/systems/autoinst-profile-details.adoc:112
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/systems/autoinst-profile-details.adoc:112
 #, no-wrap
 msgid "Assigning IP Ranges to Profiles"
 msgstr ""
 
 #. type: Plain text
-#: ./modules/reference/pages/systems/autoinst-profile-details.adoc:115
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/systems/autoinst-profile-details.adoc:115
 msgid ""
 "You can associate an IP range to an autoinstallation profile by clicking on "
 "menu:Autoinstallation[Profiles > profile name > Bare Metal "
@@ -339,13 +339,13 @@ msgid ""
 msgstr ""
 
 #. type: Title ==
-#: ./modules/reference/pages/systems/autoinst-profile-details.adoc:119
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/systems/autoinst-profile-details.adoc:119
 #, no-wrap
 msgid "Bare Metal Autoinstallation"
 msgstr ""
 
 #. type: Plain text
-#: ./modules/reference/pages/systems/autoinst-profile-details.adoc:123
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/systems/autoinst-profile-details.adoc:123
 msgid ""
 "This subtab provides the information necessary to Kickstart systems that are "
 "not currently registered with {productname}.  Using the on-screen "
@@ -354,77 +354,77 @@ msgid ""
 msgstr ""
 
 #. type: Title ==
-#: ./modules/reference/pages/systems/autoinst-profile-details.adoc:127
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/systems/autoinst-profile-details.adoc:127
 #, no-wrap
 msgid "Details"
 msgstr ""
 
 #. type: Plain text
-#: ./modules/reference/pages/systems/autoinst-profile-details.adoc:130
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/systems/autoinst-profile-details.adoc:130
 msgid ""
 "Displays subtabs that are available from the [guimenu]``System Details`` "
 "tab."
 msgstr ""
 
 #. type: Plain text
-#: ./modules/reference/pages/systems/autoinst-profile-details.adoc:132
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/systems/autoinst-profile-details.adoc:132
 msgid "On the menu:System Details[Details] page, you have the following options:"
 msgstr ""
 
 #. type: Plain text
-#: ./modules/reference/pages/systems/autoinst-profile-details.adoc:134
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/systems/autoinst-profile-details.adoc:134
 msgid "Select between DHCP and static IP, depending on your network."
 msgstr ""
 
 #. type: Plain text
-#: ./modules/reference/pages/systems/autoinst-profile-details.adoc:135
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/systems/autoinst-profile-details.adoc:135
 msgid "Choose the level of SELinux that is configured on kickstarted systems."
 msgstr ""
 
 #. type: Plain text
-#: ./modules/reference/pages/systems/autoinst-profile-details.adoc:136
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/systems/autoinst-profile-details.adoc:136
 msgid ""
 "Enable configuration management or remote command execution on kickstarted "
 "systems."
 msgstr ""
 
 #. type: Plain text
-#: ./modules/reference/pages/systems/autoinst-profile-details.adoc:137
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/systems/autoinst-profile-details.adoc:137
 msgid "Change the root password associated with this profile."
 msgstr ""
 
 #. type: Target for macro image
-#: ./modules/reference/pages/systems/autoinst-profile-details.adoc:138
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/systems/autoinst-profile-details.adoc:138
 #, no-wrap
 msgid "details-ks-4.png"
 msgstr ""
 
 #. type: Title ==
-#: ./modules/reference/pages/systems/autoinst-profile-details.adoc:143
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/systems/autoinst-profile-details.adoc:143
 #, no-wrap
 msgid "Locale"
 msgstr ""
 
 #. type: Plain text
-#: ./modules/reference/pages/systems/autoinst-profile-details.adoc:146
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/systems/autoinst-profile-details.adoc:146
 msgid "Change the timezone for kickstarted systems."
 msgstr ""
 
 #. type: Title ==
-#: ./modules/reference/pages/systems/autoinst-profile-details.adoc:150
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/systems/autoinst-profile-details.adoc:150
 #, no-wrap
 msgid "Partitioning"
 msgstr ""
 
 #. type: Plain text
-#: ./modules/reference/pages/systems/autoinst-profile-details.adoc:154
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/systems/autoinst-profile-details.adoc:154
 msgid ""
 "From this subtab, indicate the partitions that you wish to create during "
 "installation.  For example:"
 msgstr ""
 
 #. type: delimited block -
-#: ./modules/reference/pages/systems/autoinst-profile-details.adoc:160
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/systems/autoinst-profile-details.adoc:160
 #, no-wrap
 msgid ""
 "partition /boot --fstype=ext3 --size=200\n"
@@ -435,13 +435,13 @@ msgid ""
 msgstr ""
 
 #. type: Title ==
-#: ./modules/reference/pages/systems/autoinst-profile-details.adoc:165
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/systems/autoinst-profile-details.adoc:165
 #, no-wrap
 msgid "File Preservation"
 msgstr ""
 
 #. type: Plain text
-#: ./modules/reference/pages/systems/autoinst-profile-details.adoc:170
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/systems/autoinst-profile-details.adoc:170
 msgid ""
 "If you have previously created a file preservation list, include this list "
 "as part of the {kickstart}.  This will protect the listed files from being "
@@ -450,13 +450,13 @@ msgid ""
 msgstr ""
 
 #. type: Title ==
-#: ./modules/reference/pages/systems/autoinst-profile-details.adoc:174
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/systems/autoinst-profile-details.adoc:174
 #, no-wrap
 msgid "GPG & SSL"
 msgstr ""
 
 #. type: Plain text
-#: ./modules/reference/pages/systems/autoinst-profile-details.adoc:178
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/systems/autoinst-profile-details.adoc:178
 msgid ""
 "From this subtab, select the GPG keys and/or SSL certificates to be exported "
 "to the kickstarted system during the %post section of the {kickstart}.  For "
@@ -465,72 +465,72 @@ msgid ""
 msgstr ""
 
 #. type: delimited block =
-#: ./modules/reference/pages/systems/autoinst-profile-details.adoc:182
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/systems/autoinst-profile-details.adoc:182
 msgid ""
 "Any GPG key you wish to export to the kickstarted system must be in ASCII "
 "rather than binary format."
 msgstr ""
 
 #. type: Title ==
-#: ./modules/reference/pages/systems/autoinst-profile-details.adoc:187
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/systems/autoinst-profile-details.adoc:187
 #, no-wrap
 msgid "Troubleshooting"
 msgstr ""
 
 #. type: Plain text
-#: ./modules/reference/pages/systems/autoinst-profile-details.adoc:190
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/systems/autoinst-profile-details.adoc:190
 msgid ""
 "From this subtab, change information that may help with troubleshooting "
 "hardware problems:"
 msgstr ""
 
 #. type: Labeled list
-#: ./modules/reference/pages/systems/autoinst-profile-details.adoc:191
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/systems/autoinst-profile-details.adoc:191
 #, no-wrap
 msgid "Bootloader"
 msgstr ""
 
 #. type: Plain text
-#: ./modules/reference/pages/systems/autoinst-profile-details.adoc:193
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/systems/autoinst-profile-details.adoc:193
 msgid ""
 "For some headless systems, it is better to select the non-graphic LILO "
 "bootloader."
 msgstr ""
 
 #. type: Labeled list
-#: ./modules/reference/pages/systems/autoinst-profile-details.adoc:194
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/systems/autoinst-profile-details.adoc:194
 #, no-wrap
 msgid "Kernel Parameters"
 msgstr ""
 
 #. type: Plain text
-#: ./modules/reference/pages/systems/autoinst-profile-details.adoc:196
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/systems/autoinst-profile-details.adoc:196
 msgid ""
 "Enter kernel parameters here that may help to narrow down the source of "
 "hardware issues."
 msgstr ""
 
 #. type: Title ==
-#: ./modules/reference/pages/systems/autoinst-profile-details.adoc:200
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/systems/autoinst-profile-details.adoc:200
 #, no-wrap
 msgid "Package Groups"
 msgstr ""
 
 #. type: Target for macro image
-#: ./modules/reference/pages/systems/autoinst-profile-details.adoc:202
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/systems/autoinst-profile-details.adoc:202
 #, no-wrap
 msgid "details-ks-5.png"
 msgstr ""
 
 #. type: Plain text
-#: ./modules/reference/pages/systems/autoinst-profile-details.adoc:205
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/systems/autoinst-profile-details.adoc:205
 msgid ""
 "The image above shows subtabs that are available from the "
 "[guimenu]``Software`` tab."
 msgstr ""
 
 #. type: Plain text
-#: ./modules/reference/pages/systems/autoinst-profile-details.adoc:208
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/systems/autoinst-profile-details.adoc:208
 msgid ""
 "Enter the package groups, such as [systemitem]``@office`` or "
 "[systemitem]``@admin-tools`` you would like to install on the kickstarted "
@@ -540,13 +540,13 @@ msgid ""
 msgstr ""
 
 #. type: Title ==
-#: ./modules/reference/pages/systems/autoinst-profile-details.adoc:213
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/systems/autoinst-profile-details.adoc:213
 #, no-wrap
 msgid "Package Profiles"
 msgstr ""
 
 #. type: Plain text
-#: ./modules/reference/pages/systems/autoinst-profile-details.adoc:217
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/systems/autoinst-profile-details.adoc:217
 msgid ""
 "If you have previously created a Package Profile from one of your registered "
 "systems, you can use that profile as a template for the files to be "
@@ -555,19 +555,20 @@ msgid ""
 msgstr ""
 
 #. type: Block title
-#: ./modules/reference/pages/systems/autoinst-profile-details.adoc:221 ./modules/reference/pages/systems/autoinst-profile-details.adoc:223
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/systems/autoinst-profile-details.adoc:221
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/systems/autoinst-profile-details.adoc:223
 #, no-wrap
 msgid "Activation Keys"
 msgstr ""
 
 #. type: Target for macro image
-#: ./modules/reference/pages/systems/autoinst-profile-details.adoc:225
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/systems/autoinst-profile-details.adoc:225
 #, no-wrap
 msgid "details-ks-6.png"
 msgstr ""
 
 #. type: Plain text
-#: ./modules/reference/pages/systems/autoinst-profile-details.adoc:230
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/systems/autoinst-profile-details.adoc:230
 msgid ""
 "The [guimenu]``Activation Keys`` tab allows you to select Activation Keys to "
 "include as part of the Kickstart profile.  These keys, which must be created "
@@ -576,19 +577,20 @@ msgid ""
 msgstr ""
 
 #. type: Block title
-#: ./modules/reference/pages/systems/autoinst-profile-details.adoc:235 ./modules/reference/pages/systems/autoinst-profile-details.adoc:237
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/systems/autoinst-profile-details.adoc:235
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/systems/autoinst-profile-details.adoc:237
 #, no-wrap
 msgid "Scripts"
 msgstr ""
 
 #. type: Target for macro image
-#: ./modules/reference/pages/systems/autoinst-profile-details.adoc:238
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/systems/autoinst-profile-details.adoc:238
 #, no-wrap
 msgid "details-ks-7.png"
 msgstr ""
 
 #. type: Plain text
-#: ./modules/reference/pages/systems/autoinst-profile-details.adoc:243
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/systems/autoinst-profile-details.adoc:243
 msgid ""
 "The [guimenu]``Scripts`` tab is where [option]``%pre`` and [option]``%post`` "
 "scripts are created.  This page lists any scripts that have already been "
@@ -597,33 +599,33 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./modules/reference/pages/systems/autoinst-profile-details.adoc:245
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/systems/autoinst-profile-details.adoc:245
 msgid ""
 "Click the [guimenu]``add new kickstart script`` link in the upper right "
 "corner."
 msgstr ""
 
 #. type: Plain text
-#: ./modules/reference/pages/systems/autoinst-profile-details.adoc:246
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/systems/autoinst-profile-details.adoc:246
 msgid ""
 "Enter the path to the scripting language used to create the script, such as "
 "``/usr/bin/perl``."
 msgstr ""
 
 #. type: Plain text
-#: ./modules/reference/pages/systems/autoinst-profile-details.adoc:247
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/systems/autoinst-profile-details.adoc:247
 msgid "Enter the full script in the large text box."
 msgstr ""
 
 #. type: Plain text
-#: ./modules/reference/pages/systems/autoinst-profile-details.adoc:248
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/systems/autoinst-profile-details.adoc:248
 msgid ""
 "Indicate whether this script is to be executed in the [option]``%pre`` or "
 "[option]``%post`` section of the Kickstart process."
 msgstr ""
 
 #. type: Plain text
-#: ./modules/reference/pages/systems/autoinst-profile-details.adoc:249
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/systems/autoinst-profile-details.adoc:249
 msgid ""
 "Indicate whether this script is to run outside of the chroot "
 "environment. Refer to the [ref]_Post-installation Script_ section of the "
@@ -632,7 +634,7 @@ msgid ""
 msgstr ""
 
 #. type: delimited block =
-#: ./modules/reference/pages/systems/autoinst-profile-details.adoc:256
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/systems/autoinst-profile-details.adoc:256
 msgid ""
 "{productname} supports the inclusion of separate files within the Partition "
 "Details section of the Kickstart profile.  For instance, you may dynamically "
@@ -644,25 +646,26 @@ msgid ""
 msgstr ""
 
 #. type: delimited block -
-#: ./modules/reference/pages/systems/autoinst-profile-details.adoc:259
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/systems/autoinst-profile-details.adoc:259
 #, no-wrap
 msgid "%include /tmp/part-include\n"
 msgstr ""
 
 #. type: Block title
-#: ./modules/reference/pages/systems/autoinst-profile-details.adoc:265 ./modules/reference/pages/systems/autoinst-profile-details.adoc:267
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/systems/autoinst-profile-details.adoc:265
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/systems/autoinst-profile-details.adoc:267
 #, no-wrap
 msgid "Autoinstallation File"
 msgstr ""
 
 #. type: Target for macro image
-#: ./modules/reference/pages/systems/autoinst-profile-details.adoc:268
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/systems/autoinst-profile-details.adoc:268
 #, no-wrap
 msgid "details-ks-8.png"
 msgstr ""
 
 #. type: delimited block =
-#: ./modules/reference/pages/systems/autoinst-profile-details.adoc:271
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/systems/autoinst-profile-details.adoc:271
 msgid ""
 "The [guimenu]``Autoinstallation File`` tab allows you to view or download "
 "the profile that has been generated from the options chosen in the previous "
@@ -670,13 +673,13 @@ msgid ""
 msgstr ""
 
 #. type: Title ==
-#: ./modules/reference/pages/systems/autoinst-profile-details.adoc:275
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/systems/autoinst-profile-details.adoc:275
 #, no-wrap
 msgid "Upload Kickstart/{ay} File"
 msgstr ""
 
 #. type: delimited block =
-#: ./modules/reference/pages/systems/autoinst-profile-details.adoc:278
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/systems/autoinst-profile-details.adoc:278
 msgid ""
 "Click the [guimenu]``Upload Kickstart/Autoyast File`` link from the "
 "menu:Systems[Autoinstallation] page to upload an externally prepared {ay} or "
@@ -684,7 +687,7 @@ msgid ""
 msgstr ""
 
 #. type: delimited block =
-#: ./modules/reference/pages/systems/autoinst-profile-details.adoc:280
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/systems/autoinst-profile-details.adoc:280
 msgid ""
 "In the first line, enter a profile [guimenu]``Label`` for the automated "
 "installation. This label[] drop-down menu is only populated if one or more "
@@ -693,7 +696,7 @@ msgid ""
 msgstr ""
 
 #. type: delimited block =
-#: ./modules/reference/pages/systems/autoinst-profile-details.adoc:281
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/systems/autoinst-profile-details.adoc:281
 msgid ""
 "Instead of selecting a specific tree, you can also check the box "
 "[guimenu]``Always use the newest Tree`` for this base channel. This setting "
@@ -703,7 +706,7 @@ msgid ""
 msgstr ""
 
 #. type: delimited block =
-#: ./modules/reference/pages/systems/autoinst-profile-details.adoc:282
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/systems/autoinst-profile-details.adoc:282
 msgid ""
 "Select the [guimenu]``Virtualization Type`` from the drop-down menu. For "
 "more information about virtualization with **traditional clients**, see "
@@ -711,7 +714,7 @@ msgid ""
 msgstr ""
 
 #. type: delimited block =
-#: ./modules/reference/pages/systems/autoinst-profile-details.adoc:285
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/systems/autoinst-profile-details.adoc:285
 msgid ""
 "If you do not intend to use the autoinstall profile to create virtual guest "
 "systems, you can leave the drop-down set to the default choice "
@@ -719,47 +722,47 @@ msgid ""
 msgstr ""
 
 #. type: delimited block =
-#: ./modules/reference/pages/systems/autoinst-profile-details.adoc:288
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/systems/autoinst-profile-details.adoc:288
 msgid ""
 "Either cut-and-paste the file contents, or update the file from the local "
 "storage medium:"
 msgstr ""
 
 #. type: delimited block =
-#: ./modules/reference/pages/systems/autoinst-profile-details.adoc:289
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/systems/autoinst-profile-details.adoc:289
 msgid ""
 "Paste it into the [guimenu]``File Contents`` box and click "
 "[guimenu]``Create``, or"
 msgstr ""
 
 #. type: delimited block =
-#: ./modules/reference/pages/systems/autoinst-profile-details.adoc:290
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/systems/autoinst-profile-details.adoc:290
 msgid ""
 "enter the file name in the [guimenu]``File to Upload`` field and click "
 "btn:[Upload File]."
 msgstr ""
 
 #. type: delimited block =
-#: ./modules/reference/pages/systems/autoinst-profile-details.adoc:292
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/systems/autoinst-profile-details.adoc:292
 msgid "Four subtabs are now available:"
 msgstr ""
 
 #. type: delimited block =
-#: ./modules/reference/pages/systems/autoinst-profile-details.adoc:294
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/systems/autoinst-profile-details.adoc:294
 msgid "[guimenu]``Details``"
 msgstr ""
 
 #. type: delimited block =
-#: ./modules/reference/pages/systems/autoinst-profile-details.adoc:295
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/systems/autoinst-profile-details.adoc:295
 msgid "[guimenu]``Bare Metal``"
 msgstr ""
 
 #. type: delimited block =
-#: ./modules/reference/pages/systems/autoinst-profile-details.adoc:296
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/systems/autoinst-profile-details.adoc:296
 msgid "[guimenu]``Variables``"
 msgstr ""
 
 #. type: delimited block =
-#: ./modules/reference/pages/systems/autoinst-profile-details.adoc:296
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/systems/autoinst-profile-details.adoc:296
 msgid "[guimenu]``Autoinstallable File``"
 msgstr ""

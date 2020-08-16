@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2020-07-26 02:33+0200\n"
+"POT-Creation-Date: 2020-08-17 01:16+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,13 +17,13 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: Title =
-#: modules/client-configuration/pages/clients-rh-rhui.adoc:2
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/clients-rh-rhui.adoc:2
 #, no-wrap
 msgid "Registering {rhel} Clients with RHUI"
 msgstr ""
 
 #. type: Plain text
-#: modules/client-configuration/pages/clients-rh-rhui.adoc:7
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/clients-rh-rhui.adoc:7
 msgid ""
 "If you are running {rhel} clients directly, rather than using {sleses}, you "
 "need to use Red Hat sources to retrieve and update packages.  This section "
@@ -34,7 +34,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/client-configuration/pages/clients-rh-rhui.adoc:10
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/clients-rh-rhui.adoc:10
 msgid ""
 "It is possible to use RHUI in conjunction with the {redhat} content delivery "
 "network (CDN) to manage your {rhel} subscriptions.  For information about "
@@ -42,7 +42,7 @@ msgid ""
 msgstr ""
 
 #. type: delimited block =
-#: modules/client-configuration/pages/clients-rh-rhui.adoc:18
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/clients-rh-rhui.adoc:18
 msgid ""
 "{rhel} clients are based on {redhat} and are unrelated to {sleses}, RES, or "
 "{sles}.  You are responsible for connecting {productname} Server to the "
@@ -52,7 +52,7 @@ msgid ""
 msgstr ""
 
 #. type: delimited block =
-#: modules/client-configuration/pages/clients-rh-rhui.adoc:24
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/clients-rh-rhui.adoc:24
 msgid ""
 "When {rhel} clients registered with RHUI are switched off, {redhat} might "
 "declare the certificate invalid.  In this case, you need to turn the client "
@@ -60,54 +60,54 @@ msgid ""
 msgstr ""
 
 #. type: delimited block =
-#: modules/client-configuration/pages/clients-rh-rhui.adoc:31
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/clients-rh-rhui.adoc:31
 msgid ""
 "Traditional clients are available on {rhel}{nbsp}6 and 7 only.  {rhel}{nbsp}"
 "8 clients are supported as Salt clients."
 msgstr ""
 
 #. type: Title ==
-#: modules/client-configuration/pages/clients-rh-rhui.adoc:35
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/clients-rh-rhui.adoc:35
 #, no-wrap
 msgid "Import Entitlements and Certificates"
 msgstr ""
 
 #. type: Plain text
-#: modules/client-configuration/pages/clients-rh-rhui.adoc:38
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/clients-rh-rhui.adoc:38
 msgid ""
 "{redhat} clients require a {redhat} certificate authority (CA) and "
 "entitlement certificate, and an entitlement key."
 msgstr ""
 
 #. type: Plain text
-#: modules/client-configuration/pages/clients-rh-rhui.adoc:41
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/clients-rh-rhui.adoc:41
 msgid ""
 "{redhat} clients use a URL to replicate repositories.  The URL will change "
 "depending on where the {redhat} client is registered."
 msgstr ""
 
 #. type: Plain text
-#: modules/client-configuration/pages/clients-rh-rhui.adoc:43
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/clients-rh-rhui.adoc:43
 msgid "{redhat} clients can be registered in three different ways:"
 msgstr ""
 
 #. type: Plain text
-#: modules/client-configuration/pages/clients-rh-rhui.adoc:45
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/clients-rh-rhui.adoc:45
 msgid "{redhat} content delivery network (CDN) at redhat.com"
 msgstr ""
 
 #. type: Plain text
-#: modules/client-configuration/pages/clients-rh-rhui.adoc:46
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/clients-rh-rhui.adoc:46
 msgid "{redhat} Satellite Server"
 msgstr ""
 
 #. type: Plain text
-#: modules/client-configuration/pages/clients-rh-rhui.adoc:47
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/clients-rh-rhui.adoc:47
 msgid "{redhat} update infrastructure (RHUI) in the cloud"
 msgstr ""
 
 #. type: Plain text
-#: modules/client-configuration/pages/clients-rh-rhui.adoc:50
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/clients-rh-rhui.adoc:50
 msgid ""
 "This guide covers clients registered to {redhat} update infrastructure "
 "(RHUI).  You must have at least one system registered to RHUI, with an "
@@ -115,14 +115,14 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/client-configuration/pages/clients-rh-rhui.adoc:52
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/clients-rh-rhui.adoc:52
 msgid ""
 "For information about using {redhat} content delivery network (CDN) instead, "
 "see xref:client-configuration:clients-rh-cdn.adoc[]."
 msgstr ""
 
 #. type: delimited block =
-#: modules/client-configuration/pages/clients-rh-rhui.adoc:58
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/clients-rh-rhui.adoc:58
 msgid ""
 "Satellite certificates for client systems require a Satellite server and "
 "subscription.  Clients using Satellite certificates are not supported with "
@@ -130,14 +130,14 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/client-configuration/pages/clients-rh-rhui.adoc:62
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/clients-rh-rhui.adoc:62
 msgid ""
 "The entitlement certificates and keys need to be copied from the client "
 "system to a location that the {productname} Server can access."
 msgstr ""
 
 #. type: Plain text
-#: modules/client-configuration/pages/clients-rh-rhui.adoc:65
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/clients-rh-rhui.adoc:65
 msgid ""
 "Your entitlement certificate and the {redhat} CA Certificate file have file "
 "extensions of [path]``.crt``.  The key has a file extension of [path]``."
@@ -145,20 +145,20 @@ msgid ""
 msgstr ""
 
 #. type: Block title
-#: modules/client-configuration/pages/clients-rh-rhui.adoc:68
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/clients-rh-rhui.adoc:68
 #, no-wrap
 msgid "Procedure: Copying Certificates to the Server"
 msgstr ""
 
 #. type: Plain text
-#: modules/client-configuration/pages/clients-rh-rhui.adoc:70
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/clients-rh-rhui.adoc:70
 msgid ""
 "Copy your entitlement certificate and key from the client system, to a "
 "location that the {productname} Server can access:"
 msgstr ""
 
 #. type: delimited block -
-#: modules/client-configuration/pages/clients-rh-rhui.adoc:74
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/clients-rh-rhui.adoc:74
 #, no-wrap
 msgid ""
 "cp /etc/pki/rhui/product/content-<version>.crt /<example>/entitlement/\n"
@@ -166,20 +166,20 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/client-configuration/pages/clients-rh-rhui.adoc:77
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/clients-rh-rhui.adoc:77
 msgid ""
 "Copy the {redhat} CA Certificate file from the client system, to the same "
 "location as the entitlement certificate and key:"
 msgstr ""
 
 #. type: delimited block -
-#: modules/client-configuration/pages/clients-rh-rhui.adoc:80
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/clients-rh-rhui.adoc:80
 #, no-wrap
 msgid "cp /etc/pki/rhui/cdn.redhat.com-chain.crt /<example>/entitlement\n"
 msgstr ""
 
 #. type: Plain text
-#: modules/client-configuration/pages/clients-rh-rhui.adoc:85
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/clients-rh-rhui.adoc:85
 msgid ""
 "To manage repositories on your {redhat} client, you need to import the CA "
 "and entitlement certificates to the {productname} Server.  This requires "
@@ -189,41 +189,41 @@ msgid ""
 msgstr ""
 
 #. type: Block title
-#: modules/client-configuration/pages/clients-rh-rhui.adoc:88
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/clients-rh-rhui.adoc:88
 #, no-wrap
 msgid "Procedure: Importing Certificates to the Server"
 msgstr ""
 
 #. type: Plain text
-#: modules/client-configuration/pages/clients-rh-rhui.adoc:91
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/clients-rh-rhui.adoc:91
 msgid ""
 "On the {productname} Server {webui}, navigate to menu:"
 "Systems[Autoinstallation > GPG and SSL Keys]."
 msgstr ""
 
 #. type: Plain text
-#: modules/client-configuration/pages/clients-rh-rhui.adoc:92
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/clients-rh-rhui.adoc:92
 msgid ""
 "Click btn:[Create Stored Key/Cert] and set these parameters for the "
 "entitlement certificate:"
 msgstr ""
 
 #. type: Plain text
-#: modules/client-configuration/pages/clients-rh-rhui.adoc:93
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/clients-rh-rhui.adoc:93
 msgid ""
 "In the [guimenu]``Description`` field, type [systemitem]``Entitlement-Cert-"
 "Date``."
 msgstr ""
 
 #. type: Plain text
-#: modules/client-configuration/pages/clients-rh-rhui.adoc:94
-#: modules/client-configuration/pages/clients-rh-rhui.adoc:99
-#: modules/client-configuration/pages/clients-rh-rhui.adoc:104
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/clients-rh-rhui.adoc:94
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/clients-rh-rhui.adoc:99
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/clients-rh-rhui.adoc:104
 msgid "In the [guimenu]``Type`` field, select [systemitem]``SSL``."
 msgstr ""
 
 #. type: Plain text
-#: modules/client-configuration/pages/clients-rh-rhui.adoc:95
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/clients-rh-rhui.adoc:95
 msgid ""
 "In the [guimenu]``Select file to upload`` field, browse to the location "
 "where you saved the entitlement certificate, and select the [path]``.crt`` "
@@ -231,61 +231,61 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/client-configuration/pages/clients-rh-rhui.adoc:96
-#: modules/client-configuration/pages/clients-rh-rhui.adoc:101
-#: modules/client-configuration/pages/clients-rh-rhui.adoc:106
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/clients-rh-rhui.adoc:96
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/clients-rh-rhui.adoc:101
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/clients-rh-rhui.adoc:106
 msgid "Click btn:[Create Key]."
 msgstr ""
 
 #. type: Plain text
-#: modules/client-configuration/pages/clients-rh-rhui.adoc:97
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/clients-rh-rhui.adoc:97
 msgid ""
 "Click btn:[Create Stored Key/Cert] and set these parameters for the "
 "entitlement key:"
 msgstr ""
 
 #. type: Plain text
-#: modules/client-configuration/pages/clients-rh-rhui.adoc:98
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/clients-rh-rhui.adoc:98
 msgid ""
 "In the [guimenu]``Description`` field, type [systemitem]``Entitlement-Key-"
 "Date``."
 msgstr ""
 
 #. type: Plain text
-#: modules/client-configuration/pages/clients-rh-rhui.adoc:100
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/clients-rh-rhui.adoc:100
 msgid ""
 "In the [guimenu]``Select file to upload`` field, browse to the location "
 "where you saved the entitlement key, and select the [path]``.key`` key file."
 msgstr ""
 
 #. type: Plain text
-#: modules/client-configuration/pages/clients-rh-rhui.adoc:102
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/clients-rh-rhui.adoc:102
 msgid ""
 "Click btn:[Create Stored Key/Cert] and set these parameters for the {redhat} "
 "certificate:"
 msgstr ""
 
 #. type: Plain text
-#: modules/client-configuration/pages/clients-rh-rhui.adoc:103
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/clients-rh-rhui.adoc:103
 msgid ""
 "In the [guimenu]``Description`` field, type [systemitem]``redhat-cert``."
 msgstr ""
 
 #. type: Plain text
-#: modules/client-configuration/pages/clients-rh-rhui.adoc:105
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/clients-rh-rhui.adoc:105
 msgid ""
 "In the [guimenu]``Select file to upload`` field, browse to the location "
 "where you saved the {redhat} certificate, and select the certificate file."
 msgstr ""
 
 #. type: Title ==
-#: modules/client-configuration/pages/clients-rh-rhui.adoc:109
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/clients-rh-rhui.adoc:109
 #, no-wrap
 msgid "Prepare Custom Repositories and Channels"
 msgstr ""
 
 #. type: Plain text
-#: modules/client-configuration/pages/clients-rh-rhui.adoc:114
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/clients-rh-rhui.adoc:114
 msgid ""
 "To mirror the software from RHUI, you need to create custom channels and "
 "repositories in {productname} that are linked to RHUI by a URL.  You must "
@@ -295,38 +295,38 @@ msgid ""
 msgstr ""
 
 #. type: delimited block -
-#: modules/client-configuration/pages/clients-rh-rhui.adoc:117
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/clients-rh-rhui.adoc:117
 #, no-wrap
 msgid "yum repolist -v | grep baseurl\n"
 msgstr ""
 
 #. type: Plain text
-#: modules/client-configuration/pages/clients-rh-rhui.adoc:121
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/clients-rh-rhui.adoc:121
 msgid ""
 "You can use these repository URLs to create custom repositories.  This "
 "allows you to mirror only the content you need to manage your clients."
 msgstr ""
 
 #. type: delimited block =
-#: modules/client-configuration/pages/clients-rh-rhui.adoc:125
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/clients-rh-rhui.adoc:125
 msgid ""
 "You can only create custom versions of {redhat} repositories if you have the "
 "correct entitlements in your {redhat} Portal."
 msgstr ""
 
 #. type: Plain text
-#: modules/client-configuration/pages/clients-rh-rhui.adoc:129
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/clients-rh-rhui.adoc:129
 msgid "The details you need for this procedure are:"
 msgstr ""
 
 #. type: Block title
-#: modules/client-configuration/pages/clients-rh-rhui.adoc:132
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/clients-rh-rhui.adoc:132
 #, no-wrap
 msgid "Red Hat Custom Repository Settings"
 msgstr ""
 
 #. type: Table
-#: modules/client-configuration/pages/clients-rh-rhui.adoc:140
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/clients-rh-rhui.adoc:140
 #, no-wrap
 msgid ""
 "| Option                 | Setting\n"
@@ -338,19 +338,19 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/client-configuration/pages/clients-rh-rhui.adoc:148
-#: modules/client-configuration/pages/clients-rh-rhui.adoc:208
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/clients-rh-rhui.adoc:148
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/clients-rh-rhui.adoc:208
 msgid "The channels you need for this procedure are:"
 msgstr ""
 
 #. type: Block title
-#: modules/client-configuration/pages/clients-rh-rhui.adoc:151
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/clients-rh-rhui.adoc:151
 #, no-wrap
 msgid "Red Hat Custom Channels"
 msgstr ""
 
 #. type: Table
-#: modules/client-configuration/pages/clients-rh-rhui.adoc:157
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/clients-rh-rhui.adoc:157
 #, no-wrap
 msgid ""
 "| OS Version | Base Product          | Base Channel\n"
@@ -360,7 +360,7 @@ msgid ""
 msgstr ""
 
 #. type: delimited block =
-#: modules/client-configuration/pages/clients-rh-rhui.adoc:167
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/clients-rh-rhui.adoc:167
 msgid ""
 "For {redhat} 8 clients, add both the Base and Appstream channels.  You will "
 "require packages from both channels.  If you do not add both channels, you "
@@ -368,13 +368,13 @@ msgid ""
 msgstr ""
 
 #. type: Title ==
-#: modules/client-configuration/pages/clients-rh-rhui.adoc:174
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/clients-rh-rhui.adoc:174
 #, no-wrap
 msgid "Add Software Channels"
 msgstr ""
 
 #. type: Plain text
-#: modules/client-configuration/pages/clients-rh-rhui.adoc:177
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/clients-rh-rhui.adoc:177
 msgid ""
 "Before you register {redhat} clients to your {productname} Server, check "
 "that you have the {redhat} product enabled, and the required channels are "
@@ -382,7 +382,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/client-configuration/pages/clients-rh-rhui.adoc:183
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/clients-rh-rhui.adoc:183
 msgid ""
 "Your {susemgr} subscription entitles you to the tools channels for {sleses} "
 "(also known as {redhat} Expanded Support or RES).  You must use the client "
@@ -391,18 +391,18 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/client-configuration/pages/clients-rh-rhui.adoc:188
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/clients-rh-rhui.adoc:188
 msgid "The products you need for this procedure are:"
 msgstr ""
 
 #. type: Block title
-#: modules/client-configuration/pages/clients-rh-rhui.adoc:191
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/clients-rh-rhui.adoc:191
 #, no-wrap
 msgid "Red Hat Products - WebUI"
 msgstr ""
 
 #. type: Table
-#: modules/client-configuration/pages/clients-rh-rhui.adoc:197
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/clients-rh-rhui.adoc:197
 #, no-wrap
 msgid ""
 "| OS Version | Base Channel                     | Pool Channel\n"
@@ -412,16 +412,15 @@ msgid ""
 msgstr ""
 
 #. type: Block title
-#: modules/client-configuration/pages/clients-rh-rhui.adoc:211
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/clients-rh-rhui.adoc:211
 #, no-wrap
 msgid "Red Hat Channels - CLI"
 msgstr ""
 
 #. type: Table
-#: modules/client-configuration/pages/clients-rh-rhui.adoc:234
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/clients-rh-rhui.adoc:234
 #, no-wrap
 msgid ""
-"\n"
 "| OS Version\n"
 "| Base Channel\n"
 "| Client Channel\n"
@@ -445,14 +444,14 @@ msgid ""
 msgstr ""
 
 #. type: delimited block =
-#: modules/client-configuration/pages/clients-rh-rhui.adoc:243
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/clients-rh-rhui.adoc:243
 msgid ""
 "The client tools channel provided by [command]``spacewalk-common-channels`` "
 "is sourced from {uyuni} and not from {suse}."
 msgstr ""
 
 #. type: Plain text
-#: modules/client-configuration/pages/clients-rh-rhui.adoc:250
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/clients-rh-rhui.adoc:250
 msgid ""
 "To use RHUI, you need to manually add the required HTTP headers to the "
 "configuration file.  Without them, you cannot successfully perform a client "
@@ -460,13 +459,13 @@ msgid ""
 msgstr ""
 
 #. type: Block title
-#: modules/client-configuration/pages/clients-rh-rhui.adoc:253
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/clients-rh-rhui.adoc:253
 #, no-wrap
 msgid "Procedure: Adding HTTP Headers to the Configuration File"
 msgstr ""
 
 #. type: Plain text
-#: modules/client-configuration/pages/clients-rh-rhui.adoc:256
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/clients-rh-rhui.adoc:256
 msgid ""
 "Locate the [systemitem]``X-RHUI-ID`` and [systemitem]``X-RHUI-SIGNATURE`` "
 "HTTP headers from your RHUI instance.  You can use these commands on the "
@@ -475,7 +474,7 @@ msgid ""
 msgstr ""
 
 #. type: delimited block -
-#: modules/client-configuration/pages/clients-rh-rhui.adoc:260
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/clients-rh-rhui.adoc:260
 #, no-wrap
 msgid ""
 "echo \"X-RHUI-ID=$(curl -s http://169.254.169.254/latest/dynamic/instance-identity/document|base64|tr -d '\\n')\"\n"
@@ -483,14 +482,14 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/client-configuration/pages/clients-rh-rhui.adoc:262
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/clients-rh-rhui.adoc:262
 msgid ""
 "Open the [path]``/etc/rhn/spacewalk-repo-sync/extra_headers.conf`` "
 "configuration file, and add or edit these lines with the correct information:"
 msgstr ""
 
 #. type: delimited block -
-#: modules/client-configuration/pages/clients-rh-rhui.adoc:267
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/clients-rh-rhui.adoc:267
 #, no-wrap
 msgid ""
 "[channel_label]\n"
@@ -499,32 +498,32 @@ msgid ""
 msgstr ""
 
 #. type: Title ==
-#: modules/client-configuration/pages/clients-rh-rhui.adoc:272
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/clients-rh-rhui.adoc:272
 #, no-wrap
 msgid "Check Synchronization Status"
 msgstr ""
 
 #. type: delimited block =
-#: modules/client-configuration/pages/clients-rh-rhui.adoc:298
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/clients-rh-rhui.adoc:298
 msgid ""
 "{rhel} channels can be very large.  Synchronization can sometimes take "
 "several hours."
 msgstr ""
 
 #. type: Title ==
-#: modules/client-configuration/pages/clients-rh-rhui.adoc:303
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/clients-rh-rhui.adoc:303
 #, no-wrap
 msgid "Trust GPG Keys on Clients"
 msgstr ""
 
 #. type: Title ==
-#: modules/client-configuration/pages/clients-rh-rhui.adoc:311
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/clients-rh-rhui.adoc:311
 #, no-wrap
 msgid "Register Clients"
 msgstr ""
 
 #. type: Plain text
-#: modules/client-configuration/pages/clients-rh-rhui.adoc:316
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/clients-rh-rhui.adoc:316
 msgid ""
 "To register your {redhat} clients, you need a bootstrap repository.  By "
 "default, bootstrap repositories are automatically created, and regenerated "
@@ -533,20 +532,20 @@ msgid ""
 msgstr ""
 
 #. type: delimited block -
-#: modules/client-configuration/pages/clients-rh-rhui.adoc:319
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/clients-rh-rhui.adoc:319
 #, no-wrap
 msgid "mgr-create-bootstrap-repo --with-custom-channels\n"
 msgstr ""
 
 #. type: Plain text
-#: modules/client-configuration/pages/clients-rh-rhui.adoc:322
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/clients-rh-rhui.adoc:322
 msgid ""
 "For more information on registering your clients, see xref:client-"
 "configuration:registration-overview.adoc[]."
 msgstr ""
 
 #. type: delimited block =
-#: modules/client-configuration/pages/clients-rh-rhui.adoc:328
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/clients-rh-rhui.adoc:328
 msgid ""
 "To register and use {rhel}{nbsp}6 clients, you need to configure the "
 "{productname} Server to support older types of SSL encryption.  For more "
@@ -555,13 +554,13 @@ msgid ""
 msgstr ""
 
 #. type: Title ==
-#: modules/client-configuration/pages/clients-rh-rhui.adoc:332
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/clients-rh-rhui.adoc:332
 #, no-wrap
 msgid "Package Management and {rhel}{nbsp}8 Clients"
 msgstr ""
 
 #. type: Plain text
-#: modules/client-configuration/pages/clients-rh-rhui.adoc:336
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/clients-rh-rhui.adoc:336
 msgid ""
 "If you are using {rhel}{nbsp}8 clients, you cannot perform package "
 "operations such as installing or upgrading directly from modular "
@@ -571,7 +570,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/client-configuration/pages/clients-rh-rhui.adoc:337
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/clients-rh-rhui.adoc:337
 msgid ""
 "For more information about content lifecycle management, see xref:"
 "administration:content-lifecycle.adoc[]."

@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2020-07-26 02:34+0200\n"
+"POT-Creation-Date: 2020-08-17 01:22+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,33 +17,33 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: Title =
-#: ./modules/reference/pages/patches/patches-advanced-search.adoc:2
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/patches/patches-advanced-search.adoc:2
 #, no-wrap
 msgid "Advanced Search for Patches"
 msgstr ""
 
 #. type: Plain text
-#: ./modules/reference/pages/patches/patches-advanced-search.adoc:5
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/patches/patches-advanced-search.adoc:5
 msgid ""
 "The menu:Patches[Advanced Search] section allows you to use advanced "
 "criteria to search for patches."
 msgstr ""
 
 #. type: Plain text
-#: ./modules/reference/pages/patches/patches-advanced-search.adoc:7
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/patches/patches-advanced-search.adoc:7
 msgid ""
 "You can search for patches by looking for your search term in different "
 "fields:"
 msgstr ""
 
 #. type: Block title
-#: ./modules/reference/pages/patches/patches-advanced-search.adoc:10
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/patches/patches-advanced-search.adoc:10
 #, no-wrap
 msgid "Patch Advanced Search Options"
 msgstr ""
 
 #. type: Table
-#: ./modules/reference/pages/patches/patches-advanced-search.adoc:18
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/patches/patches-advanced-search.adoc:18
 #, no-wrap
 msgid ""
 "| Option         | Description | Example\n"
@@ -56,14 +56,14 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./modules/reference/pages/patches/patches-advanced-search.adoc:22
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/patches/patches-advanced-search.adoc:22
 msgid ""
 "You can also search within different types of patches, or within a range of "
 "issue dates."
 msgstr ""
 
 #. type: Plain text
-#: ./modules/reference/pages/patches/patches-advanced-search.adoc:24
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/patches/patches-advanced-search.adoc:24
 msgid ""
 "For more information about patching, see "
 "xref:client-configuration:patch-management.adoc[]."

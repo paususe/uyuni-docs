@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2020-07-26 02:34+0200\n"
+"POT-Creation-Date: 2020-08-17 01:22+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,13 +17,13 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: Title =
-#: ./modules/reference/pages/audit/audit-subscription-matching.adoc:2
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/audit/audit-subscription-matching.adoc:2
 #, no-wrap
 msgid "Subscription Matching"
 msgstr ""
 
 #. type: Plain text
-#: ./modules/reference/pages/audit/audit-subscription-matching.adoc:6
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/audit/audit-subscription-matching.adoc:6
 msgid ""
 "The menu:Audit[Subscription Matching] section provides reports that match "
 "your currently installed clients to your existing product subscriptions.  "
@@ -32,13 +32,13 @@ msgid ""
 msgstr ""
 
 #. type: Block title
-#: ./modules/reference/pages/audit/audit-subscription-matching.adoc:10
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/audit/audit-subscription-matching.adoc:10
 #, no-wrap
 msgid "Subscription Matching Options"
 msgstr ""
 
 #. type: Table
-#: ./modules/reference/pages/audit/audit-subscription-matching.adoc:20
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/audit/audit-subscription-matching.adoc:20
 #, no-wrap
 msgid ""
 "| Column          | Description\n"
@@ -54,27 +54,27 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./modules/reference/pages/audit/audit-subscription-matching.adoc:25
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/audit/audit-subscription-matching.adoc:25
 msgid ""
 "Table entries are highlighted if they are due to expire within three "
 "months.  Table entries that have already expired are shown in grayscale."
 msgstr ""
 
 #. type: Plain text
-#: ./modules/reference/pages/audit/audit-subscription-matching.adoc:28
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/audit/audit-subscription-matching.adoc:28
 msgid ""
 "For messages relating to subscription matching, navigate to the "
 "[guimenu]``Messages`` tab."
 msgstr ""
 
 #. type: Block title
-#: ./modules/reference/pages/audit/audit-subscription-matching.adoc:31
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/audit/audit-subscription-matching.adoc:31
 #, no-wrap
 msgid "Subscription Matching Statuses"
 msgstr ""
 
 #. type: Table
-#: ./modules/reference/pages/audit/audit-subscription-matching.adoc:39
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/audit/audit-subscription-matching.adoc:39
 #, no-wrap
 msgid ""
 "| Status                  | Description | Action\n"
@@ -94,20 +94,20 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./modules/reference/pages/audit/audit-subscription-matching.adoc:43
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/audit/audit-subscription-matching.adoc:43
 msgid ""
 "To pin clients to a particular subscription, navigate to the "
 "[guimenu]``Pins`` tab."
 msgstr ""
 
 #. type: Block title
-#: ./modules/reference/pages/audit/audit-subscription-matching.adoc:46
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/audit/audit-subscription-matching.adoc:46
 #, no-wrap
 msgid "Pin Statuses"
 msgstr ""
 
 #. type: Table
-#: ./modules/reference/pages/audit/audit-subscription-matching.adoc:52
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/audit/audit-subscription-matching.adoc:52
 #, no-wrap
 msgid ""
 "| Status                  | Description\n"
@@ -119,7 +119,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./modules/reference/pages/audit/audit-subscription-matching.adoc:55
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/audit/audit-subscription-matching.adoc:55
 msgid ""
 "For more information about subscription matching, see "
 "xref:administration:subscription-matching.adoc[]."

@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2020-07-26 02:34+0200\n"
+"POT-Creation-Date: 2020-08-17 01:22+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,13 +17,13 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: Title =
-#: ./modules/reference/pages/systems/autoinst-file-preservation.adoc:2
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/systems/autoinst-file-preservation.adoc:2
 #, no-wrap
 msgid "File Preservation"
 msgstr ""
 
 #. type: Plain text
-#: ./modules/reference/pages/systems/autoinst-file-preservation.adoc:6
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/systems/autoinst-file-preservation.adoc:6
 msgid ""
 "Collects lists of files to be protected and re-deployed on systems during "
 "{kickstart}.  For instance, if you have many custom configuration files "
@@ -32,7 +32,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./modules/reference/pages/systems/autoinst-file-preservation.adoc:11
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/systems/autoinst-file-preservation.adoc:11
 msgid ""
 "To use this feature, click the [guimenu]``Create File Preservation List`` "
 "link at the top.  Enter a suitable label and all files and directories to be "
@@ -41,7 +41,7 @@ msgid ""
 msgstr ""
 
 #. type: delimited block =
-#: ./modules/reference/pages/systems/autoinst-file-preservation.adoc:19
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/systems/autoinst-file-preservation.adoc:19
 msgid ""
 "Although file preservation is useful, it does have limitations.  Each list "
 "is limited to a total size of 1 MB.  Special devices like "
@@ -51,14 +51,14 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./modules/reference/pages/systems/autoinst-file-preservation.adoc:22
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/systems/autoinst-file-preservation.adoc:22
 msgid ""
 "When finished, you may include the file preservation list in the Kickstart "
 "profile to be used on systems containing those files."
 msgstr ""
 
 #. type: Plain text
-#: ./modules/reference/pages/systems/autoinst-file-preservation.adoc:23
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/systems/autoinst-file-preservation.adoc:23
 msgid ""
 "For more information, see "
 "xref:reference:systems/autoinst-profiles.adoc#ref.webui.systems.autoinst.profiles.create[]."

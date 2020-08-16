@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2020-07-26 02:35+0200\n"
+"POT-Creation-Date: 2020-08-17 01:19+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,13 +17,13 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: Title =
-#: modules/upgrade/pages/proxy-x.adoc:2
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/upgrade/pages/proxy-x.adoc:2
 #, no-wrap
-msgid "Proxy - X Upgrade"
+msgid "Proxy - Major Version Upgrade (X Upgrade)"
 msgstr ""
 
 #. type: Plain text
-#: modules/upgrade/pages/proxy-x.adoc:7
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/upgrade/pages/proxy-x.adoc:7
 msgid ""
 "{productname} Proxy can be upgraded from one major version to the next.  The "
 "upgrade process is automated, but you will need to do some preparation steps "
@@ -31,14 +31,14 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/upgrade/pages/proxy-x.adoc:9
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/upgrade/pages/proxy-x.adoc:9
 msgid ""
 "You will need to complete the {productname} Server migration before you "
 "start."
 msgstr ""
 
 #. type: Plain text
-#: modules/upgrade/pages/proxy-x.adoc:12
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/upgrade/pages/proxy-x.adoc:12
 msgid ""
 "The system must be running {productname} Proxy{nbsp}3.2 with all the latest "
 "updates applied.  Before you start, ensure that the system is up to date and "
@@ -46,13 +46,13 @@ msgid ""
 msgstr ""
 
 #. type: Title ==
-#: modules/upgrade/pages/proxy-x.adoc:15
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/upgrade/pages/proxy-x.adoc:15
 #, no-wrap
 msgid "Prepare to Migrate"
 msgstr ""
 
 #. type: Plain text
-#: modules/upgrade/pages/proxy-x.adoc:19
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/upgrade/pages/proxy-x.adoc:19
 msgid ""
 "Before you can update your proxy, you will need an autoinstallation "
 "distribution, and an autoinstallation profile.  The distribution must be "
@@ -61,88 +61,88 @@ msgid ""
 msgstr ""
 
 #. type: Block title
-#: modules/upgrade/pages/proxy-x.adoc:21
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/upgrade/pages/proxy-x.adoc:21
 #, no-wrap
 msgid "Procedure: Preparing Installation Media"
 msgstr ""
 
 #. type: Plain text
-#: modules/upgrade/pages/proxy-x.adoc:23
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/upgrade/pages/proxy-x.adoc:23
 msgid ""
 "On the {productname} Server, create a local directory for the SLE{nbsp}"
 "15{nbsp}SP2 installation media:"
 msgstr ""
 
 #. type: delimited block -
-#: modules/upgrade/pages/proxy-x.adoc:26
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/upgrade/pages/proxy-x.adoc:26
 #, no-wrap
 msgid "mkdir -p /srv/images/sle15sp2\n"
 msgstr ""
 
 #. type: Plain text
-#: modules/upgrade/pages/proxy-x.adoc:28
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/upgrade/pages/proxy-x.adoc:28
 msgid ""
 "Download an ISO image with the installation sources, and mount the ISO image "
 "on your server:"
 msgstr ""
 
 #. type: delimited block -
-#: modules/upgrade/pages/proxy-x.adoc:31
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/upgrade/pages/proxy-x.adoc:31
 #, no-wrap
 msgid "mount -o loop DVD1.iso /mnt/\n"
 msgstr ""
 
 #. type: Plain text
-#: modules/upgrade/pages/proxy-x.adoc:33
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/upgrade/pages/proxy-x.adoc:33
 msgid "Copy everything from the mounted ISO to your local file system:"
 msgstr ""
 
 #. type: delimited block -
-#: modules/upgrade/pages/proxy-x.adoc:36
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/upgrade/pages/proxy-x.adoc:36
 #, no-wrap
 msgid "cp -r /mnt/* /srv/images/sle15sp2\n"
 msgstr ""
 
 #. type: Plain text
-#: modules/upgrade/pages/proxy-x.adoc:38
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/upgrade/pages/proxy-x.adoc:38
 msgid "When the copy is complete, unmount the ISO image:"
 msgstr ""
 
 #. type: delimited block -
-#: modules/upgrade/pages/proxy-x.adoc:41
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/upgrade/pages/proxy-x.adoc:41
 #, no-wrap
 msgid "umount /mnt\n"
 msgstr ""
 
 #. type: delimited block =
-#: modules/upgrade/pages/proxy-x.adoc:46
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/upgrade/pages/proxy-x.adoc:46
 msgid ""
 "This image is the unified installer and can be used for multiple "
 "autoinstallation distributions."
 msgstr ""
 
 #. type: Block title
-#: modules/upgrade/pages/proxy-x.adoc:48
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/upgrade/pages/proxy-x.adoc:48
 #, no-wrap
 msgid "Procedure: Creating an Autoinstallation Distribution"
 msgstr ""
 
 #. type: Plain text
-#: modules/upgrade/pages/proxy-x.adoc:50
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/upgrade/pages/proxy-x.adoc:50
 msgid ""
 "In the {productname} {webui}, navigate to menu:Systems[Autoinstallation > "
 "Distributions] and click btn:[Create Distribution]."
 msgstr ""
 
 #. type: Plain text
-#: modules/upgrade/pages/proxy-x.adoc:51
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/upgrade/pages/proxy-x.adoc:51
 msgid ""
 "In the [guimenu]``Create Autoinstallable Distribution`` section, use these "
 "parameters:"
 msgstr ""
 
 #. type: Plain text
-#: modules/upgrade/pages/proxy-x.adoc:54
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/upgrade/pages/proxy-x.adoc:54
 msgid ""
 "In the [guimenu]``Distribution Label`` section, type a unique name for the "
 "distribution.  Use only letters, numbers, hyphens, periods, and underscores, "
@@ -151,28 +151,28 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/upgrade/pages/proxy-x.adoc:56
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/upgrade/pages/proxy-x.adoc:56
 msgid ""
 "In the [guimenu]``Tree Path`` field, type an absolute path to the "
 "installation source.  For example, [path]``/srv/images/sle15sp2``."
 msgstr ""
 
 #. type: Plain text
-#: modules/upgrade/pages/proxy-x.adoc:57
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/upgrade/pages/proxy-x.adoc:57
 msgid ""
 "In the [guimenu]``Base Channel`` field, select [systemitem]``SLE-Product-"
 "SUSE-Manager-Proxy-4.1-Pool for x86_64``."
 msgstr ""
 
 #. type: Plain text
-#: modules/upgrade/pages/proxy-x.adoc:58
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/upgrade/pages/proxy-x.adoc:58
 msgid ""
 "In the [guimenu]``Installer Generation`` field, select [systemitem]``SUSE "
 "Linux Enterprise 15``."
 msgstr ""
 
 #. type: Plain text
-#: modules/upgrade/pages/proxy-x.adoc:60
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/upgrade/pages/proxy-x.adoc:60
 msgid ""
 "In the [guimenu]``Kernel Options`` field, type any options to be passed to "
 "the kernel when booting for the installation.  The [option]``install=`` "
@@ -181,19 +181,19 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/upgrade/pages/proxy-x.adoc:61
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/upgrade/pages/proxy-x.adoc:61
 msgid ""
 "In the [guimenu]``Post Kernel Options`` section, type any options to be "
 "passed to the kernel when booting the installed system for the first time."
 msgstr ""
 
 #. type: Plain text
-#: modules/upgrade/pages/proxy-x.adoc:62
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/upgrade/pages/proxy-x.adoc:62
 msgid "Click btn:[Create Autoinstallable Distribution] to save."
 msgstr ""
 
 #. type: Plain text
-#: modules/upgrade/pages/proxy-x.adoc:65
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/upgrade/pages/proxy-x.adoc:65
 msgid ""
 "When you have created an autoinstallable distribution, you can edit it by "
 "navigating to menu:Systems[Autoinstallation > Distributions] and selecting "
@@ -201,13 +201,13 @@ msgid ""
 msgstr ""
 
 #. type: Title ==
-#: modules/upgrade/pages/proxy-x.adoc:68
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/upgrade/pages/proxy-x.adoc:68
 #, no-wrap
 msgid "Create an Autoinstallation Profile"
 msgstr ""
 
 #. type: Plain text
-#: modules/upgrade/pages/proxy-x.adoc:73
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/upgrade/pages/proxy-x.adoc:73
 msgid ""
 "Autoinstallation profiles contain all the installation and configuration "
 "data needed to install a system.  They can also contain scripts to be "
@@ -217,13 +217,13 @@ msgid ""
 msgstr ""
 
 #. type: Block title
-#: modules/upgrade/pages/proxy-x.adoc:76
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/upgrade/pages/proxy-x.adoc:76
 #, no-wrap
 msgid "Procedure: Creating an Autoinstallation Profile"
 msgstr ""
 
 #. type: Plain text
-#: modules/upgrade/pages/proxy-x.adoc:79
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/upgrade/pages/proxy-x.adoc:79
 msgid ""
 "In the {productname} {webui}, navigate to menu:Systems[Autoinstallation > "
 "Profiles] and upload your autoinstallation profile script.  For example "
@@ -232,7 +232,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/upgrade/pages/proxy-x.adoc:82
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/upgrade/pages/proxy-x.adoc:82
 msgid ""
 "In the ``Kernel Options`` field, type ``autoupgrade=1``.  Optionally, you "
 "can also include the ``Y2DEBUG=1`` option.  The debug setting is not "
@@ -241,17 +241,17 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/upgrade/pages/proxy-x.adoc:83
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/upgrade/pages/proxy-x.adoc:83
 msgid "Paste the autoinstallation profile or use the file upload field."
 msgstr ""
 
 #. type: Plain text
-#: modules/upgrade/pages/proxy-x.adoc:84
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/upgrade/pages/proxy-x.adoc:84
 msgid "Click btn:[Create] to save."
 msgstr ""
 
 #. type: Plain text
-#: modules/upgrade/pages/proxy-x.adoc:86
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/upgrade/pages/proxy-x.adoc:86
 msgid ""
 "When the uploaded profile requires variables to be set, navigate to menu:"
 "Systems[Autoinstallation > Profiles], select the profile to edit, and "
@@ -260,13 +260,13 @@ msgid ""
 msgstr ""
 
 #. type: delimited block -
-#: modules/upgrade/pages/proxy-x.adoc:89
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/upgrade/pages/proxy-x.adoc:89
 #, no-wrap
 msgid "<key>=<value>\n"
 msgstr ""
 
 #. type: delimited block =
-#: modules/upgrade/pages/proxy-x.adoc:94
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/upgrade/pages/proxy-x.adoc:94
 msgid ""
 "For proxies that were registered using Salt, use the ``spacewalk/"
 "minion_script`` snippet to register the proxy again after migration has "
@@ -274,26 +274,26 @@ msgid ""
 msgstr ""
 
 #. type: Title ==
-#: modules/upgrade/pages/proxy-x.adoc:98
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/upgrade/pages/proxy-x.adoc:98
 #, no-wrap
 msgid "Migration"
 msgstr ""
 
 #. type: Plain text
-#: modules/upgrade/pages/proxy-x.adoc:101
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/upgrade/pages/proxy-x.adoc:101
 msgid ""
 "Before you begin, check that all the channels referenced in the "
 "autoinstallation profile are available and fully synchronized."
 msgstr ""
 
 #. type: Block title
-#: modules/upgrade/pages/proxy-x.adoc:104
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/upgrade/pages/proxy-x.adoc:104
 #, no-wrap
 msgid "Procedure: Migrating"
 msgstr ""
 
 #. type: Plain text
-#: modules/upgrade/pages/proxy-x.adoc:106
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/upgrade/pages/proxy-x.adoc:106
 msgid ""
 "On the {productname} Server {webui}, navigate to menu:Systems[System List], "
 "select the proxy, navigate to the [guimenu]``Provisioning`` tab, and select "
@@ -301,7 +301,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/upgrade/pages/proxy-x.adoc:108
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/upgrade/pages/proxy-x.adoc:108
 msgid ""
 "Click btn:[Schedule Autoinstallation and Finish].  The system will download "
 "the required files, change the bootloader entries, reboot, and start the "
@@ -309,13 +309,13 @@ msgid ""
 msgstr ""
 
 #. type: Title ==
-#: modules/upgrade/pages/proxy-x.adoc:111
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/upgrade/pages/proxy-x.adoc:111
 #, no-wrap
 msgid "Clean Up"
 msgstr ""
 
 #. type: Plain text
-#: modules/upgrade/pages/proxy-x.adoc:115
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/upgrade/pages/proxy-x.adoc:115
 msgid ""
 "When the {productname} Proxy has finished upgrading, it shows the originally "
 "assigned channels.  Cleaning up after the migration ensures the correct "
@@ -323,20 +323,20 @@ msgid ""
 msgstr ""
 
 #. type: delimited block =
-#: modules/upgrade/pages/proxy-x.adoc:120
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/upgrade/pages/proxy-x.adoc:120
 msgid ""
 "If the server reports that there are updates available for the proxy, do not "
 "apply them before completing the cleanup."
 msgstr ""
 
 #. type: Block title
-#: modules/upgrade/pages/proxy-x.adoc:124
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/upgrade/pages/proxy-x.adoc:124
 #, no-wrap
 msgid "Procedure: Cleaning Up"
 msgstr ""
 
 #. type: Plain text
-#: modules/upgrade/pages/proxy-x.adoc:126
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/upgrade/pages/proxy-x.adoc:126
 msgid ""
 "On the {productname} Server {webui}, navigate to the [guimenu]``System "
 "List``, select the proxy, and navigate to the menu:Software[Software "
@@ -344,19 +344,19 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/upgrade/pages/proxy-x.adoc:127
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/upgrade/pages/proxy-x.adoc:127
 msgid "Clear the old channels."
 msgstr ""
 
 #. type: Plain text
-#: modules/upgrade/pages/proxy-x.adoc:128
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/upgrade/pages/proxy-x.adoc:128
 msgid ""
 "In the [guimenu]``Base Channel`` field, select `SLE-Product-SUSE-Manager-"
 "Proxy-4.1-Pool for x86_64`."
 msgstr ""
 
 #. type: Plain text
-#: modules/upgrade/pages/proxy-x.adoc:128
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/upgrade/pages/proxy-x.adoc:128
 msgid ""
 "In the [guimenu]``Child Channels`` field, select all the recommended "
 "channels."

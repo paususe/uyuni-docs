@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2020-07-26 02:33+0200\n"
+"POT-Creation-Date: 2020-08-17 01:21+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,13 +17,13 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: Title =
-#: ./modules/client-configuration/pages/contact-methods-rhnsd.adoc:2
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/contact-methods-rhnsd.adoc:2
 #, no-wrap
 msgid "SUSE Manager Daemon (rhnsd)"
 msgstr ""
 
 #. type: Plain text
-#: ./modules/client-configuration/pages/contact-methods-rhnsd.adoc:7
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/contact-methods-rhnsd.adoc:7
 msgid ""
 "The {productname} daemon ([command]``rhnsd``) runs on traditional client "
 "systems and periodically connects with {productname} to check for new "
@@ -31,7 +31,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./modules/client-configuration/pages/contact-methods-rhnsd.adoc:10
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/contact-methods-rhnsd.adoc:10
 msgid ""
 "It is only used on {sle}{nbsp}11 and {rhnminrelease6}, as these systems do "
 "not use systemd.  On later operating systems, a systemd timer "
@@ -40,19 +40,19 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./modules/client-configuration/pages/contact-methods-rhnsd.adoc:12
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/contact-methods-rhnsd.adoc:12
 msgid "Start the daemon with [command]``/etc/init.d/rhnsd``."
 msgstr ""
 
 #. type: Plain text
-#: ./modules/client-configuration/pages/contact-methods-rhnsd.adoc:15
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/contact-methods-rhnsd.adoc:15
 msgid ""
 "By default, it will check every four hours for new actions.  This means it "
 "can take some time for clients to execute scheduled actions."
 msgstr ""
 
 #. type: Plain text
-#: ./modules/client-configuration/pages/contact-methods-rhnsd.adoc:20
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/contact-methods-rhnsd.adoc:20
 msgid ""
 "To check for updates, [systemitem]``rhnsd`` runs the external "
 "[systemitem]``mgr_check`` program located in [path]``/usr/sbin/``.  This is "
@@ -63,7 +63,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./modules/client-configuration/pages/contact-methods-rhnsd.adoc:23
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/contact-methods-rhnsd.adoc:23
 msgid ""
 "This figure provides an overview of the default [systemitem]``rhnsd`` "
 "process path.  All items left of the [systemitem]``Python XMLRPC server`` "
@@ -71,26 +71,26 @@ msgid ""
 msgstr ""
 
 #. type: Target for macro image
-#: ./modules/client-configuration/pages/contact-methods-rhnsd.adoc:24
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/contact-methods-rhnsd.adoc:24
 #, no-wrap
 msgid "rhnsd-taigon.png"
 msgstr ""
 
 #. type: Title ==
-#: ./modules/client-configuration/pages/contact-methods-rhnsd.adoc:28
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/contact-methods-rhnsd.adoc:28
 #, no-wrap
 msgid "Configure rhnsd"
 msgstr ""
 
 #. type: Plain text
-#: ./modules/client-configuration/pages/contact-methods-rhnsd.adoc:31
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/contact-methods-rhnsd.adoc:31
 msgid ""
 "The `rhnsd` initialization script has a configuration file on the client "
 "system at [path]``/etc/sysconfig/rhn/rhnsd``."
 msgstr ""
 
 #. type: Plain text
-#: ./modules/client-configuration/pages/contact-methods-rhnsd.adoc:36
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/contact-methods-rhnsd.adoc:36
 msgid ""
 "An important parameter for the daemon is its check-in frequency.  The "
 "default interval time is four hours (240 minutes).  The minimum allowed time "
@@ -99,31 +99,31 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./modules/client-configuration/pages/contact-methods-rhnsd.adoc:38
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/contact-methods-rhnsd.adoc:38
 msgid ""
 "If you modify the `rhnsd` configuration file, execute this command as root "
 "to restart the daemon and pick up your changes:"
 msgstr ""
 
 #. type: delimited block -
-#: ./modules/client-configuration/pages/contact-methods-rhnsd.adoc:40
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/contact-methods-rhnsd.adoc:40
 #, no-wrap
 msgid "/etc/init.d/rhnsd restart\n"
 msgstr ""
 
 #. type: Plain text
-#: ./modules/client-configuration/pages/contact-methods-rhnsd.adoc:43
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/contact-methods-rhnsd.adoc:43
 msgid "To see the status of `rhnsd`, use this command as root:"
 msgstr ""
 
 #. type: delimited block -
-#: ./modules/client-configuration/pages/contact-methods-rhnsd.adoc:45
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/contact-methods-rhnsd.adoc:45
 #, no-wrap
 msgid "/etc/init.d/rhnsd status\n"
 msgstr ""
 
 #. type: Plain text
-#: ./modules/client-configuration/pages/contact-methods-rhnsd.adoc:48
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/contact-methods-rhnsd.adoc:48
 msgid ""
 "On {sle}{nbsp}12 and later, the default time interval is set in "
 "[path]``/etc/systemd/system/timers.target.wants/rhnsd.timer``, in this "
@@ -131,7 +131,7 @@ msgid ""
 msgstr ""
 
 #. type: delimited block -
-#: ./modules/client-configuration/pages/contact-methods-rhnsd.adoc:53
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/contact-methods-rhnsd.adoc:53
 #, no-wrap
 msgid ""
 "[Timer]\n"
@@ -140,25 +140,25 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./modules/client-configuration/pages/contact-methods-rhnsd.adoc:56
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/contact-methods-rhnsd.adoc:56
 msgid ""
 "You can create an overriding drop-in file for [path]``rhnsd.timer`` using "
 "[command]``systemctl``:"
 msgstr ""
 
 #. type: delimited block -
-#: ./modules/client-configuration/pages/contact-methods-rhnsd.adoc:59
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/contact-methods-rhnsd.adoc:59
 #, no-wrap
 msgid "systemctl edit rhnsd.timer\n"
 msgstr ""
 
 #. type: Plain text
-#: ./modules/client-configuration/pages/contact-methods-rhnsd.adoc:62
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/contact-methods-rhnsd.adoc:62
 msgid "For example, if you want configure a two hour time interval:"
 msgstr ""
 
 #. type: delimited block -
-#: ./modules/client-configuration/pages/contact-methods-rhnsd.adoc:66
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/contact-methods-rhnsd.adoc:66
 #, no-wrap
 msgid ""
 "[Timer]\n"
@@ -166,14 +166,14 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./modules/client-configuration/pages/contact-methods-rhnsd.adoc:69
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/contact-methods-rhnsd.adoc:69
 msgid ""
 "The file will be saved as "
 "[path]``/etc/systemd/system/rhnsd.timer.d/override.conf``."
 msgstr ""
 
 #. type: Plain text
-#: ./modules/client-configuration/pages/contact-methods-rhnsd.adoc:70
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/contact-methods-rhnsd.adoc:70
 msgid ""
 "For more information about system timers, see the [command]``systemd.timer`` "
 "and [command]``systemctl`` manpages."

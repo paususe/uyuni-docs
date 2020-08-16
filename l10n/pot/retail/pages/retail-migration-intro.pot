@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2020-07-26 02:34+0200\n"
+"POT-Creation-Date: 2020-08-17 01:22+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: Title =
-#: ./modules/retail/pages/retail-migration-intro.adoc:2
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/retail/pages/retail-migration-intro.adoc:2
 #, no-wrap
 msgid "Retail Migration"
 msgstr ""
@@ -39,7 +39,7 @@ msgstr ""
 #. [[retail.about.this.book]]
 #. == About this book
 #. type: Plain text
-#: ./modules/retail/pages/retail-migration-intro.adoc:28
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/retail/pages/retail-migration-intro.adoc:28
 msgid ""
 "This section provides instructions for migrating {slepos} 11, {smr} 3.1, or "
 "{smr} 3.2 to {smr} 4.1."

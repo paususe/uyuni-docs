@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2020-07-26 02:33+0200\n"
+"POT-Creation-Date: 2020-08-17 01:21+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,20 +17,20 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: Title =
-#: ./modules/client-configuration/pages/clients-oracle.adoc:2
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/clients-oracle.adoc:2
 #, no-wrap
 msgid "Registering {oracle} Clients"
 msgstr ""
 
 #. type: Plain text
-#: ./modules/client-configuration/pages/clients-oracle.adoc:5
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/clients-oracle.adoc:5
 msgid ""
 "This section contains information about registering traditional and Salt "
 "clients running {oracle} operating systems."
 msgstr ""
 
 #. type: delimited block =
-#: ./modules/client-configuration/pages/clients-oracle.adoc:11
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/clients-oracle.adoc:11
 msgid ""
 "{oracle} repository URLs are available from {scc}, but the packages and "
 "metadata are provided by Oracle, not by {suse}.  {oracle} base media "
@@ -38,20 +38,20 @@ msgid ""
 msgstr ""
 
 #. type: delimited block =
-#: ./modules/client-configuration/pages/clients-oracle.adoc:19
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/clients-oracle.adoc:19
 msgid ""
 "Traditional clients are not available on {oracle}{nbsp}8.  {oracle}{nbsp}8 "
 "clients are only supported as Salt clients."
 msgstr ""
 
 #. type: Title ==
-#: ./modules/client-configuration/pages/clients-oracle.adoc:22
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/clients-oracle.adoc:22
 #, no-wrap
 msgid "Add Software Channels"
 msgstr ""
 
 #. type: Plain text
-#: ./modules/client-configuration/pages/clients-oracle.adoc:25
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/clients-oracle.adoc:25
 msgid ""
 "Before you register {oracle} clients to your {productname} Server, check "
 "that you have the {oracle} product enabled, and the required channels are "
@@ -59,18 +59,18 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./modules/client-configuration/pages/clients-oracle.adoc:29
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/clients-oracle.adoc:29
 msgid "The products you need for this procedure are:"
 msgstr ""
 
 #. type: Block title
-#: ./modules/client-configuration/pages/clients-oracle.adoc:32
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/clients-oracle.adoc:32
 #, no-wrap
 msgid "Oracle Products - WebUI"
 msgstr ""
 
 #. type: Table
-#: ./modules/client-configuration/pages/clients-oracle.adoc:38
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/clients-oracle.adoc:38
 #, no-wrap
 msgid ""
 "| OS Version | Product Name          | Updates Channel\n"
@@ -80,21 +80,20 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./modules/client-configuration/pages/clients-oracle.adoc:47
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/clients-oracle.adoc:47
 msgid "The channels you need for this procedure are:"
 msgstr ""
 
 #. type: Block title
-#: ./modules/client-configuration/pages/clients-oracle.adoc:50
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/clients-oracle.adoc:50
 #, no-wrap
 msgid "Oracle Channels - CLI"
 msgstr ""
 
 #. type: Table
-#: ./modules/client-configuration/pages/clients-oracle.adoc:73
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/clients-oracle.adoc:73
 #, no-wrap
 msgid ""
-"\n"
 "| OS Version\n"
 "| Base Channel\n"
 "| Client Channel\n"
@@ -118,14 +117,14 @@ msgid ""
 msgstr ""
 
 #. type: delimited block =
-#: ./modules/client-configuration/pages/clients-oracle.adoc:80
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/clients-oracle.adoc:80
 msgid ""
 "The client tools channel provided by [command]``spacewalk-common-channels`` "
 "is sourced from {uyuni} and not from {suse}."
 msgstr ""
 
 #. type: delimited block =
-#: ./modules/client-configuration/pages/clients-oracle.adoc:89
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/clients-oracle.adoc:89
 msgid ""
 "For {oracle} 8 clients, add both the Base and Appstream channels.  You will "
 "require packages from both channels.  If you do not add both channels, you "
@@ -134,45 +133,45 @@ msgid ""
 msgstr ""
 
 #. type: Title ==
-#: ./modules/client-configuration/pages/clients-oracle.adoc:93
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/clients-oracle.adoc:93
 #, no-wrap
 msgid "Check Synchronization Status"
 msgstr ""
 
 #. type: Title ==
-#: ./modules/client-configuration/pages/clients-oracle.adoc:111
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/clients-oracle.adoc:111
 #, no-wrap
 msgid "Create an Activation Key"
 msgstr ""
 
 #. type: Plain text
-#: ./modules/client-configuration/pages/clients-oracle.adoc:114
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/clients-oracle.adoc:114
 msgid ""
 "You will need to create an activation key that is associated with your "
 "{oracle} channels."
 msgstr ""
 
 #. type: Plain text
-#: ./modules/client-configuration/pages/clients-oracle.adoc:116
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/clients-oracle.adoc:116
 msgid ""
 "For more information on activation keys, see "
 "xref:client-configuration:activation-keys.adoc[]."
 msgstr ""
 
 #. type: Title ==
-#: ./modules/client-configuration/pages/clients-oracle.adoc:120
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/clients-oracle.adoc:120
 #, no-wrap
 msgid "Trust GPG Keys on Clients"
 msgstr ""
 
 #. type: Title ==
-#: ./modules/client-configuration/pages/clients-oracle.adoc:127
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/clients-oracle.adoc:127
 #, no-wrap
 msgid "Register Clients"
 msgstr ""
 
 #. type: Plain text
-#: ./modules/client-configuration/pages/clients-oracle.adoc:131
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/clients-oracle.adoc:131
 msgid ""
 "{oracle} clients are registered in the same way as all other clients.  For "
 "more information, see "
@@ -180,7 +179,7 @@ msgid ""
 msgstr ""
 
 #. type: delimited block =
-#: ./modules/client-configuration/pages/clients-oracle.adoc:137
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/clients-oracle.adoc:137
 msgid ""
 "To register and use {oracle}{nbsp}6 clients, you need to configure the "
 "{productname} Server to support older types of SSL encryption.  For more "

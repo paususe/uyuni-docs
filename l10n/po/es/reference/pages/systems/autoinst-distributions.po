@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2020-06-14 00:55+0200\n"
+"POT-Creation-Date: 2020-08-17 01:18+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,13 +17,13 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: Title =
-#: ./modules/reference/pages/systems/autoinst-distributions.adoc:2
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/systems/autoinst-distributions.adoc:2
 #, no-wrap
 msgid "Distributions"
 msgstr ""
 
 #. type: Plain text
-#: ./modules/reference/pages/systems/autoinst-distributions.adoc:5
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/systems/autoinst-distributions.adoc:5
 msgid ""
 "The [guimenu]``Distributions`` page enables you to find and create custom "
 "installation trees that may be used for automated installations."
@@ -31,7 +31,7 @@ msgstr ""
 
 #.  ke, 2020-01-16: This note is confusing (IMO)
 #. type: delimited block =
-#: ./modules/reference/pages/systems/autoinst-distributions.adoc:11
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/systems/autoinst-distributions.adoc:11
 msgid ""
 "The [guimenu]``Distributions`` page does not display distributions already "
 "provided.  They can be found within the [guimenu]``Distribution`` drop-down "
@@ -39,69 +39,70 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./modules/reference/pages/systems/autoinst-distributions.adoc:14
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/systems/autoinst-distributions.adoc:14
 msgid ""
-"For more information about installing SUSE distributions, see "
-"https://documentation.suse.com/sles/15-SP1/html/SLES-all/book-sle-deployment.html."
+"For more information about installing SUSE distributions, see https://"
+"documentation.suse.com/sles/15-SP1/html/SLES-all/book-sle-deployment.html."
 msgstr ""
 
 #. type: Plain text
-#: ./modules/reference/pages/systems/autoinst-distributions.adoc:16
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/systems/autoinst-distributions.adoc:16
 msgid ""
-"For more information about installing Red Hat distributions, see "
-"https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/html/installation_guide/chap-kickstart-installations."
+"For more information about installing Red Hat distributions, see https://"
+"access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/html/"
+"installation_guide/chap-kickstart-installations."
 msgstr ""
 
 #. type: Plain text
-#: ./modules/reference/pages/systems/autoinst-distributions.adoc:18
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/systems/autoinst-distributions.adoc:18
 msgid ""
 "The installation tree must be located in a local directory on the "
 "{productname} Server."
 msgstr ""
 
 #. type: Block title
-#: ./modules/reference/pages/systems/autoinst-distributions.adoc:21
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/systems/autoinst-distributions.adoc:21
 #, no-wrap
 msgid "Procedure: Creating a Distribution for Autoinstallation"
 msgstr ""
 
 #. type: Plain text
-#: ./modules/reference/pages/systems/autoinst-distributions.adoc:23
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/systems/autoinst-distributions.adoc:23
 msgid ""
 "In the {productname} {webui}, navigate to menu:Systems[Autoinstallation > "
 "Distributions]."
 msgstr ""
 
 #. type: Plain text
-#: ./modules/reference/pages/systems/autoinst-distributions.adoc:24
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/systems/autoinst-distributions.adoc:24
 msgid ""
 "To create a distribution, on the [guimenu]``Autoinstallable Distributions`` "
 "page click [guimenu]``Create Distribution`` in the upper right corner."
 msgstr ""
 
 #. type: Plain text
-#: ./modules/reference/pages/systems/autoinst-distributions.adoc:25
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/systems/autoinst-distributions.adoc:25
 msgid ""
 "On the [guimenu]``Create Autoinstallable Distribution`` page, provide the "
 "following data:"
 msgstr ""
 
 #. type: Plain text
-#: ./modules/reference/pages/systems/autoinst-distributions.adoc:27
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/systems/autoinst-distributions.adoc:27
 msgid ""
 "Enter a label (without spaces) in the [guimenu]``Distribution Label`` field, "
 "such as `my-orgs-sles-15-sp1` or ``my-orgs-rhel-as-7``."
 msgstr ""
 
 #. type: Plain text
-#: ./modules/reference/pages/systems/autoinst-distributions.adoc:28
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/systems/autoinst-distributions.adoc:28
 msgid ""
 "In the [guimenu]``Tree Path`` field, paste the path to the base of the "
 "installation tree."
 msgstr ""
 
 #. type: Plain text
-#: ./modules/reference/pages/systems/autoinst-distributions.adoc:29
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/systems/autoinst-distributions.adoc:29
 msgid ""
 "Select the matching distribution from the [guimenu]``Base Channel`` and "
 "[guimenu]``Installer Generation`` drop-down menus, such as `SUSE Linux` for "
@@ -109,18 +110,19 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./modules/reference/pages/systems/autoinst-distributions.adoc:30
-msgid "When finished, click the btn:[Create Autoinstallable Distribution] button."
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/systems/autoinst-distributions.adoc:30
+msgid ""
+"When finished, click the btn:[Create Autoinstallable Distribution] button."
 msgstr ""
 
 #. type: Title ==
-#: ./modules/reference/pages/systems/autoinst-distributions.adoc:34
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/systems/autoinst-distributions.adoc:34
 #, no-wrap
 msgid "Variables"
 msgstr ""
 
 #. type: Plain text
-#: ./modules/reference/pages/systems/autoinst-distributions.adoc:38
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/systems/autoinst-distributions.adoc:38
 msgid ""
 "Autoinstallation variables can be used to substitute values into Kickstart "
 "and {ay} profiles.  To define a variable, create a name-value pair "
@@ -128,7 +130,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./modules/reference/pages/systems/autoinst-distributions.adoc:41
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/systems/autoinst-distributions.adoc:41
 msgid ""
 "For example, if you want to autoinstall a system that joins the network of a "
 "specified organization (for example the Engineering department) you can "
@@ -138,7 +140,7 @@ msgid ""
 msgstr ""
 
 #. type: delimited block -
-#: ./modules/reference/pages/systems/autoinst-distributions.adoc:45
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/systems/autoinst-distributions.adoc:45
 #, no-wrap
 msgid ""
 "IPADDR=192.168.0.28\n"
@@ -146,7 +148,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./modules/reference/pages/systems/autoinst-distributions.adoc:50
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/systems/autoinst-distributions.adoc:50
 msgid ""
 "To use the distribution variable, use the name of the variable in the "
 "profile to substitute the value.  For example, the [option]``network`` part "
@@ -154,7 +156,7 @@ msgid ""
 msgstr ""
 
 #. type: delimited block -
-#: ./modules/reference/pages/systems/autoinst-distributions.adoc:54
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/systems/autoinst-distributions.adoc:54
 #, no-wrap
 msgid ""
 "network --bootproto=static --device=eth0 --onboot=on --ip=$IPADDR \\\n"
@@ -162,14 +164,14 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./modules/reference/pages/systems/autoinst-distributions.adoc:58
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/systems/autoinst-distributions.adoc:58
 msgid ""
 "The [option]``$IPADDR`` will be resolved to ``192.168.0.28``, and the "
 "[option]``$GATEWAY`` to ``192.168.0.1``."
 msgstr ""
 
 #. type: delimited block =
-#: ./modules/reference/pages/systems/autoinst-distributions.adoc:64
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/systems/autoinst-distributions.adoc:64
 msgid ""
 "There is a hierarchy when creating and using variables in Kickstart files.  "
 "System Kickstart variables take precedence over Profile variables, which in "
@@ -178,20 +180,20 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./modules/reference/pages/systems/autoinst-distributions.adoc:68
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/systems/autoinst-distributions.adoc:68
 msgid "In {ay} profiles you can use such variables as well."
 msgstr ""
 
 #. type: Plain text
-#: ./modules/reference/pages/systems/autoinst-distributions.adoc:70
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/systems/autoinst-distributions.adoc:70
 msgid ""
 "Using variables are just one part of the larger Cobbler infrastructure for "
 "creating templates that can be shared between multiple profiles and systems."
 msgstr ""
 
 #. type: Plain text
-#: ./modules/reference/pages/systems/autoinst-distributions.adoc:71
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/reference/pages/systems/autoinst-distributions.adoc:71
 msgid ""
-"For more information about Cobbler and templates, see "
-"xref:client-configuration:cobbler.adoc[]."
+"For more information about Cobbler and templates, see xref:client-"
+"configuration:cobbler.adoc[]."
 msgstr ""

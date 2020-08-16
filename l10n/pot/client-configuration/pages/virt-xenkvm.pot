@@ -7,28 +7,28 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2020-07-26 02:34+0200\n"
+"POT-Creation-Date: 2020-08-17 01:21+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: Title =
-#: ./modules/client-configuration/pages/virt-xenkvm.adoc:2
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/virt-xenkvm.adoc:2
 #, no-wrap
 msgid "Virtualization with Xen and KVM"
 msgstr ""
 
 #. type: Plain text
-#: ./modules/client-configuration/pages/virt-xenkvm.adoc:5
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/virt-xenkvm.adoc:5
 msgid "Xen and KVM virtualized clients can be managed directly in {productname}."
 msgstr ""
 
 #. type: Plain text
-#: ./modules/client-configuration/pages/virt-xenkvm.adoc:8
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/virt-xenkvm.adoc:8
 msgid ""
 "To begin, you will need to set up a virtual host on your {productname} "
 "Server.  You can then set up autoinstallation using {ay} or {kickstart} for "
@@ -36,27 +36,27 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./modules/client-configuration/pages/virt-xenkvm.adoc:10
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/virt-xenkvm.adoc:10
 msgid ""
 "This section also includes information about administering your virtual "
 "guests after they have been installed."
 msgstr ""
 
 #. type: Title ==
-#: ./modules/client-configuration/pages/virt-xenkvm.adoc:13
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/virt-xenkvm.adoc:13
 #, no-wrap
 msgid "Host Setup"
 msgstr ""
 
 #. type: Plain text
-#: ./modules/client-configuration/pages/virt-xenkvm.adoc:16
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/virt-xenkvm.adoc:16
 msgid ""
 "The way that you set up Xen or KVM on a VM host depends on what operating "
 "system you want to use on its associated guests."
 msgstr ""
 
 #. type: Plain text
-#: ./modules/client-configuration/pages/virt-xenkvm.adoc:18
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/virt-xenkvm.adoc:18
 msgid ""
 "For {suse} operating systems, see the SLES Virtualization Guide available "
 "from "
@@ -64,14 +64,14 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./modules/client-configuration/pages/virt-xenkvm.adoc:20
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/virt-xenkvm.adoc:20
 msgid ""
 "For {rhel} operating systems, refer to the Red Hat documentation for your "
 "version."
 msgstr ""
 
 #. type: Plain text
-#: ./modules/client-configuration/pages/virt-xenkvm.adoc:26
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/virt-xenkvm.adoc:26
 msgid ""
 "{productname} uses [systemitem]``libvirt`` to install and manage guests.  "
 "You must have the [daemon]``libvirtd`` package installed on your host.  In "
@@ -83,7 +83,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./modules/client-configuration/pages/virt-xenkvm.adoc:31
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/virt-xenkvm.adoc:31
 msgid ""
 "You will require a bootstrap script on the {productname} Server.  Your "
 "bootstrap script must include the activation key for your host.  We also "
@@ -93,7 +93,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./modules/client-configuration/pages/virt-xenkvm.adoc:34
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/virt-xenkvm.adoc:34
 msgid ""
 "When your bootstrap script is ready, execute it on the host to register it "
 "with the {productname} Server.  For more on client registration, see "
@@ -101,7 +101,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./modules/client-configuration/pages/virt-xenkvm.adoc:41
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/virt-xenkvm.adoc:41
 msgid ""
 "For Salt clients, you will need to enable the [systemitem]``Virtualization "
 "Host`` entitlement.  This allows you to see VM changes instantly.  To do "
@@ -115,13 +115,13 @@ msgid ""
 msgstr ""
 
 #. type: delimited block -
-#: ./modules/client-configuration/pages/virt-xenkvm.adoc:44
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/virt-xenkvm.adoc:44
 #, no-wrap
 msgid "systemctl restart salt-minion\n"
 msgstr ""
 
 #. type: Plain text
-#: ./modules/client-configuration/pages/virt-xenkvm.adoc:52
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/virt-xenkvm.adoc:52
 msgid ""
 "For traditional clients, by default, VM hosts use the [systemitem]``rhnsd`` "
 "service to check for scheduled actions.  The check occurs every four hours, "
@@ -135,14 +135,14 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./modules/client-configuration/pages/virt-xenkvm.adoc:54
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/virt-xenkvm.adoc:54
 msgid ""
 "To disable the [systemitem]``rhnsd`` service, and enable the "
 "[daemon]``osad`` daemon, run these commands as the root user:"
 msgstr ""
 
 #. type: delimited block -
-#: ./modules/client-configuration/pages/virt-xenkvm.adoc:58
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/virt-xenkvm.adoc:58
 #, no-wrap
 msgid ""
 "service rhnsd stop\n"
@@ -150,7 +150,7 @@ msgid ""
 msgstr ""
 
 #. type: delimited block -
-#: ./modules/client-configuration/pages/virt-xenkvm.adoc:63
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/virt-xenkvm.adoc:63
 #, no-wrap
 msgid ""
 "service osad enable\n"
@@ -158,20 +158,20 @@ msgid ""
 msgstr ""
 
 #. type: Title ==
-#: ./modules/client-configuration/pages/virt-xenkvm.adoc:65
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/virt-xenkvm.adoc:65
 #, no-wrap
 msgid "Autoinstallation"
 msgstr ""
 
 #. type: Plain text
-#: ./modules/client-configuration/pages/virt-xenkvm.adoc:69
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/virt-xenkvm.adoc:69
 msgid ""
 "You can use {ay} or {kickstart} to automatically install and register Xen "
 "and KVM guests."
 msgstr ""
 
 #. type: Plain text
-#: ./modules/client-configuration/pages/virt-xenkvm.adoc:74
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/virt-xenkvm.adoc:74
 msgid ""
 "You will require an activation key for the VM host you want to register the "
 "guests to, and for each guest.  Your activation key must have the "
@@ -183,7 +183,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./modules/client-configuration/pages/virt-xenkvm.adoc:77
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/virt-xenkvm.adoc:77
 msgid ""
 "If you want to automatically register the guests with {productname} after "
 "installation, you will need to create a bootstrap script.  For more on "
@@ -192,7 +192,7 @@ msgid ""
 msgstr ""
 
 #. type: delimited block =
-#: ./modules/client-configuration/pages/virt-xenkvm.adoc:82
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/virt-xenkvm.adoc:82
 msgid ""
 "Autoinstallation of VM guests works only if they are configured as "
 "Traditional clients.  Salt clients can be created using a template disk "
@@ -200,13 +200,13 @@ msgid ""
 msgstr ""
 
 #. type: Title ===
-#: ./modules/client-configuration/pages/virt-xenkvm.adoc:84
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/virt-xenkvm.adoc:84
 #, no-wrap
 msgid "Create an Autoinstallable Distribution"
 msgstr ""
 
 #. type: Plain text
-#: ./modules/client-configuration/pages/virt-xenkvm.adoc:88
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/virt-xenkvm.adoc:88
 msgid ""
 "You will need to create an autoinstallable distribution on the VM host to be "
 "able to autoinstall clients from {productname}.  The distribution can be "
@@ -215,7 +215,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./modules/client-configuration/pages/virt-xenkvm.adoc:93
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/virt-xenkvm.adoc:93
 msgid ""
 "The configuration of the autoinstallable distribution will differ depending "
 "on whether you are using a SLES or {rhel} operating system on your guests.  "
@@ -226,13 +226,13 @@ msgid ""
 msgstr ""
 
 #. type: Block title
-#: ./modules/client-configuration/pages/virt-xenkvm.adoc:94
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/virt-xenkvm.adoc:94
 #, no-wrap
 msgid "Paths for autoinstallable distributions"
 msgstr ""
 
 #. type: Table
-#: ./modules/client-configuration/pages/virt-xenkvm.adoc:100
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/virt-xenkvm.adoc:100
 #, no-wrap
 msgid ""
 "| Operating System Type | Kernel Location | initrd Location\n"
@@ -243,14 +243,14 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./modules/client-configuration/pages/virt-xenkvm.adoc:103
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/virt-xenkvm.adoc:103
 msgid ""
 "In all cases, ensure that the base channel matches the autoinstallable "
 "distribution."
 msgstr ""
 
 #. type: Plain text
-#: ./modules/client-configuration/pages/virt-xenkvm.adoc:107
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/virt-xenkvm.adoc:107
 msgid ""
 "Before you begin, ensure you have a installation media available to your VM "
 "Host.  It can be on a network resource, a local directory, or an "
@@ -259,27 +259,27 @@ msgid ""
 msgstr ""
 
 #. type: Block title
-#: ./modules/client-configuration/pages/virt-xenkvm.adoc:109
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/virt-xenkvm.adoc:109
 #, no-wrap
 msgid "Procedure: Creating an Autoinstallable Distribution"
 msgstr ""
 
 #. type: Plain text
-#: ./modules/client-configuration/pages/virt-xenkvm.adoc:112
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/virt-xenkvm.adoc:112
 msgid ""
 "In the {productname} {webui}, navigate to menu:Systems[Autoinstallation > "
 "Distributions] and click btn:[Create Distribution]."
 msgstr ""
 
 #. type: Plain text
-#: ./modules/client-configuration/pages/virt-xenkvm.adoc:113
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/virt-xenkvm.adoc:113
 msgid ""
 "In the [guimenu]``Create Autoinstallable Distribution`` section, use these "
 "parameters:"
 msgstr ""
 
 #. type: Plain text
-#: ./modules/client-configuration/pages/virt-xenkvm.adoc:115
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/virt-xenkvm.adoc:115
 msgid ""
 "In the [guimenu]``Distribution Label`` section, type a unique name for the "
 "distribution.  Use only letters, numbers, hyphens (``-``), periods (``.``), "
@@ -287,14 +287,14 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./modules/client-configuration/pages/virt-xenkvm.adoc:116
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/virt-xenkvm.adoc:116
 msgid ""
 "In the [guimenu]``Tree Path`` field, type an absolute path to the "
 "installation source."
 msgstr ""
 
 #. type: Plain text
-#: ./modules/client-configuration/pages/virt-xenkvm.adoc:118
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/virt-xenkvm.adoc:118
 msgid ""
 "In the [guimenu]``Base Channel`` field, select the channel that matches the "
 "installation source.  This channel is used as the package source for "
@@ -302,14 +302,14 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./modules/client-configuration/pages/virt-xenkvm.adoc:119
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/virt-xenkvm.adoc:119
 msgid ""
 "In the [guimenu]``Installer Generation`` field, select the operating system "
 "version that matches the installation source."
 msgstr ""
 
 #. type: Plain text
-#: ./modules/client-configuration/pages/virt-xenkvm.adoc:121
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/virt-xenkvm.adoc:121
 msgid ""
 "In the [guimenu]``Kernel Options`` field, type any options to be passed to "
 "the kernel when booting for the installation.  The [option]``install=`` "
@@ -318,19 +318,19 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./modules/client-configuration/pages/virt-xenkvm.adoc:122
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/virt-xenkvm.adoc:122
 msgid ""
 "In the [guimenu]``Post Kernel Options`` section, type any options to be "
 "passed to the kernel when booting the installed system for the first time."
 msgstr ""
 
 #. type: Plain text
-#: ./modules/client-configuration/pages/virt-xenkvm.adoc:123
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/virt-xenkvm.adoc:123
 msgid "Click btn:[Create Autoinstallable Distribution] to save."
 msgstr ""
 
 #. type: Plain text
-#: ./modules/client-configuration/pages/virt-xenkvm.adoc:125
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/virt-xenkvm.adoc:125
 msgid ""
 "When you have created an autoinstallable distribution, you can edit it by "
 "navigating to menu:Systems[Autoinstallation > Distributions] and selecting "
@@ -338,13 +338,13 @@ msgid ""
 msgstr ""
 
 #. type: Title ===
-#: ./modules/client-configuration/pages/virt-xenkvm.adoc:128
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/virt-xenkvm.adoc:128
 #, no-wrap
 msgid "Create and Upload an Autoinstallation Profile"
 msgstr ""
 
 #. type: Plain text
-#: ./modules/client-configuration/pages/virt-xenkvm.adoc:132
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/virt-xenkvm.adoc:132
 msgid ""
 "Autoinstallation profiles contain all the installation and configuration "
 "data needed to install a system.  They can also contain scripts to be "
@@ -352,7 +352,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./modules/client-configuration/pages/virt-xenkvm.adoc:135
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/virt-xenkvm.adoc:135
 msgid ""
 "{kickstart} profiles can be created using the {productname} {webui}, by "
 "navigating to menu:Systems[Autoinstallation > Profiles], clicking "
@@ -361,7 +361,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./modules/client-configuration/pages/virt-xenkvm.adoc:138
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/virt-xenkvm.adoc:138
 msgid ""
 "An example {ay} profile that includes a script for registering the client "
 "with {productname} is available in "
@@ -370,7 +370,7 @@ msgid ""
 msgstr ""
 
 #. type: delimited block -
-#: ./modules/client-configuration/pages/virt-xenkvm.adoc:143
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/virt-xenkvm.adoc:143
 #, no-wrap
 msgid ""
 "<products config:type=\"list\">\n"
@@ -379,41 +379,41 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./modules/client-configuration/pages/virt-xenkvm.adoc:146
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/virt-xenkvm.adoc:146
 msgid ""
 "For more on {ay}, see "
 "xref:client-configuration:client-automating-installation.adoc[]."
 msgstr ""
 
 #. type: Plain text
-#: ./modules/client-configuration/pages/virt-xenkvm.adoc:147
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/virt-xenkvm.adoc:147
 msgid ""
 "For more on {kickstart}, see xref:client-configuration:kickstart.adoc[], or "
 "refer to the Red Hat documentation for your installation."
 msgstr ""
 
 #. type: Block title
-#: ./modules/client-configuration/pages/virt-xenkvm.adoc:150
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/virt-xenkvm.adoc:150
 #, no-wrap
 msgid "Procedure: Uploading an Autoinstallation Profile"
 msgstr ""
 
 #. type: Plain text
-#: ./modules/client-configuration/pages/virt-xenkvm.adoc:153
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/virt-xenkvm.adoc:153
 msgid ""
 "In the {productname} {webui}, navigate to menu:Systems[Autoinstallation > "
 "Profiles] and click btn:[Upload Kickstart/AutoYaST File]."
 msgstr ""
 
 #. type: Plain text
-#: ./modules/client-configuration/pages/virt-xenkvm.adoc:154
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/virt-xenkvm.adoc:154
 msgid ""
 "In the [guimenu]``Create Autoinstallation Profile`` section, use these "
 "parameters:"
 msgstr ""
 
 #. type: Plain text
-#: ./modules/client-configuration/pages/virt-xenkvm.adoc:156
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/virt-xenkvm.adoc:156
 msgid ""
 "In the [guimenu]``Label`` field, type a unique name for the profile.  Use "
 "only letters, numbers, hyphens (``-``), periods (``.``), and underscores "
@@ -421,14 +421,14 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./modules/client-configuration/pages/virt-xenkvm.adoc:157
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/virt-xenkvm.adoc:157
 msgid ""
 "In the [guimenu]``Autoinstall Tree`` field, select the autoinstallable "
 "distribution you created earlier."
 msgstr ""
 
 #. type: Plain text
-#: ./modules/client-configuration/pages/virt-xenkvm.adoc:159
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/virt-xenkvm.adoc:159
 msgid ""
 "In the [guimenu]``Virtualization Type`` field, select the relevant Guest "
 "type (for example, [parameter]``KVM Virtualized Guest``.  Do not choose "
@@ -436,7 +436,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./modules/client-configuration/pages/virt-xenkvm.adoc:161
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/virt-xenkvm.adoc:161
 msgid ""
 "OPTIONAL: If you want to manually create your autoinstallation profile, you "
 "can type it directly into the [guimenu]``File Contents`` field.  If you have "
@@ -444,7 +444,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./modules/client-configuration/pages/virt-xenkvm.adoc:163
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/virt-xenkvm.adoc:163
 msgid ""
 "In the [guimenu]``File to Upload`` field, click btn:[Choose File], and use "
 "the system dialog to select the file to upload.  If the file is successfully "
@@ -453,19 +453,19 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./modules/client-configuration/pages/virt-xenkvm.adoc:165
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/virt-xenkvm.adoc:165
 msgid ""
 "The contents of the uploaded file will be shown in the [guimenu]``File "
 "Contents`` field.  If you need to make edits, you can do so directly."
 msgstr ""
 
 #. type: Plain text
-#: ./modules/client-configuration/pages/virt-xenkvm.adoc:166
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/virt-xenkvm.adoc:166
 msgid "Click btn:[Create] to save your changes and store the profile."
 msgstr ""
 
 #. type: Plain text
-#: ./modules/client-configuration/pages/virt-xenkvm.adoc:169
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/virt-xenkvm.adoc:169
 msgid ""
 "When you have created an autoinstallation profile, you can edit it by "
 "navigating to menu:Systems[Autoinstallation > Profiles] and selecting the "
@@ -474,7 +474,7 @@ msgid ""
 msgstr ""
 
 #. type: delimited block =
-#: ./modules/client-configuration/pages/virt-xenkvm.adoc:174
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/virt-xenkvm.adoc:174
 msgid ""
 "If you change the [guimenu]``Virtualization Type`` of an existing "
 "{kickstart} profile, it might also modify the bootloader and partition "
@@ -484,13 +484,13 @@ msgid ""
 msgstr ""
 
 #. type: Title ===
-#: ./modules/client-configuration/pages/virt-xenkvm.adoc:178
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/virt-xenkvm.adoc:178
 #, no-wrap
 msgid "Automatically Register Guests"
 msgstr ""
 
 #. type: Plain text
-#: ./modules/client-configuration/pages/virt-xenkvm.adoc:183
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/virt-xenkvm.adoc:183
 msgid ""
 "When you install VM guests automatically, they are not registered to "
 "{productname}.  If you want your guests to be automatically registered as "
@@ -499,14 +499,14 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./modules/client-configuration/pages/virt-xenkvm.adoc:185
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/virt-xenkvm.adoc:185
 msgid ""
 "This section gives instructions for adding a bootstrap script to an existing "
 "{ay} profile."
 msgstr ""
 
 #. type: Plain text
-#: ./modules/client-configuration/pages/virt-xenkvm.adoc:188
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/virt-xenkvm.adoc:188
 msgid ""
 "For more on creating a bootstrap script, see "
 "xref:client-configuration:registration-bootstrap.adoc[].  For instructions "
@@ -515,13 +515,13 @@ msgid ""
 msgstr ""
 
 #. type: Block title
-#: ./modules/client-configuration/pages/virt-xenkvm.adoc:189
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/virt-xenkvm.adoc:189
 #, no-wrap
 msgid "Procedure: Adding a Bootstrap Script to an {ay} Profile"
 msgstr ""
 
 #. type: Plain text
-#: ./modules/client-configuration/pages/virt-xenkvm.adoc:192
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/virt-xenkvm.adoc:192
 msgid ""
 "Ensure your bootstrap script contains the activation key for the VM guests "
 "you want to register with it, and that is located on the host at "
@@ -529,14 +529,14 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./modules/client-configuration/pages/virt-xenkvm.adoc:193
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/virt-xenkvm.adoc:193
 msgid ""
 "In the {productname} {webui}, navigate to menu:Systems[Autoinstallation > "
 "Profiles], and select the {ay} profile to associate this script with."
 msgstr ""
 
 #. type: Plain text
-#: ./modules/client-configuration/pages/virt-xenkvm.adoc:195
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/virt-xenkvm.adoc:195
 msgid ""
 "In the [guimenu]``File Contents`` field, add this snippet at the end of the "
 "file, immediately before the closing ``</profile>`` tag.  Ensure you replace "
@@ -545,7 +545,7 @@ msgid ""
 msgstr ""
 
 #. type: delimited block -
-#: ./modules/client-configuration/pages/virt-xenkvm.adoc:207
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/virt-xenkvm.adoc:207
 #, no-wrap
 msgid ""
 "<scripts>\n"
@@ -561,12 +561,12 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./modules/client-configuration/pages/virt-xenkvm.adoc:210
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/virt-xenkvm.adoc:210
 msgid "Click menu:Update[] to save your changes."
 msgstr ""
 
 #. type: delimited block =
-#: ./modules/client-configuration/pages/virt-xenkvm.adoc:215
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/virt-xenkvm.adoc:215
 msgid ""
 "If your {ay} profile already contains a ``<scripts>`` section, do not add a "
 "second one.  Place the bootstrap snippet inside the existing ``<scripts>`` "
@@ -574,20 +574,20 @@ msgid ""
 msgstr ""
 
 #. type: Title ===
-#: ./modules/client-configuration/pages/virt-xenkvm.adoc:218
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/virt-xenkvm.adoc:218
 #, no-wrap
 msgid "Autoinstall VM Guests"
 msgstr ""
 
 #. type: Plain text
-#: ./modules/client-configuration/pages/virt-xenkvm.adoc:222
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/virt-xenkvm.adoc:222
 msgid ""
 "Once you have everything set up, you can start to autoinstall your VM "
 "guests."
 msgstr ""
 
 #. type: delimited block =
-#: ./modules/client-configuration/pages/virt-xenkvm.adoc:228
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/virt-xenkvm.adoc:228
 msgid ""
 "Each VM host can only install one guest at a time.  If you are scheduling "
 "more than one autoinstallation, make sure you time them so that the next "
@@ -597,51 +597,51 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./modules/client-configuration/pages/virt-xenkvm.adoc:232
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/virt-xenkvm.adoc:232
 msgid ""
 "In the {productname} {webui}, navigate to menu:Systems[Overview], and select "
 "the VM host you want to install guests on."
 msgstr ""
 
 #. type: Plain text
-#: ./modules/client-configuration/pages/virt-xenkvm.adoc:233
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/virt-xenkvm.adoc:233
 msgid ""
 "Navigate to the [guiitem]``Virtualization`` tab, and the "
 "[guimenu]``Provisioning`` subtab."
 msgstr ""
 
 #. type: Plain text
-#: ./modules/client-configuration/pages/virt-xenkvm.adoc:234
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/virt-xenkvm.adoc:234
 msgid ""
 "Select the autoinstallation profile you want to use, and specify a unique "
 "name for the guest."
 msgstr ""
 
 #. type: Plain text
-#: ./modules/client-configuration/pages/virt-xenkvm.adoc:235
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/virt-xenkvm.adoc:235
 msgid "Choose a proxy if applicable and enter a schedule."
 msgstr ""
 
 #. type: Plain text
-#: ./modules/client-configuration/pages/virt-xenkvm.adoc:236
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/virt-xenkvm.adoc:236
 msgid ""
 "To change the guest's hardware profile and configuration options, click "
 "btn:[Advanced Options]."
 msgstr ""
 
 #. type: Plain text
-#: ./modules/client-configuration/pages/virt-xenkvm.adoc:237
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/virt-xenkvm.adoc:237
 msgid "Click btn:[Schedule Autoinstallation and Finish] to complete."
 msgstr ""
 
 #. type: Title ==
-#: ./modules/client-configuration/pages/virt-xenkvm.adoc:240
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/virt-xenkvm.adoc:240
 #, no-wrap
 msgid "Manage VM Guests"
 msgstr ""
 
 #. type: Plain text
-#: ./modules/client-configuration/pages/virt-xenkvm.adoc:244
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/virt-xenkvm.adoc:244
 msgid ""
 "You can use the {productname} {webui} to manage your VM Guests, including "
 "actions like shutting down, restarting, and adjusting CPU and memory "
@@ -649,7 +649,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./modules/client-configuration/pages/virt-xenkvm.adoc:247
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/virt-xenkvm.adoc:247
 msgid ""
 "To do this, you will need your Xen or KVM VM host registered to the "
 "{productname} Server, and have the [daemon]``libvirtd`` service running on "
@@ -658,7 +658,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./modules/client-configuration/pages/virt-xenkvm.adoc:250
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/virt-xenkvm.adoc:250
 msgid ""
 "In the {productname} {webui}, navigate to menu:Systems[System List], and "
 "click on the VM host for the guests you want to manage.  Navigate to the "
@@ -667,7 +667,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./modules/client-configuration/pages/virt-xenkvm.adoc:251
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/virt-xenkvm.adoc:251
 msgid ""
 "For more information on managing VM guests using the {webui}, see "
 "xref:reference:systems/system-details/sd-virtualization.adoc[]."

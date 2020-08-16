@@ -7,128 +7,215 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2020-07-26 02:34+0200\n"
+"POT-Creation-Date: 2020-08-17 01:22+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: Title =
-#: ./modules/installation/pages/hardware-requirements.adoc:2
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/installation/pages/hardware-requirements.adoc:2
 #, no-wrap
 msgid "Hardware Requirements"
 msgstr ""
 
 #. type: Plain text
-#: ./modules/installation/pages/hardware-requirements.adoc:5
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/installation/pages/hardware-requirements.adoc:5
 msgid ""
 "This table outlines hardware and software requirements for the {productname} "
 "Server and Proxy, on {x86_64} and {ppc64le} architecture."
 msgstr ""
 
 #. type: Plain text
-#: ./modules/installation/pages/hardware-requirements.adoc:7
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/installation/pages/hardware-requirements.adoc:7
 msgid "For {ibmz} hardware requirements, see xref:installation:install-ibmz.adoc[]."
 msgstr ""
 
 #. type: Plain text
-#: ./modules/installation/pages/hardware-requirements.adoc:9
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/installation/pages/hardware-requirements.adoc:9
 msgid "For {smr} hardware requirements, see xref:retail:retail-requirements.adoc[]."
 msgstr ""
 
 #. type: Title ==
-#: ./modules/installation/pages/hardware-requirements.adoc:12
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/installation/pages/hardware-requirements.adoc:12
 #, no-wrap
 msgid "Server Hardware Requirements"
 msgstr ""
 
 #. type: Block title
-#: ./modules/installation/pages/hardware-requirements.adoc:15
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/installation/pages/hardware-requirements.adoc:15
 #, no-wrap
 msgid "Server Hardware Requirements for {x86_64} Architecture"
 msgstr ""
 
 #. type: Table
-#: ./modules/installation/pages/hardware-requirements.adoc:28
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/installation/pages/hardware-requirements.adoc:60
 #, no-wrap
 msgid ""
-"| Hardware                 | Recommended\n"
-"| CPU                      | Minimum 4 dedicated 64-bit CPU cores\n"
-"| RAM:                     | _Test Server_ Minimum 8{nbsp}GB\n"
-"|                          | _Base Installation_ Minimum 16{nbsp}GB\n"
-"|                          | _Production Server_ Minimum 32{nbsp}GB\n"
-"| Disk Space:              | [path]``/`` _(root)_ Minimum 24{nbsp}GB\n"
-"|                          | [path]``/var/lib/pgsql`` Minimum 50{nbsp}GB\n"
-"|                          | [path]``/var/spacewalk`` Minimum 50{nbsp}GB per "
-"{suse} product and 360{nbsp}GB per Red Hat product\n"
-"|                          | [path]``/var/cache`` In accordance to products "
-"to be synchronized: 100{nbsp}MB per {suse} product, 1{nbsp}GB per Red Hat or "
-"other product.\n"
+"| Hardware\n"
+"| Details\n"
+"| Recommendation\n"
+"\n"
+"| CPU\n"
+"| -\n"
+"| Minimum 4 dedicated 64-bit CPU cores\n"
+"\n"
+"| RAM\n"
+"| Test Server\n"
+"| Minimum 8{nbsp}GB\n"
+"\n"
+"|\n"
+"| Base Installation\n"
+"| Minimum 16{nbsp}GB\n"
+"\n"
+"|\n"
+"| Production Server\n"
+"| Minimum 32{nbsp}GB\n"
+"\n"
+"| Disk Space\n"
+"| [path]``/`` (root directory)\n"
+"| Minimum 24{nbsp}GB\n"
+"\n"
+"|\n"
+"| [path]``/var/lib/pgsql``\n"
+"| Minimum 50{nbsp}GB\n"
+"\n"
+"|\n"
+"| [path]``/var/spacewalk``\n"
+"| Minimum 50{nbsp}GB per {suse} product and 360{nbsp}GB per Red Hat "
+"product\n"
+"\n"
+"|\n"
+"| [path]``/var/cache``\n"
+"| Minimum 10{nbsp}GB.\n"
+"Add 100{nbsp}MB per {suse} product, 1{nbsp}GB per Red Hat or other "
+"product.\n"
 "Double the space if the server is an ISS Master.\n"
-"| Swap space:               | 3{nbsp}GB\n"
+"\n"
+"|\n"
+"| Swap space\n"
+"| 3{nbsp}GB\n"
+"\n"
+msgstr ""
+
+#. type: Plain text
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/installation/pages/hardware-requirements.adoc:64
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/installation/pages/hardware-requirements.adoc:117
+msgid ""
+"For more information about inter-server synchronization (ISS), see "
+"xref:administration:iss.adoc[]."
 msgstr ""
 
 #. type: Block title
-#: ./modules/installation/pages/hardware-requirements.adoc:31
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/installation/pages/hardware-requirements.adoc:68
 #, no-wrap
 msgid "Server Hardware Requirements for IBM POWER8 or POWER9 Architecture"
 msgstr ""
 
 #. type: Table
-#: ./modules/installation/pages/hardware-requirements.adoc:44
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/installation/pages/hardware-requirements.adoc:113
 #, no-wrap
 msgid ""
-"| Hardware                 | Recommended\n"
-"| CPU                      | Minimum 4 dedicated cores\n"
-"| RAM:                     | _Test Server_ Minimum 8{nbsp}GB\n"
-"|                          | _Base Installation_ Minimum 16{nbsp}GB\n"
-"|                          | _Production Server_ Minimum 32{nbsp}GB\n"
-"| Disk Space:              | [path]``/`` Minimum 100{nbsp}GB\n"
-"|                          | [path]``/var/lib/pgsql`` Minimum 50{nbsp}GB\n"
-"|                          | [path]``/var/spacewalk`` Minimum 50{nbsp}GB per "
-"SUSE product and 360{nbsp}GB per Red Hat product\n"
-"|                          | [path]``/var/cache`` In accordance to products "
-"to be synchronized: 100{nbsp}MB per {suse} product, 1{nbsp}GB per Red Hat or "
-"other product.\n"
+"| Hardware\n"
+"| Details\n"
+"| Recommendation\n"
+"\n"
+"| CPU\n"
+"|\n"
+"| Minimum 4 dedicated cores\n"
+"\n"
+"| RAM\n"
+"| Test Server\n"
+"| Minimum 8{nbsp}GB\n"
+"\n"
+"|\n"
+"| Base Installation\n"
+"| Minimum 16{nbsp}GB\n"
+"\n"
+"|\n"
+"| Production Server\n"
+"| Minimum 32{nbsp}GB\n"
+"\n"
+"| Disk Space\n"
+"| [path]``/`` (root directory)\n"
+"| Minimum 100{nbsp}GB\n"
+"\n"
+"|\n"
+"| [path]``/var/lib/pgsql``\n"
+"| Minimum 50{nbsp}GB\n"
+"\n"
+"|\n"
+"| [path]``/var/spacewalk``\n"
+"| Minimum 50{nbsp}GB per SUSE product and 360{nbsp}GB per Red Hat product\n"
+"\n"
+"|\n"
+"| [path]``/var/cache``\n"
+"| Minimum 10{nbsp}GB.\n"
+"Add 100{nbsp}MB per {suse} product, 1{nbsp}GB per Red Hat or other "
+"product.\n"
 "Double the space if the server is an ISS Master.\n"
-"| Swap space:               | 3{nbsp}GB\n"
+"\n"
+"|\n"
+"| Swap space\n"
+"| 3{nbsp}GB\n"
+"\n"
 msgstr ""
 
 #. type: Block title
-#: ./modules/installation/pages/hardware-requirements.adoc:48 ./modules/installation/pages/hardware-requirements.adoc:51
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/installation/pages/hardware-requirements.adoc:120
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/installation/pages/hardware-requirements.adoc:123
 #, no-wrap
 msgid "Proxy Hardware Requirements"
 msgstr ""
 
 #. type: Table
-#: ./modules/installation/pages/hardware-requirements.adoc:60
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/installation/pages/hardware-requirements.adoc:154
 #, no-wrap
 msgid ""
-"| Hardware                 | Recommended\n"
-"| CPU                      | Minimum 2 dedicated 64-bit CPU cores\n"
-"| RAM:                     | _Test Server_ Minimum 2{nbsp}GB\n"
-"|                          | _Production Server_ Minimum 8{nbsp}GB\n"
-"| Disk Space:              | [path]``/`` _(root)_ Minimum 24{nbsp}GB\n"
-"|                          | [path]``/srv`` Minimum 100{nbsp}GB\n"
-"|                          | [path]``/var/cache`` _(Squid)_ Recommended: "
-"minimum 100{nbsp}GB\n"
+"| Hardware\n"
+"| Details\n"
+"| Recommendation\n"
+"\n"
+"| CPU\n"
+"|\n"
+"| Minimum 2 dedicated 64-bit CPU cores\n"
+"\n"
+"| RAM\n"
+"| Test Server\n"
+"| Minimum 2{nbsp}GB\n"
+"\n"
+"|\n"
+"| Production Server\n"
+"| Minimum 8{nbsp}GB\n"
+"\n"
+"| Disk Space\n"
+"| [path]``/`` (root directory)\n"
+"| Minimum 24{nbsp}GB\n"
+"\n"
+"|\n"
+"| [path]``/srv``\n"
+"| Minimum 100{nbsp}GB\n"
+"\n"
+"|\n"
+"| [path]``/var/cache`` (Squid)\n"
+"| Minimum 100{nbsp}GB\n"
+"\n"
 msgstr ""
 
 #. type: Plain text
-#: ./modules/installation/pages/hardware-requirements.adoc:65
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/installation/pages/hardware-requirements.adoc:160
 msgid ""
 "{productname} Server stores packages in the [path]``/var/spacewalk/`` "
 "directory.  Repository synchronization fails if this directory runs out of "
 "disk space.  You can estimate how much space the [path]``/var/spacewalk/`` "
-"directory requires based on the number and type of clients and repositories "
-"you plan to mirror."
+"directory requires based on the clients and repositories you plan to mirror."
 msgstr ""
 
 #. type: Plain text
-#: ./modules/installation/pages/hardware-requirements.adoc:68
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/installation/pages/hardware-requirements.adoc:163
 msgid ""
 "{productname} Proxy caches packages in the [path]``/var/cache/`` directory.  "
 "If there is not enough space available in [path]``/var/cache/``, the proxy "
@@ -136,19 +223,19 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./modules/installation/pages/hardware-requirements.adoc:70
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/installation/pages/hardware-requirements.adoc:165
 msgid "As a result of this behavior:"
 msgstr ""
 
 #. type: Plain text
-#: ./modules/installation/pages/hardware-requirements.adoc:72
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/installation/pages/hardware-requirements.adoc:167
 msgid ""
 "The larger [path]``/var/cache/`` directory is on the {productname} Proxy, "
 "the less traffic there will be between it and the {productname} Server."
 msgstr ""
 
 #. type: Plain text
-#: ./modules/installation/pages/hardware-requirements.adoc:73
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/installation/pages/hardware-requirements.adoc:168
 msgid ""
 "By making the [path]``/var/cache/`` directory on the {productname} Proxy the "
 "same size as [path]``/var/spacewalk/`` in the {productname} Server, you "
@@ -156,7 +243,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./modules/installation/pages/hardware-requirements.adoc:73
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/installation/pages/hardware-requirements.adoc:168
 msgid ""
 "The [path]``/var/cache/`` directory can be small on the {productname} Server "
 "compared to {productname} Proxy. See estimation hints in the Server Hardware "

@@ -7,23 +7,23 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2020-07-26 02:34+0200\n"
+"POT-Creation-Date: 2020-08-17 01:22+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: Title =
-#: ./modules/salt/pages/salt-file-locations.adoc:2
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/salt/pages/salt-file-locations.adoc:2
 #, no-wrap
 msgid "Salt File Locations and Structure"
 msgstr ""
 
 #. type: Plain text
-#: ./modules/salt/pages/salt-file-locations.adoc:8
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/salt/pages/salt-file-locations.adoc:8
 msgid ""
 "There are several ways to set up the Salt file structure.  This section "
 "describes how Salt is supported and set up as part of {productname} Server.  "
@@ -32,7 +32,7 @@ msgid ""
 msgstr ""
 
 #. type: delimited block =
-#: ./modules/salt/pages/salt-file-locations.adoc:16
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/salt/pages/salt-file-locations.adoc:16
 msgid ""
 "Do not edit the [path]``/etc/salt/master.d/susemanager.conf`` configuration "
 "file.  This file belongs to the [package]``spacewalk-setup`` package and is "
@@ -45,14 +45,14 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./modules/salt/pages/salt-file-locations.adoc:19
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/salt/pages/salt-file-locations.adoc:19
 msgid ""
 "Some settings from [path]``/etc/salt/master.d/susemanager.conf`` that can "
 "help with finding configuration options:"
 msgstr ""
 
 #. type: delimited block -
-#: ./modules/salt/pages/salt-file-locations.adoc:31
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/salt/pages/salt-file-locations.adoc:31
 #, no-wrap
 msgid ""
 "# Configure different file roots. Custom salt states should only be placed "
@@ -69,7 +69,7 @@ msgid ""
 msgstr ""
 
 #. type: delimited block -
-#: ./modules/salt/pages/salt-file-locations.adoc:38
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/salt/pages/salt-file-locations.adoc:38
 #, no-wrap
 msgid ""
 "# Configure different pillar roots. Custom pillar data should only be "
@@ -82,35 +82,35 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./modules/salt/pages/salt-file-locations.adoc:41
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/salt/pages/salt-file-locations.adoc:41
 msgid ""
 "When you are working with [path]``/etc/salt/master.d/susemanager.conf``, be "
 "aware that:"
 msgstr ""
 
 #. type: Plain text
-#: ./modules/salt/pages/salt-file-locations.adoc:43
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/salt/pages/salt-file-locations.adoc:43
 msgid "Files listed are searched in the order they appear"
 msgstr ""
 
 #. type: Plain text
-#: ./modules/salt/pages/salt-file-locations.adoc:44
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/salt/pages/salt-file-locations.adoc:44
 msgid "The first matching file found is called"
 msgstr ""
 
 #. type: Plain text
-#: ./modules/salt/pages/salt-file-locations.adoc:46
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/salt/pages/salt-file-locations.adoc:46
 msgid "The {productname} Server reads Salt state data from five root directories:"
 msgstr ""
 
 #. type: Labeled list
-#: ./modules/salt/pages/salt-file-locations.adoc:47
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/salt/pages/salt-file-locations.adoc:47
 #, no-wrap
 msgid "[path]``/usr/share/susemanager/salt``"
 msgstr ""
 
 #. type: Plain text
-#: ./modules/salt/pages/salt-file-locations.adoc:49
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/salt/pages/salt-file-locations.adoc:49
 msgid ""
 "This directory is shipped and updated with {productname} and includes "
 "certificate setup and common state logic to be applied to packages and "
@@ -118,37 +118,40 @@ msgid ""
 msgstr ""
 
 #. type: delimited block =
-#: ./modules/salt/pages/salt-file-locations.adoc:53 ./modules/salt/pages/salt-file-locations.adoc:63 ./modules/salt/pages/salt-file-locations.adoc:73 ./modules/salt/pages/salt-file-locations.adoc:91
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/salt/pages/salt-file-locations.adoc:53
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/salt/pages/salt-file-locations.adoc:63
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/salt/pages/salt-file-locations.adoc:73
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/salt/pages/salt-file-locations.adoc:91
 msgid "Do not edit or add custom Salt data to this directory."
 msgstr ""
 
 #. type: Labeled list
-#: ./modules/salt/pages/salt-file-locations.adoc:55
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/salt/pages/salt-file-locations.adoc:55
 #, no-wrap
 msgid "[path]``/usr/share/salt-formulas/states``"
 msgstr ""
 
 #. type: Labeled list
-#: ./modules/salt/pages/salt-file-locations.adoc:56
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/salt/pages/salt-file-locations.adoc:56
 #, no-wrap
 msgid "[path]``/usr/share/susemanager/formulas/states``"
 msgstr ""
 
 #. type: Plain text
-#: ./modules/salt/pages/salt-file-locations.adoc:59
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/salt/pages/salt-file-locations.adoc:59
 msgid ""
 "These directories are shipped and updated with {productname} or additional "
 "extensions.  They include states for Salt formulas."
 msgstr ""
 
 #. type: Labeled list
-#: ./modules/salt/pages/salt-file-locations.adoc:65
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/salt/pages/salt-file-locations.adoc:65
 #, no-wrap
 msgid "[path]``/srv/susemanager/salt``"
 msgstr ""
 
 #. type: Plain text
-#: ./modules/salt/pages/salt-file-locations.adoc:69
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/salt/pages/salt-file-locations.adoc:69
 msgid ""
 "This directory is generated by {productname}, based on assigned channels and "
 "packages for clients, groups, and organizations.  This directory will be "
@@ -157,13 +160,13 @@ msgid ""
 msgstr ""
 
 #. type: Labeled list
-#: ./modules/salt/pages/salt-file-locations.adoc:75
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/salt/pages/salt-file-locations.adoc:75
 #, no-wrap
 msgid "[path]``/srv/salt``"
 msgstr ""
 
 #. type: Plain text
-#: ./modules/salt/pages/salt-file-locations.adoc:80
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/salt/pages/salt-file-locations.adoc:80
 msgid ""
 "This directory is used for custom state data, modules, and related data.  "
 "{productname} does not operate or use this directory directly.  The state "
@@ -173,19 +176,19 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./modules/salt/pages/salt-file-locations.adoc:83
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/salt/pages/salt-file-locations.adoc:83
 msgid "The {productname} Server reads Salt pillar data from two root directories:"
 msgstr ""
 
 #. type: Plain text
-#: ./modules/salt/pages/salt-file-locations.adoc:87
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/salt/pages/salt-file-locations.adoc:87
 msgid ""
 "/usr/share/susemanager/pillar:: This directory is generated by "
 "{productname}.  It is shipped and updated together with {productname}."
 msgstr ""
 
 #. type: Plain text
-#: ./modules/salt/pages/salt-file-locations.adoc:97
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/salt/pages/salt-file-locations.adoc:97
 msgid ""
 "/srv/pillar:: By default, {productname} does not operate or use this "
 "directory directly.  The custom pillar data in this directory is merged with "
@@ -194,9 +197,8 @@ msgid ""
 msgstr ""
 
 #. type: delimited block =
-#: ./modules/salt/pages/salt-file-locations.adoc:102
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/salt/pages/salt-file-locations.adoc:102
 msgid ""
 "You can use the [systemitem]``gitfs`` fileserver backend to serve Salt data "
-"from git repositories.  For more information, see "
-"xref:salt:salt-gitfs.adoc[]."
+"from git repositories.  For more information, see xref:salt-gitfs.adoc[]."
 msgstr ""

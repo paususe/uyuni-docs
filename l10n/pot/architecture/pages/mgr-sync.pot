@@ -7,29 +7,29 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2020-07-26 02:33+0200\n"
+"POT-Creation-Date: 2020-08-17 01:21+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: Title =
-#: ./modules/architecture/pages/mgr-sync.adoc:2
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/architecture/pages/mgr-sync.adoc:2
 #, no-wrap
 msgid "mgr-sync"
 msgstr ""
 
 #. type: Title ==
-#: ./modules/architecture/pages/mgr-sync.adoc:9
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/architecture/pages/mgr-sync.adoc:9
 #, no-wrap
 msgid "Functions"
 msgstr ""
 
 #. type: Plain text
-#: ./modules/architecture/pages/mgr-sync.adoc:13
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/architecture/pages/mgr-sync.adoc:13
 #, no-wrap
 msgid ""
 "*mgr-sync* is a command line tool for {productname}.\n"
@@ -37,7 +37,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./modules/architecture/pages/mgr-sync.adoc:15
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/architecture/pages/mgr-sync.adoc:15
 #, no-wrap
 msgid ""
 "**mgr-sync is a command line tool that synchronizes with {scc}(SCC) and "
@@ -45,13 +45,13 @@ msgid ""
 msgstr ""
 
 #. type: Block title
-#: ./modules/architecture/pages/mgr-sync.adoc:17
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/architecture/pages/mgr-sync.adoc:17
 #, no-wrap
 msgid "mgr-sync and Open Source Distributions"
 msgstr ""
 
 #. type: delimited block =
-#: ./modules/architecture/pages/mgr-sync.adoc:20
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/architecture/pages/mgr-sync.adoc:20
 msgid ""
 "__This tool is designed for use with a support subscription or trial account "
 "with {scc}. It is not required for open source distributions(OpenSUSE Leap , "
@@ -59,18 +59,18 @@ msgid ""
 msgstr ""
 
 #. type: Title ==
-#: ./modules/architecture/pages/mgr-sync.adoc:22
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/architecture/pages/mgr-sync.adoc:22
 #, no-wrap
 msgid "mgr-sync --help"
 msgstr ""
 
 #. type: Plain text
-#: ./modules/architecture/pages/mgr-sync.adoc:25
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/architecture/pages/mgr-sync.adoc:25
 msgid "__The following options are available for the *mgr-sync* command:__"
 msgstr ""
 
 #. type: delimited block -
-#: ./modules/architecture/pages/mgr-sync.adoc:30
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/architecture/pages/mgr-sync.adoc:30
 #, no-wrap
 msgid ""
 "mgr-sync --help\n"
@@ -79,13 +79,13 @@ msgid ""
 msgstr ""
 
 #. type: delimited block -
-#: ./modules/architecture/pages/mgr-sync.adoc:32
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/architecture/pages/mgr-sync.adoc:32
 #, no-wrap
 msgid "Synchronize SUSE Manager repositories.\n"
 msgstr ""
 
 #. type: delimited block -
-#: ./modules/architecture/pages/mgr-sync.adoc:41
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/architecture/pages/mgr-sync.adoc:41
 #, no-wrap
 msgid ""
 "optional arguments:\n"
@@ -100,7 +100,7 @@ msgid ""
 msgstr ""
 
 #. type: delimited block -
-#: ./modules/architecture/pages/mgr-sync.adoc:49
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/architecture/pages/mgr-sync.adoc:49
 #, no-wrap
 msgid ""
 "Subcommands:\n"
@@ -114,18 +114,18 @@ msgid ""
 msgstr ""
 
 #. type: Title ==
-#: ./modules/architecture/pages/mgr-sync.adoc:51
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/architecture/pages/mgr-sync.adoc:51
 #, no-wrap
 msgid "Log Files"
 msgstr ""
 
 #. type: Plain text
-#: ./modules/architecture/pages/mgr-sync.adoc:54
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/architecture/pages/mgr-sync.adoc:54
 msgid "_Logs for the mgr-sync tool are located in:_"
 msgstr ""
 
 #. type: delimited block -
-#: ./modules/architecture/pages/mgr-sync.adoc:58
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/architecture/pages/mgr-sync.adoc:58
 #, no-wrap
 msgid ""
 "/var/log/rhn/mgr-sync.log\n"

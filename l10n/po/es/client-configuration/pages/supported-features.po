@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2020-07-26 02:33+0200\n"
+"POT-Creation-Date: 2020-08-17 01:16+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,13 +17,13 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: Title =
-#: modules/client-configuration/pages/supported-features.adoc:2
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/supported-features.adoc:2
 #, no-wrap
 msgid "Supported Clients and Features"
 msgstr ""
 
 #. type: Plain text
-#: modules/client-configuration/pages/supported-features.adoc:6
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/supported-features.adoc:6
 msgid ""
 "{productname} is compatible with a range of client technologies.  You can "
 "install traditional or Salt clients, running {sle} or another Linux "
@@ -31,51 +31,51 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/client-configuration/pages/supported-features.adoc:8
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/supported-features.adoc:8
 msgid ""
 "This section contains summary of supported client systems. For a detailed "
 "list of features available on each client, see the following pages."
 msgstr ""
 
 #. type: Block title
-#: modules/client-configuration/pages/supported-features.adoc:10
-#: modules/client-configuration/pages/supported-features.adoc:35
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/supported-features.adoc:10
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/supported-features.adoc:35
 #, no-wrap
 msgid "Supported Client Systems"
 msgstr ""
 
 #. type: Plain text
-#: modules/client-configuration/pages/supported-features.adoc:13
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/supported-features.adoc:13
 msgid ""
 "Supported operating systems for traditional and Salt clients are listed in "
 "this table."
 msgstr ""
 
 #. type: Plain text
-#: modules/client-configuration/pages/supported-features.adoc:15
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/supported-features.adoc:15
 msgid "The icons in this table indicate:"
 msgstr ""
 
 #. type: Plain text
-#: modules/client-configuration/pages/supported-features.adoc:17
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/supported-features.adoc:17
 msgid "{check} clients running this operating system are supported by {suse}"
 msgstr ""
 
 #. type: Plain text
-#: modules/client-configuration/pages/supported-features.adoc:18
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/supported-features.adoc:18
 msgid ""
 "{cross} clients running this operating system are not supported by {suse}"
 msgstr ""
 
 #. type: Plain text
-#: modules/client-configuration/pages/supported-features.adoc:19
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/supported-features.adoc:19
 msgid ""
 "{question} clients are under consideration, and may or may not be supported "
 "at a later date."
 msgstr ""
 
 #. type: delimited block =
-#: modules/client-configuration/pages/supported-features.adoc:24
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/supported-features.adoc:24
 msgid ""
 "Client operating system versions and SP levels must be under general support "
 "(normal or LTSS) to be supported with {productname}.  For details on "
@@ -83,17 +83,16 @@ msgid ""
 msgstr ""
 
 #. type: delimited block =
-#: modules/client-configuration/pages/supported-features.adoc:30
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/supported-features.adoc:30
 msgid ""
 "The operating system you run on a client is supported by the organization "
 "that supplies the operating system."
 msgstr ""
 
 #. type: Table
-#: modules/client-configuration/pages/supported-features.adoc:138
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/supported-features.adoc:143
 #, no-wrap
 msgid ""
-"\n"
 "| Operating System\n"
 "| Architecture\n"
 "| Traditional Clients\n"
@@ -184,6 +183,11 @@ msgid ""
 "| {check}\n"
 "| {check}\n"
 "\n"
+"| {ubuntu} 20.04\n"
+"| {x86}_64\n"
+"| {cross}\n"
+"| {check}\n"
+"\n"
 "| {ubuntu} 18.04\n"
 "| {x86}_64\n"
 "| {cross}\n"
@@ -197,20 +201,20 @@ msgid ""
 msgstr ""
 
 #. type: Table
-#: modules/client-configuration/pages/supported-features.adoc:150
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/supported-features.adoc:155
 msgid ""
-"  | {debian} 9 | {x86}_64 | {cross} | {check} | {debian} 10 | {x86}_64 | "
+"| {debian} 9 | {x86}_64 | {cross} | {check} | {debian} 10 | {x86}_64 | "
 "{cross} | {check}"
 msgstr ""
 
 #. type: Title ==
-#: modules/client-configuration/pages/supported-features.adoc:156
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/supported-features.adoc:161
 #, no-wrap
 msgid "Supported Tools Packages"
 msgstr ""
 
-#. type: Plain text
-#: modules/client-configuration/pages/supported-features.adoc:160
+#. type: Table
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/supported-features.adoc:166
 msgid ""
 "The ``spacewalk-utils`` and ``spacewalk-utils-extras`` packages can provide "
 "additional services and features.  The ``spacewalk-utils`` package in "
@@ -219,16 +223,15 @@ msgid ""
 msgstr ""
 
 #. type: Block title
-#: modules/client-configuration/pages/supported-features.adoc:163
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/supported-features.adoc:168
 #, no-wrap
 msgid "Spacewalk Utilities"
 msgstr ""
 
 #. type: Table
-#: modules/client-configuration/pages/supported-features.adoc:190
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/supported-features.adoc:195
 #, no-wrap
 msgid ""
-"\n"
 "| Tool Name\n"
 "| Description\n"
 "| Supported?\n"
@@ -256,7 +259,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: modules/client-configuration/pages/supported-features.adoc:193
+#: /home/pagarcia/suse/manager/doc/uyuni-docs/l10n/scripts/../../modules/client-configuration/pages/supported-features.adoc:198
 msgid ""
 "The ``spacewalk-utils-extras`` package in {productname}{nbsp}4.1 and later "
 "has limited support by {suse}."
