@@ -8,5 +8,7 @@ build/
 *.pdf.adoc
 *.pdf.po
 *.pdf.pot
+*.pdf.en.po
+*.pdf.en.pot
 *~
 translations/

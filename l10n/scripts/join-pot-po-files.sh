@@ -11,7 +11,7 @@ for DIR in $SCRIPT_DIR/../pot/* ; do
 	DOMAIN=${DIR##*/}
 	echo "$DOMAIN/$DOMAIN.pot"
 	mkdir -p "$DOMAIN"
-	msgcat --use-first `find "$DIR" -name "*.pot"` -o "$DOMAIN/$DOMAIN".pot
+	msgcat --use-first `find "$DIR" -name "*.pot"` -o "$SCRIPT_DIR/../pot/$DOMAIN/$DOMAIN".pot
 	for LNGDIR in $SCRIPT_DIR/../po/*/"$DOMAIN" ; do
 		if ! test -d "$LNGDIR" ; then
 			continue
