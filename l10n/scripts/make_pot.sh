@@ -42,6 +42,7 @@ fi
 
 while IFS= read -r -d '' file
 do
+    filewithoutprefix=${file##$SRCDIR_MODULE/}
     basename=$(basename -s .adoc "$file")
     dirname=$(dirname "$file")
     path="${dirname#$SRCDIR_MODULE/}"
@@ -64,7 +65,8 @@ do
         po_file="$PO_DIR/$lang/${potname%.pot}.po"
 
         # po4a-updatepo would be angry otherwise
-        sed -i 's/Content-Type: text\/plain; charset=CHARSET/Content-Type: text\/plain; charset=UTF-8/g' "$po_file"
+        # Only required for po4a < 0.58, and it didn't work very well anyway
+        #sed -i 's/Content-Type: text\/plain; charset=CHARSET/Content-Type: text\/plain; charset=UTF-8/g' "$po_file"
 
         if ! po4a-updatepo \
             --format asciidoc \

@@ -276,8 +276,8 @@ help: ## Prints a basic help menu about available targets
 pot:
 	$(shell $(current_dir)/l10n/scripts/make_pot.sh)
 	$(shell $(current_dir)/l10n/scripts/join-pot-po-files.sh)
-	find $(current_dir)/l10n/pot -maxdepth 1 ! -path l10n/pot -type d -exec rm -rf {} +
-	find $(current_dir)/l10n/po/es -maxdepth 1 ! -path l10n/po/es -type d -exec rm -rf {} +
+#	find $(current_dir)/l10n/pot ! -path $(current_dir)/l10n/pot/*.pot -type f -name *.pot -exec rm -f {} +
+#	find $(current_dir)/l10n/po/es ! -path $(current_dir)/l10n/po/es/*.po -type f -name *.po -exec rm -f {} +
 	
 .PHONY: translations
 translations:
