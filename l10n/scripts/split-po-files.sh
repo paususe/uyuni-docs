@@ -4,7 +4,7 @@ SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
 
 set -o errexit
 
-for DIR in * ; do
+for DIR in $SCRIPT_DIR/../pot/* ; do
 	if ! test -d "$DIR" ; then
 		continue
 	fi
