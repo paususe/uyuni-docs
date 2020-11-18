@@ -25,6 +25,9 @@ jobs:
    - name: Update gettext files
      run: make pot
 
+   - name: Who am I?
+     run: whoami
+
    - name: Commit changes
      uses: EndBug/add-and-commit@v5
      with:
