@@ -135,8 +135,7 @@ msgstr "xref:proxy-setup.adoc[Nastavení Proxy]"
 #: modules/installation/nav-installation-guide.adoc:23
 msgid "xref:uyuni-proxy-registration.adoc[Uyuni Proxy Registration]"
 msgstr ""
-"xref:uyuni-proxy-registration.adoc[Uyuni Proxy Registration] (Registrace "
-"Uyuni Proxy)"
+"xref:uyuni-proxy-registration.adoc[Uyuni Proxy Registration] (Registrace Uyuni Proxy)"
 
 #. type: Plain text
 #: modules/installation/nav-installation-guide.adoc:24

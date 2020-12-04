@@ -185,8 +185,7 @@ msgstr ""
 #. type: Plain text
 #: modules/salt/pages/config-modules.adoc:5
 msgid ""
-"For more information about using Hub, see xref:large-deployments:multi-"
-"server.adoc[]."
+"For more information about using Hub, see xref:large-deployments:multi-server.adoc[]."
 msgstr ""
 
 #. type: Plain text
@@ -222,15 +221,13 @@ msgstr "Aktivační klíče"
 #. type: Plain text
 #: modules/salt/pages/config-modules.adoc:12
 msgid ""
-"For more information about Salt execution modules, see https://docs."
-"saltstack.com/en/latest/topics/tutorials/modules.html."
+"For more information about Salt execution modules, see https://docs.saltstack.com/en/latest/topics/tutorials/modules.html."
 msgstr ""
 
 #. type: Plain text
 #: modules/salt/pages/config-modules.adoc:13
 msgid ""
-"For more information about Salt state modules, see https://docs.saltstack."
-"com/en/latest/topics/tutorials/starting_states.html."
+"For more information about Salt state modules, see https://docs.saltstack.com/en/latest/topics/tutorials/starting_states.html."
 msgstr ""
 
 #. type: Title ==

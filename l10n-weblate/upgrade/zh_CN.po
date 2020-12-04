@@ -158,8 +158,7 @@ msgstr ""
 #. type: Plain text
 #: modules/upgrade/pages/db-intro.adoc:3
 msgid ""
-"If you are using PostgreSQL 9, and you are upgrading to version 10, see xref:"
-"upgrade:db-migration-10.adoc[].  If you are using PostgreSQL 10, and you are "
+"If you are using PostgreSQL 9, and you are upgrading to version 10, see xref:upgrade:db-migration-10.adoc[].  If you are using PostgreSQL 10, and you are "
 "upgrading to version 12, see xref:upgrade:db-migration-12.adoc[]."
 msgstr ""
 
@@ -178,9 +177,7 @@ msgstr ""
 #: modules/upgrade/pages/db-migration-10.adoc:4
 msgid ""
 "If you run PostgreSQL{nbsp}9.4 on {productname} 3.2, see the product "
-"documentation at https://documentation.suse.com/external-tree/en-us/suma/3.2/"
-"susemanager-best-practices/html/book.suma.best.practices/bp.sp.migration."
-"html#sp.migration.postgresql.  You cannot migrate directly from "
+"documentation at https://documentation.suse.com/external-tree/en-us/suma/3.2/susemanager-best-practices/html/book.suma.best.practices/bp.sp.migration.html#sp.migration.postgresql.  You cannot migrate directly from "
 "PostgreSQL{nbsp}9.4 to version 10."
 msgstr ""
 

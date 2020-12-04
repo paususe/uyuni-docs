@@ -703,8 +703,8 @@ msgstr ""
 msgid ""
 "Before you begin, ensure your client is subscribed to the appropriate tools "
 "child channel for its installed operating system.  For more information "
-"about subscribing to software channels, see xref:client-configuration:"
-"channels.adoc[]."
+"about subscribing to software channels, see "
+"xref:client-configuration:channels.adoc[]."
 msgstr ""
 
 #. type: Block title
@@ -849,8 +849,8 @@ msgstr ""
 #. type: Plain text
 #: modules/administration/pages/actions.adoc:81
 msgid ""
-"For more information about action chains, see xref:reference:schedule/action-"
-"chains.adoc[]."
+"For more information about action chains, see "
+"xref:reference:schedule/action-chains.adoc[]."
 msgstr ""
 
 #. type: Block title
@@ -2124,11 +2124,11 @@ msgstr ""
 #: modules/administration/pages/backup-restore.adoc:38
 #, fuzzy
 msgid ""
-"For more information about recovering from a backup, see xref:administration:"
-"backup-restore.adoc[]."
+"For more information about recovering from a backup, see "
+"xref:administration:backup-restore.adoc[]."
 msgstr ""
-"Další informace o importovaných certifikátech najdete na stránce xref:"
-"administration:ssl-certs-imported.adoc[]."
+"Další informace o importovaných certifikátech najdete na stránce "
+"xref:administration:ssl-certs-imported.adoc[]."
 
 #. type: Plain text
 #: modules/administration/pages/backup-restore.adoc:39
@@ -2997,8 +2997,8 @@ msgstr ""
 #. type: Plain text
 #: modules/administration/pages/channel-management.adoc:7
 msgid ""
-"For more on creating custom channels, see xref:administration:custom-"
-"channels.adoc[]."
+"For more on creating custom channels, see "
+"xref:administration:custom-channels.adoc[]."
 msgstr ""
 
 #. type: Title ==
@@ -3337,8 +3337,8 @@ msgstr ""
 #: modules/administration/pages/content-lifecycle-examples.adoc:51
 msgid ""
 "The [guimenu]``Allow`` filters rule overrides the exclude function of the "
-"[guimenu]``Deny`` filter rule.  For more information, see xref:"
-"administration:content-lifecycle.adoc[]."
+"[guimenu]``Deny`` filter rule.  For more information, see "
+"xref:administration:content-lifecycle.adoc[]."
 msgstr ""
 
 #. type: Block title
@@ -3908,8 +3908,8 @@ msgstr ""
 #: modules/administration/pages/content-lifecycle.adoc:6
 msgid ""
 "This section covers the basic content lifecycle procedures, and the filters "
-"available.  For more specific examples, see xref:administration:content-"
-"lifecycle-examples.adoc[]."
+"available.  For more specific examples, see "
+"xref:administration:content-lifecycle-examples.adoc[]."
 msgstr ""
 
 #. type: Title ==
@@ -4611,8 +4611,8 @@ msgstr ""
 msgid ""
 "For more information about reports, see xref:administration:reports.adoc[]."
 msgstr ""
-"Další informace o importovaných certifikátech najdete na stránce xref:"
-"administration:ssl-certs-imported.adoc[]."
+"Další informace o importovaných certifikátech najdete na stránce "
+"xref:administration:ssl-certs-imported.adoc[]."
 
 #. type: Title ==
 #: modules/administration/pages/crash-reporting.adoc:14
@@ -4746,8 +4746,8 @@ msgid ""
 "packages in your custom channel, you need to trust the GPG key which has "
 "been used to sign the metadata.  You can then check the [guimenu]``Has "
 "Signed Metadata?`` check box to match the package metadata against the "
-"trusted GPG keys.  For more information on importing GPG keys, see xref:"
-"reference:systems/autoinst-gpg-and-ssl-keys.adoc[]."
+"trusted GPG keys.  For more information on importing GPG keys, see "
+"xref:reference:systems/autoinst-gpg-and-ssl-keys.adoc[]."
 msgstr ""
 
 #. type: delimited block =
@@ -7427,8 +7427,8 @@ msgstr ""
 #. type: Plain text
 #: modules/administration/pages/infra-maintenance.adoc:27
 msgid ""
-"For more information on monitoring, see xref:administration:monitoring."
-"adoc[]."
+"For more information on monitoring, see "
+"xref:administration:monitoring.adoc[]."
 msgstr ""
 
 #. type: Title ==
@@ -7701,9 +7701,8 @@ msgstr ""
 msgid ""
 "Use content lifecycle management to clone the product tree and remove kernel "
 "versions newer than the running one.  This procedure is explained in the "
-"xref:content-lifecycle-examples.adoc#enhance-project-with-"
-"livepatching[Content Livecycle Management Examples].  This is the "
-"recommended solution."
+"xref:content-lifecycle-examples.adoc#enhance-project-with-livepatching[Content Livecycle Management Examples]."
+"This is the recommended solution."
 msgstr ""
 
 #. type: Plain text
@@ -7951,8 +7950,8 @@ msgstr ""
 #: modules/administration/pages/live-patching-sles15.adoc:10
 #, fuzzy
 msgid ""
-"For more information on preparation, see xref:administration:live-patching-"
-"channel-setup.adoc[]."
+"For more information on preparation, see "
+"xref:administration:live-patching-channel-setup.adoc[]."
 msgstr ""
 "Další informace o certifikátech podepsaných samy sebou najdete v dokumentu "
 "xref:administration:ssl-certs-selfsigned.adoc[]."
@@ -9117,8 +9116,8 @@ msgstr ""
 #: modules/administration/pages/monitoring.adoc:133
 #: modules/administration/pages/monitoring.adoc:156
 msgid ""
-"For more information about the monitoring formulas, see xref:salt:formula-"
-"monitoring.adoc[]."
+"For more information about the monitoring formulas, see "
+"xref:salt:formula-monitoring.adoc[]."
 msgstr ""
 
 #. type: Block title
@@ -9358,8 +9357,8 @@ msgstr ""
 #. type: Plain text
 #: modules/administration/pages/monitoring.adoc:83
 msgid ""
-"For more information about the monitoring formulas with forms, see xref:salt:"
-"formula-monitoring.adoc[]."
+"For more information about the monitoring formulas with forms, see "
+"xref:salt:formula-monitoring.adoc[]."
 msgstr ""
 
 #. type: Title ==
@@ -9911,8 +9910,8 @@ msgstr ""
 msgid ""
 "We recommend that you create a package to distribute content files to "
 "clients that you are managing with {productname}.  Packages can be signed "
-"and verified to ensure their integrity.  For more information, see xref:"
-"administration:custom-channels.adoc[]."
+"and verified to ensure their integrity.  For more information, see "
+"xref:administration:custom-channels.adoc[]."
 msgstr ""
 
 #. type: Title ==
@@ -10042,8 +10041,8 @@ msgstr ""
 msgid ""
 "Information about the scans you have run is in the {productname} {webui}.  "
 "Navigate to to menu:Audit[OpenSCAP > All Scans] for a table of results.  For "
-"more information about the data in this table, see xref:reference:audit/"
-"openscap-all-scans.adoc[]."
+"more information about the data in this table, see "
+"xref:reference:audit/openscap-all-scans.adoc[]."
 msgstr ""
 
 #. type: Plain text
@@ -10385,15 +10384,15 @@ msgstr ""
 #. type: Plain text
 #: modules/administration/pages/organizations.adoc:30
 msgid ""
-"For more information about content staging, see xref:administration:content-"
-"staging.adoc[]."
+"For more information about content staging, see "
+"xref:administration:content-staging.adoc[]."
 msgstr ""
 
 #. type: Plain text
 #: modules/administration/pages/organizations.adoc:31
 msgid ""
-"For more information about OpenSCAP, see xref:reference:audit/audit-openscap-"
-"overview.adoc[]."
+"For more information about OpenSCAP, see "
+"xref:reference:audit/audit-openscap-overview.adoc[]."
 msgstr ""
 
 #. type: Title ==
@@ -11087,15 +11086,15 @@ msgstr ""
 #. type: Plain text
 #: modules/administration/pages/ssl-certs-imported.adoc:13
 msgid ""
-"Install the {productname} Server according to the instructions in xref:"
-"installation:install-intro.adoc[]."
+"Install the {productname} Server according to the instructions in "
+"xref:installation:install-intro.adoc[]."
 msgstr ""
 
 #. type: Plain text
 #: modules/administration/pages/ssl-certs-imported.adoc:14
 msgid ""
-"Complete the initial setup according to xref:installation:server-setup."
-"adoc[]."
+"Complete the initial setup according to "
+"xref:installation:server-setup.adoc[]."
 msgstr ""
 
 #. type: Plain text
@@ -11163,8 +11162,8 @@ msgstr ""
 #. type: Plain text
 #: modules/administration/pages/ssl-certs-imported.adoc:24
 msgid ""
-"Install the {productname} Proxy according to the instructions in xref:"
-"installation:install-intro.adoc[]."
+"Install the {productname} Proxy according to the instructions in "
+"xref:installation:install-intro.adoc[]."
 msgstr ""
 
 #. type: Plain text
@@ -11220,8 +11219,9 @@ msgstr ""
 #. type: Plain text
 #: modules/administration/pages/ssl-certs-imported.adoc:33
 msgid ""
-"This procedure is similar to the one described in xref:administration:ssl-"
-"certs-selfsigned.adoc#ssl-certs-selfsigned-create-replace[].  The difference "
+"This procedure is similar to the one described in "
+"xref:administration:ssl-certs-selfsigned.adoc#ssl-certs-selfsigned-create-replace[]."
+"The difference "
 "is that we import the certificates generated by an external PKI."
 msgstr ""
 
@@ -11565,8 +11565,8 @@ msgstr ""
 #. type: Plain text
 #: modules/administration/pages/ssl-certs-selfsigned.adoc:41
 msgid ""
-"For more on creating custom channels, see xref:administration:channel-"
-"management.adoc[]."
+"For more on creating custom channels, see "
+"xref:administration:channel-management.adoc[]."
 msgstr ""
 
 #. type: Plain text
@@ -11940,8 +11940,8 @@ msgstr ""
 #. type: Plain text
 #: modules/administration/pages/ssl-certs.adoc:15
 msgid ""
-"For more on self-signed certificates, see xref:administration:ssl-certs-"
-"selfsigned.adoc[]."
+"For more on self-signed certificates, see "
+"xref:administration:ssl-certs-selfsigned.adoc[]."
 msgstr ""
 "Další informace o certifikátech podepsaných samy sebou najdete v dokumentu "
 "xref:administration:ssl-certs-selfsigned.adoc[]."
@@ -11949,11 +11949,11 @@ msgstr ""
 #. type: Plain text
 #: modules/administration/pages/ssl-certs.adoc:16
 msgid ""
-"For more on imported certificates, see xref:administration:ssl-certs-"
-"imported.adoc[]."
+"For more on imported certificates, see "
+"xref:administration:ssl-certs-imported.adoc[]."
 msgstr ""
-"Další informace o importovaných certifikátech najdete na stránce xref:"
-"administration:ssl-certs-imported.adoc[]."
+"Další informace o importovaných certifikátech najdete na stránce "
+"xref:administration:ssl-certs-imported.adoc[]."
 
 #. type: Title =
 #: modules/administration/pages/subscription-matching.adoc:1
@@ -12205,8 +12205,8 @@ msgid ""
 "Compares configuration files as stored in configuration channels with the "
 "files stored on all configuration-enabled servers.  To review comparisons, "
 "click menu:Systems[] tab and select the system of interest.  Go to menu:"
-"Configuration[Compare Files].  For more information, see xref:reference:"
-"systems/system-details/sd-configuration.adoc#sd-config-compare-files[]."
+"Configuration[Compare Files].  For more information, see "
+"xref:reference:systems/system-details/sd-configuration.adoc#sd-config-compare-files[]."
 msgstr ""
 
 #. type: Labeled list
@@ -12234,8 +12234,8 @@ msgstr ""
 #: modules/administration/pages/task-schedules.adoc:21
 msgid ""
 "Sends daily report e-mails to relevant addresses.  To learn more about how "
-"to configure notifications for specific users, see xref:reference:users/user-"
-"details.adoc[]."
+"to configure notifications for specific users, see "
+"xref:reference:users/user-details.adoc[]."
 msgstr ""
 
 #. type: Labeled list
@@ -12357,8 +12357,8 @@ msgstr ""
 msgid ""
 "Any reboot actions pending for more than six hours are marked as failed and "
 "associated data is cleaned up in the database.  For more information on "
-"scheduling reboot actions, see xref:reference:systems/system-details/sd-"
-"provisioning.adoc#sd-power-management[]."
+"scheduling reboot actions, see "
+"xref:reference:systems/system-details/sd-provisioning.adoc#sd-power-management[]."
 msgstr ""
 
 #. type: Labeled list
@@ -12509,8 +12509,8 @@ msgstr ""
 #: modules/administration/pages/tshoot-diskspace.adoc:3
 msgid ""
 "{productname} monitors free space in specific directories, and has "
-"configurable alerts.  For more on space management, see xref:administration:"
-"space-management.adoc[]."
+"configurable alerts.  For more on space management, see "
+"xref:administration:space-management.adoc[]."
 msgstr ""
 
 #. type: Plain text
@@ -12523,8 +12523,8 @@ msgstr ""
 #. type: Plain text
 #: modules/administration/pages/tshoot-diskspace.adoc:5
 msgid ""
-"For instructions on how to delete custom channels, see xref:administration:"
-"channel-management.adoc[]."
+"For instructions on how to delete custom channels, see "
+"xref:administration:channel-management.adoc[]."
 msgstr ""
 
 #. type: Block title
@@ -12780,8 +12780,8 @@ msgstr ""
 #: modules/administration/pages/tshoot-hostname-rename.adoc:19
 msgid ""
 "On the proxy, run the [command]``configure-tftpsync.sh`` setup script and "
-"enter the requested information.  For more information, see xref:"
-"installation:proxy-setup.adoc[]."
+"enter the requested information.  For more information, see "
+"xref:installation:proxy-setup.adoc[]."
 msgstr ""
 
 #. type: Title =
@@ -12875,29 +12875,29 @@ msgstr ""
 #. type: Plain text
 #: modules/administration/pages/tshoot-inactiveclients.adoc:13
 msgid ""
-"For more information about client connections to the server, see xref:client-"
-"configuration:contact-methods-intro.adoc[]."
+"For more information about client connections to the server, see "
+"xref:client-configuration:contact-methods-intro.adoc[]."
 msgstr ""
 
 #. type: Plain text
 #: modules/administration/pages/tshoot-inactiveclients.adoc:14
 #, fuzzy
 msgid ""
-"For more information about configuring ports, see xref:installation:ports."
-"adoc[]."
+"For more information about configuring ports, see "
+"xref:installation:ports.adoc[]."
 msgstr ""
-"Další informace o importovaných certifikátech najdete na stránce xref:"
-"administration:ssl-certs-imported.adoc[]."
+"Další informace na stránce "
+"xref:installation:ports.adoc[]."
 
 #. type: Plain text
 #: modules/administration/pages/tshoot-inactiveclients.adoc:15
 #, fuzzy
 msgid ""
-"For more information about troubleshooting firewalls, see xref:"
-"administration:tshoot-firewalls.adoc[]."
+"For more information about troubleshooting firewalls, see "
+"xref:administration:tshoot-firewalls.adoc[]."
 msgstr ""
-"Další informace o importovaných certifikátech najdete na stránce xref:"
-"administration:ssl-certs-imported.adoc[]."
+"Další informace na stránce "
+"xref:administration:tshoot-firewalls.adoc[]."
 
 #. type: Plain text
 #: modules/administration/pages/tshoot-intro.adoc:2

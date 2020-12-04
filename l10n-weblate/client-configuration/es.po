@@ -395,8 +395,7 @@ msgstr ""
 #. type: Plain text
 #: modules/client-configuration/nav-client-configuration-guide.adoc:75
 msgid ""
-"xref:client-upgrades-lifecycle.adoc[Upgrade Using the Content Lifecycle "
-"Manager]"
+"xref:client-upgrades-lifecycle.adoc[Upgrade Using the Content Lifecycle Manager]"
 msgstr ""
 
 #.  endif::[]

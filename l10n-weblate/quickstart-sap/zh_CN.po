@@ -420,8 +420,7 @@ msgstr ""
 #. type: Plain text
 #: modules/quickstart-sap/pages/prepare-clients.adoc:27
 msgid ""
-"For more information about registering, see xref:client-configuration:"
-"registration-webui.adoc[]."
+"For more information about registering, see xref:client-configuration:registration-webui.adoc[]."
 msgstr ""
 
 #. type: Title =
@@ -445,8 +444,7 @@ msgid ""
 "During the installation process, when you are prompted for which product to "
 "install, select {productname} Server.  The server does not need to have the "
 "{sles}{nbsp}15 with SAP product installed.  For more information about "
-"installing the {productname} Server, see xref:installation:install-server-"
-"unified.adoc[]."
+"installing the {productname} Server, see xref:installation:install-server-unified.adoc[]."
 msgstr ""
 
 #. type: Plain text
@@ -536,8 +534,7 @@ msgstr ""
 #. type: Plain text
 #: modules/quickstart-sap/pages/qs-sap-overview.adoc:4
 msgid ""
-"For more information about SAP, see the SAP documentation at https://"
-"documentation.suse.com/sles-sap."
+"For more information about SAP, see the SAP documentation at https://documentation.suse.com/sles-sap."
 msgstr ""
 
 #. type: Plain text

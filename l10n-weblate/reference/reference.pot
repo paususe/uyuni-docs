@@ -98,9 +98,7 @@ msgstr ""
 #.  Systems Menu
 #. type: Plain text
 #: modules/reference/nav-reference-guide.adoc:16
-msgid ""
-"xref:home/my-organization-configuration-channels.adoc[Configuration "
-"Channels]"
+msgid "xref:home/my-organization-configuration-channels.adoc[Configuration Channels]"
 msgstr ""
 
 #. type: Plain text
@@ -492,8 +490,7 @@ msgstr ""
 #. type: Plain text
 #: modules/reference/nav-reference-guide.adoc:91
 msgid ""
-"xref:software/software-distribution-channel-mapping.adoc[Distribution "
-"Channel Mapping]"
+"xref:software/software-distribution-channel-mapping.adoc[Distribution Channel Mapping]"
 msgstr ""
 
 #. type: Plain text

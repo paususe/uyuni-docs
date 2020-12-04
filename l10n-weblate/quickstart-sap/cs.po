@@ -246,8 +246,7 @@ msgid ""
 "component within an SAP cluster has redundancy and failover protection.  "
 "When you are preparing your clients, ensure you have enough hardware and "
 "infrastructure to allow for this.  For more information about hardware "
-"requirements, see https://documentation.suse.com/sles-sap/15-SP2/html/SLES-"
-"SAP-quick/cha-plan.html#sec-hardware[]."
+"requirements, see https://documentation.suse.com/sles-sap/15-SP2/html/SLES-SAP-quick/cha-plan.html#sec-hardware[]."
 msgstr ""
 
 #. type: Plain text
@@ -287,11 +286,9 @@ msgstr ""
 #. type: Plain text
 #: modules/quickstart-sap/pages/prepare-clients.adoc:9
 msgid ""
-"For more information about registering {productname} with {scc}, see xref:"
-"installation:general-requirements.adoc[]."
+"For more information about registering {productname} with {scc}, see xref:installation:general-requirements.adoc[]."
 msgstr ""
-"Další informace o registraci {productname} u {scc} najdete na xref:"
-"installation:general-requirements.adoc []."
+"Další informace o registraci {productname} u {scc} najdete na xref:installation:general-requirements.adoc []."
 
 #. type: Title ==
 #: modules/quickstart-sap/pages/prepare-clients.adoc:10
@@ -447,8 +444,7 @@ msgid ""
 "During the installation process, when you are prompted for which product to "
 "install, select {productname} Server.  The server does not need to have the "
 "{sles}{nbsp}15 with SAP product installed.  For more information about "
-"installing the {productname} Server, see xref:installation:install-server-"
-"unified.adoc[]."
+"installing the {productname} Server, see xref:installation:install-server-unified.adoc[]."
 msgstr ""
 
 #. type: Plain text
@@ -538,8 +534,7 @@ msgstr ""
 #. type: Plain text
 #: modules/quickstart-sap/pages/qs-sap-overview.adoc:4
 msgid ""
-"For more information about SAP, see the SAP documentation at https://"
-"documentation.suse.com/sles-sap."
+"For more information about SAP, see the SAP documentation at https://documentation.suse.com/sles-sap."
 msgstr ""
 
 #. type: Plain text

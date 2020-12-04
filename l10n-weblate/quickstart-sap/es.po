@@ -163,8 +163,7 @@ msgstr ""
 #. type: Plain text
 #: modules/quickstart-sap/pages/configure.adoc:18
 msgid ""
-"Complete the remaining details according to your environment, click btn:"
-"[Save], and apply the highstate.  When the highstate is complete, you can go "
+"Complete the remaining details according to your environment, click btn:[Save], and apply the highstate.  When the highstate is complete, you can go "
 "on to apply the cluster formula."
 msgstr ""
 
@@ -212,8 +211,7 @@ msgstr ""
 #. type: Plain text
 #: modules/quickstart-sap/pages/configure.adoc:26
 msgid ""
-"Complete the remaining details according to your environment, click btn:"
-"[Save], and apply the highstate."
+"Complete the remaining details according to your environment, click btn:[Save], and apply the highstate."
 msgstr ""
 
 #. type: Target for macro image
@@ -244,8 +242,7 @@ msgid ""
 "component within an SAP cluster has redundancy and failover protection.  "
 "When you are preparing your clients, ensure you have enough hardware and "
 "infrastructure to allow for this.  For more information about hardware "
-"requirements, see https://documentation.suse.com/sles-sap/15-SP2/html/SLES-"
-"SAP-quick/cha-plan.html#sec-hardware[]."
+"requirements, see https://documentation.suse.com/sles-sap/15-SP2/html/SLES-SAP-quick/cha-plan.html#sec-hardware[]."
 msgstr ""
 
 #. type: Plain text
@@ -284,8 +281,7 @@ msgstr ""
 #. type: Plain text
 #: modules/quickstart-sap/pages/prepare-clients.adoc:9
 msgid ""
-"For more information about registering {productname} with {scc}, see xref:"
-"installation:general-requirements.adoc[]."
+"For more information about registering {productname} with {scc}, see xref:installation:general-requirements.adoc[]."
 msgstr ""
 
 #. type: Title ==
@@ -409,16 +405,14 @@ msgstr ""
 #: modules/quickstart-sap/pages/prepare-clients.adoc:26
 msgid ""
 "In the {productname} {webui}, navigate to menu:Systems[Bootstrapping].  Fill "
-"in the appropriate details, and make sure you check the [guimenu]``Manage "
-"System Completely via SSH`` checkbox.  In the [guimenu]``Activation Key`` "
+"in the appropriate details, and make sure you check the [guimenu]``Manage System Completely via SSH`` checkbox.  In the [guimenu]``Activation Key`` "
 "field, select the SLES for SAP activation key."
 msgstr ""
 
 #. type: Plain text
 #: modules/quickstart-sap/pages/prepare-clients.adoc:27
 msgid ""
-"For more information about registering, see xref:client-configuration:"
-"registration-webui.adoc[]."
+"For more information about registering, see xref:client-configuration:registration-webui.adoc[]."
 msgstr ""
 
 #. type: Title =
@@ -442,8 +436,7 @@ msgid ""
 "During the installation process, when you are prompted for which product to "
 "install, select {productname} Server.  The server does not need to have the "
 "{sles}{nbsp}15 with SAP product installed.  For more information about "
-"installing the {productname} Server, see xref:installation:install-server-"
-"unified.adoc[]."
+"installing the {productname} Server, see xref:installation:install-server-unified.adoc[]."
 msgstr ""
 
 #. type: Plain text
@@ -533,8 +526,7 @@ msgstr ""
 #. type: Plain text
 #: modules/quickstart-sap/pages/qs-sap-overview.adoc:4
 msgid ""
-"For more information about SAP, see the SAP documentation at https://"
-"documentation.suse.com/sles-sap."
+"For more information about SAP, see the SAP documentation at https://documentation.suse.com/sles-sap."
 msgstr ""
 
 #. type: Plain text

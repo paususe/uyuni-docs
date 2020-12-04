@@ -147,11 +147,9 @@ msgstr ""
 #. type: Plain text
 #: modules/quickstart-public-cloud/pages/clients.adoc:12
 msgid ""
-"For more information, see xref:client-configuration:registration-bootstrap."
-"adoc[]."
+"For more information, see xref:client-configuration:registration-bootstrap.adoc[]."
 msgstr ""
-"有关详细信息，请参见 xref:client-configuration:registration-bootstrap."
-"adoc[]。"
+"有关详细信息，请参见 xref:client-configuration:registration-bootstrap.adoc[]。"
 
 #. type: Plain text
 #: modules/quickstart-public-cloud/pages/clients.adoc:13
@@ -237,8 +235,8 @@ msgstr ""
 #. type: Plain text
 #: modules/quickstart-public-cloud/pages/clients.adoc:25
 msgid ""
-"For more information, see xref:reference:admin/setup-wizard.adoc#vle.webui."
-"admin.wizard.products[] and xref:administration:custom-channels.adoc[]."
+"For more information, see "
+"xref:reference:admin/setup-wizard.adoc#vle.webui.admin.wizard.products[] and xref:administration:custom-channels.adoc[]."
 msgstr ""
 
 #. type: Plain text
@@ -285,8 +283,8 @@ msgstr ""
 #. type: Plain text
 #: modules/quickstart-public-cloud/pages/clients.adoc:32
 msgid ""
-"For more on activation keys, see xref:client-configuration:activation-keys."
-"adoc[]."
+"For more on activation keys, see "
+"xref:client-configuration:activation-keys.adoc[]."
 msgstr ""
 
 #. type: Title ==
@@ -306,8 +304,8 @@ msgstr ""
 #. type: Plain text
 #: modules/quickstart-public-cloud/pages/clients.adoc:35
 msgid ""
-"For a complete list of the tasks that you can perform with the SSM, see xref:"
-"client-configuration:system-set-manager.adoc[]."
+"For a complete list of the tasks that you can perform with the SSM, see "
+"xref:client-configuration:system-set-manager.adoc[]."
 msgstr ""
 
 #. type: Plain text
@@ -377,16 +375,16 @@ msgstr ""
 msgid ""
 "When you have created your project, defined environments, and attached "
 "sources and filters, you can build the project for the first time.  For more "
-"information about content lifecycle management, see xref:administration:"
-"content-lifecycle.adoc[]."
+"information about content lifecycle management, see "
+"xref:administration:content-lifecycle.adoc[]."
 msgstr ""
 
 #. type: Plain text
 #: modules/quickstart-public-cloud/pages/clm.adoc:5
 msgid ""
 "When your project is built successfully, you need to add the new channel to "
-"an activation key.  For more information about custom channels, see xref:"
-"administration:custom-channels.adoc[]."
+"an activation key.  For more information about custom channels, see "
+"xref:administration:custom-channels.adoc[]."
 msgstr ""
 
 #. type: Block title
@@ -499,8 +497,8 @@ msgstr ""
 #. type: Plain text
 #: modules/quickstart-public-cloud/pages/installation.adoc:11
 msgid ""
-"For more information about registering {productname} with {scc}, see xref:"
-"installation:general-requirements.adoc[]."
+"For more information about registering {productname} with {scc}, see "
+"xref:installation:general-requirements.adoc[]."
 msgstr ""
 
 #. type: Plain text
@@ -520,8 +518,8 @@ msgstr "SUSEConnect -p sle-module-public-cloud/15.2/x86_64\n"
 #. type: Plain text
 #: modules/quickstart-public-cloud/pages/installation.adoc:14
 msgid ""
-"For more information on activating public clouds, see xref:installation:"
-"pubcloud-setup.adoc[]."
+"For more information on activating public clouds, see "
+"xref:installation:pubcloud-setup.adoc[]."
 msgstr ""
 
 #. type: Plain text
@@ -593,8 +591,8 @@ msgstr ""
 #. type: Plain text
 #: modules/quickstart-public-cloud/pages/installation.adoc:24
 msgid ""
-"For more information about the setup wizard, see xref:installation:setup-"
-"wizard.adoc[]."
+"For more information about the setup wizard, see "
+"xref:installation:setup-wizard.adoc[]."
 msgstr ""
 
 #. type: Plain text
@@ -787,6 +785,6 @@ msgstr ""
 #. type: Plain text
 #: modules/quickstart-public-cloud/pages/setup.adoc:19
 msgid ""
-"For more information about setting up a public cloud instance, see xref:"
-"installation:pubcloud-requirements.adoc[]."
+"For more information about setting up a public cloud instance, see "
+"xref:installation:pubcloud-requirements.adoc[]."
 msgstr ""

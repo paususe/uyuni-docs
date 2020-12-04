@@ -19334,8 +19334,7 @@ msgstr ""
 #. type: Plain text
 #: modules/client-configuration/nav-client-configuration-guide.adoc:66
 msgid ""
-"xref:client-upgrades-lifecycle.adoc[Upgrade Using the Content Lifecycle "
-"Manager]"
+"xref:client-upgrades-lifecycle.adoc[Upgrade Using the Content Lifecycle Manager]"
 msgstr ""
 
 #.  Virtualization

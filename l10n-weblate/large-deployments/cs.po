@@ -977,8 +977,8 @@ msgstr ""
 #. type: Plain text
 #: modules/large-deployments/pages/hub-reqs.adoc:11
 msgid ""
-"For more information about registering clients, see xref:client-"
-"configuration:registration-webui.adoc[]."
+"For more information about registering clients, see "
+"xref:client-configuration:registration-webui.adoc[]."
 msgstr ""
 
 #. type: Plain text
@@ -1095,8 +1095,8 @@ msgstr ""
 #. type: Plain text
 #: modules/large-deployments/pages/monitoring.adoc:7
 msgid ""
-"For more information on monitoring, see xref:administration:monitoring."
-"adoc[]."
+"For more information on monitoring, see "
+"xref:administration:monitoring.adoc[]."
 msgstr ""
 
 #. type: Title =
@@ -2388,8 +2388,8 @@ msgstr ""
 msgid ""
 "Depends on many factors and can only be estimated.  Measure PostgreSQL "
 "reserved memory by checking xref:shared-buffers[`shared_buffers`], "
-"permanently.  You can also multiply xref:work-mem[`work_mem`] and xref:max-"
-"connections[`max_connections`], and multiply by three for a worst case "
+"permanently.  You can also multiply xref:work-mem[`work_mem`] and "
+"xref:max-connections[`max_connections`], and multiply by three for a worst case "
 "estimate of per-query RAM.  You will also need to check the operating system "
 "buffers and caches, which are used by PostgreSQL to host copies of database "
 "data.  These often automatically occupy any available RAM."

@@ -222,15 +222,13 @@ msgstr ""
 #. type: Plain text
 #: modules/salt/pages/config-modules.adoc:12
 msgid ""
-"For more information about Salt execution modules, see https://docs."
-"saltstack.com/en/latest/topics/tutorials/modules.html."
+"For more information about Salt execution modules, see https://docs.saltstack.com/en/latest/topics/tutorials/modules.html."
 msgstr ""
 
 #. type: Plain text
 #: modules/salt/pages/config-modules.adoc:13
 msgid ""
-"For more information about Salt state modules, see https://docs.saltstack."
-"com/en/latest/topics/tutorials/starting_states.html."
+"For more information about Salt state modules, see https://docs.saltstack.com/en/latest/topics/tutorials/starting_states.html."
 msgstr ""
 
 #. type: Title ==
@@ -242,8 +240,7 @@ msgstr ""
 #. type: Plain text
 #: modules/salt/pages/config-modules.adoc:15
 msgid ""
-"The {uyuni} configuration modules are available in the [package]``uyuni-"
-"config-modules`` package.  On the {productname} Server, at the command "
+"The {uyuni} configuration modules are available in the [package]``uyuni-config-modules`` package.  On the {productname} Server, at the command "
 "prompt, as root, use this command:"
 msgstr ""
 

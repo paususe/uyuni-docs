@@ -228,8 +228,7 @@ msgstr ""
 #. type: Plain text
 #: modules/quickstart-public-cloud/pages/clients.adoc:25
 msgid ""
-"For more information, see xref:reference:admin/setup-wizard.adoc#vle.webui."
-"admin.wizard.products[] and xref:administration:custom-channels.adoc[]."
+"For more information, see xref:reference:admin/setup-wizard.adoc#vle.webui.admin.wizard.products[] and xref:administration:custom-channels.adoc[]."
 msgstr ""
 
 #. type: Plain text
@@ -368,16 +367,14 @@ msgstr ""
 msgid ""
 "When you have created your project, defined environments, and attached "
 "sources and filters, you can build the project for the first time.  For more "
-"information about content lifecycle management, see xref:administration:"
-"content-lifecycle.adoc[]."
+"information about content lifecycle management, see xref:administration:content-lifecycle.adoc[]."
 msgstr ""
 
 #. type: Plain text
 #: modules/quickstart-public-cloud/pages/clm.adoc:5
 msgid ""
 "When your project is built successfully, you need to add the new channel to "
-"an activation key.  For more information about custom channels, see xref:"
-"administration:custom-channels.adoc[]."
+"an activation key.  For more information about custom channels, see xref:administration:custom-channels.adoc[]."
 msgstr ""
 
 #. type: Block title
@@ -463,8 +460,7 @@ msgstr ""
 #. type: Plain text
 #: modules/quickstart-public-cloud/pages/installation.adoc:7
 msgid ""
-"For detailed instructions on setting up {productname} with {yast}, see xref:"
-"installation:server-setup.adoc[]."
+"For detailed instructions on setting up {productname} with {yast}, see xref:installation:server-setup.adoc[]."
 msgstr ""
 
 #. type: Plain text
@@ -490,8 +486,7 @@ msgstr ""
 #. type: Plain text
 #: modules/quickstart-public-cloud/pages/installation.adoc:11
 msgid ""
-"For more information about registering {productname} with {scc}, see xref:"
-"installation:general-requirements.adoc[]."
+"For more information about registering {productname} with {scc}, see xref:installation:general-requirements.adoc[]."
 msgstr ""
 
 #. type: Plain text
@@ -511,8 +506,7 @@ msgstr ""
 #. type: Plain text
 #: modules/quickstart-public-cloud/pages/installation.adoc:14
 msgid ""
-"For more information on activating public clouds, see xref:installation:"
-"pubcloud-setup.adoc[]."
+"For more information on activating public clouds, see xref:installation:pubcloud-setup.adoc[]."
 msgstr ""
 
 #. type: Plain text
@@ -701,8 +695,7 @@ msgstr ""
 #. type: Plain text
 #: modules/quickstart-public-cloud/pages/setup.adoc:9
 msgid ""
-"For more information about hardware requirements, see xref:installation:"
-"hardware-requirements.adoc[]."
+"For more information about hardware requirements, see xref:installation:hardware-requirements.adoc[]."
 msgstr ""
 
 #. type: Plain text
@@ -778,6 +771,5 @@ msgstr ""
 #. type: Plain text
 #: modules/quickstart-public-cloud/pages/setup.adoc:19
 msgid ""
-"For more information about setting up a public cloud instance, see xref:"
-"installation:pubcloud-requirements.adoc[]."
+"For more information about setting up a public cloud instance, see xref:installation:pubcloud-requirements.adoc[]."
 msgstr ""
