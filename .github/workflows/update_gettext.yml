@@ -21,6 +21,7 @@ jobs:
 
    - name: Update gettext files
      run: |
+        git branch
         make pot
 
    - name: Commit changes
@@ -30,5 +31,6 @@ jobs:
        author_email: galaxy-ci@suse.de
        message: "Automatic commit: update translation files"
        add: "l10n-weblate"
+       branch: master
      env:
        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
