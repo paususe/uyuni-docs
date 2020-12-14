@@ -25,12 +25,13 @@ jobs:
         make pot
 
    - name: Commit changes
-     uses: EndBug/add-and-commit@v5
+     uses: stefanzweifel/git-auto-commit-action@v4
      with:
-       author_name: Galaxy CI
-       author_email: galaxy-ci@suse.de
-       message: 'Automatic commit: update translation files'
-       add: 'l10n-weblate'
+       commit_user_name: Galaxy CI
+       commit_user_email: galaxy-ci@suse.de
+       commit_author: Galaxy CI <galaxy-ci@suse.de>
+       commit_message: 'Automatic commit: update translation files'
+#       add: 'l10n-weblate'
        branch: master
      env:
        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
