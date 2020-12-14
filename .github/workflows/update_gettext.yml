@@ -1,9 +1,8 @@
 name: Update translation files
-on: push
-#  push:
-#    branches:
-#      - master
-
+on:
+  push:
+    branches:
+      - master
 
 jobs:
  run:
