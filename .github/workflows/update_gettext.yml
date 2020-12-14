@@ -1,8 +1,8 @@
 name: Update translation files
-on: push
-#  push:
-#    branches:
-#      - master
+on:
+  push:
+    branches:
+      - master
 
 jobs:
  run:
@@ -28,6 +28,6 @@ jobs:
        author_name: Galaxy CI
        author_email: galaxy-ci@suse.de
        message: 'Automatic commit: update translation files'
-#       add: 'l10n-weblate'
+       add: 'l10n-weblate --force'
      env:
        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
