@@ -28,6 +28,5 @@ jobs:
        author_name: Galaxy CI
        author_email: galaxy-ci@suse.de
        message: 'Automatic commit: update translation files'
-       add: 'l10n-weblate --force'
      env:
        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
